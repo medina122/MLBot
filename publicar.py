@@ -76,7 +76,7 @@ while True:
     elif locate_image('codigouniversal', move=False, click=False):
         if locate_image('codigo'):
             read_txt(path, 'serial', copy=True, paste=True)
-            locate_image('continuar', wait=1)
+        locate_image('continuar', wait=1)
         sleep(1)
         continue
 
