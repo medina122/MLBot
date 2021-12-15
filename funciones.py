@@ -8,8 +8,16 @@ colorama.init()
 def locate_image(name, move=True, click=True, check=False, co=0.8, wait=0, duration=0.10):
     
     if wait != 0: sleep(wait)
+
+    path = os.path.abspath(os.path.dirname(__file__))
+    data = ''
+
+    if path.startswith('C'):
+        data = path +'\src\{name}.png'
     
-    data = os.path.abspath(os.path.dirname(__file__)) +'/src/'+name+'.png'
+    else:
+        data = path +'/src/{name}.png'
+    
     
     if check:
 
