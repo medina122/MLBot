@@ -7,7 +7,7 @@ from funciones import locate_image, read_txt, telegram_report
 path = r'C:\Users\Owner\Desktop\Ofertas\MSI Gaming GeForce GTX 1650'
 locate_image('vender', check=True, wait=1)
 locate_image('productos', check=True, wait=2)
-locate_image('indicaproducto', move=False, click=False, check=True)
+locate_image('indicaproducto', move=False, click=False, check=True, wait=1)
 locate_image('titulo', move=False, click=False)
 read_txt(path, 'titulo', copy=True, paste=True)
 sleep(2)
