@@ -91,9 +91,8 @@ def post(path):
                         locate_image('datosproducto', move=True, click=True, duration=0)
                         continue
                     else: break
-            sleep(0.25)
             bot.scroll(-1000)
-            sleep(1.25)
+            sleep(1)
             for input in checklist:
                 while True:
                     if locate_image(input, move=True, click=False, co=0.99, duration=0):
@@ -160,7 +159,7 @@ def post(path):
             
         elif  locate_image('publicar'):
             locate_image('verpublicacion', check=True, wait=2)
-            sleep(2)
+            sleep(3)
             bot.hotkey('ctrl', 'l')
             sleep(0.10)
             bot.hotkey('ctrl', 'c')
