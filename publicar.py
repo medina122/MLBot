@@ -180,7 +180,7 @@ def post_email():
         sleep(0.20)
         bot.tripleClick(interval=0.02)
         bot.hotkey('ctrl', 'c')
-        data = f"Desde: {pyperclip.paste()}"
+        data = f"Email: {pyperclip.paste()}"
         sleep(1)
         bot.click()
         
@@ -190,11 +190,7 @@ if __name__ == '__main__':
 
     opcion = input('Ingrese opcion: ')
 
-    if opcion==int(1):
-
+    if int(opcion) == 1:
         path = r'C:\Users\Owner\Desktop\Ofertas\AMD Ryzen 9 5900X'
         post(path)
         post_email()
-
-
-    
