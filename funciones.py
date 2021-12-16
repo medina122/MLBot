@@ -69,7 +69,7 @@ def read_txt(path, name, copy=False, paste=False):
     data_txt = ''
 
     if path.startswith('C:'):
-        data_txt = path + f'\{name}.txt'  
+        data_txt = path + f'\{name}.txt' 
 
     else: 
         data_txt = path + f'/{name}.txt'  
