@@ -1,4 +1,4 @@
 __pycache__
 *.db
 enlistar_productos.py
-generar_documentos.py
+generar_documento.py
