@@ -6,6 +6,7 @@ def post(path):
 
     locate_image('vender', check=True, wait=1)
     locate_image('productos', check=True, wait=2)
+    locate_image('productos')
     locate_image('indicaproducto', move=False, click=False, check=True, wait=1)
     locate_image('titulo', move=False, click=False)
     read_txt(path, 'titulo', copy=True, paste=True)
@@ -190,6 +191,6 @@ if __name__ == '__main__':
     opcion = input('Ingrese opcion: ')
 
     if int(opcion) == 1:
-        path = r'C:\Users\Owner\Desktop\Ofertas\AMD Ryzen 9 5900X'
+        path = r'C:\Users\Owner\Desktop\MLBot\AmazonDB\Ofertas\AMD Ryzen 9 5950X'
         post(path)
         post_email()
