@@ -1,4 +1,3 @@
-__pycache__ 
+/__pycache__ 
 *.db
-/enlistar_productos.py
-/generar_documento.py
+/Tools
