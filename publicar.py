@@ -191,6 +191,6 @@ if __name__ == '__main__':
     opcion = input('Ingrese opcion: ')
 
     if int(opcion) == 1:
-        path = r'C:\Users\Owner\Desktop\MLBot\AmazonDB\Ofertas\AMD Ryzen 9 5950X'
+        path = input(r'Ingrese carpeta del producto: ')
         post(path)
         post_email()
