@@ -192,7 +192,7 @@ if __name__ == '__main__':
 
     if opcion==int(1):
 
-        path = r'C:\Users\Owner\Desktop\Ofertas\MSI Gaming GeForce GTX 1650'
+        path = r'C:\Users\Owner\Desktop\Ofertas\AMD Ryzen 9 5900X'
         post(path)
         post_email()
 
