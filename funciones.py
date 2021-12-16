@@ -124,12 +124,11 @@ def corregir_archivo(path, name, content):
         file.close()
 
 
-def corregir_archivos():
+def corregir_archivos(name, content):
 
     mainfolder = r'C:\Users\Owner\Desktop\MLBot\AmazonDB\Ofertas'
     
     for folder in os.listdir(mainfolder):
-        content = '950235631'
 
         if mainfolder.startswith('C:'):
 
@@ -138,4 +137,4 @@ def corregir_archivos():
         else: 
             path = mainfolder + f'/{folder}'  
 
-        corregir_archivo(path, 'telefono', content)
+        corregir_archivo(path, name, content)
