@@ -108,3 +108,34 @@ def telegram_report(txt, chatid):
     requests.post(url)
     print(f"{Fore.GREEN}[Telegram] {Fore.WHITE} Message has been sent! ")
 
+def corregir_archivo(path, name, content): 
+    
+    data = ''
+
+    if path.startswith('C:'):
+
+        data = path + f'\{name}.txt'  
+
+    else: 
+        data = path + f'/{name}.txt'  
+
+    with open(data, 'w') as file:
+        file.write(content)
+        file.close()
+
+
+def corregir_archivos():
+
+    mainfolder = r'C:\Users\Owner\Desktop\MLBot\AmazonDB\Ofertas'
+    
+    for folder in os.listdir(mainfolder):
+        content = '950235631'
+
+        if mainfolder.startswith('C:'):
+
+            path = mainfolder + f'\{folder}'  
+
+        else: 
+            path = mainfolder + f'/{folder}'  
+
+        corregir_archivo(path, 'telefono', content)
