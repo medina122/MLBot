@@ -4,6 +4,7 @@ from funciones import locate_image, read_txt, telegram_report
 from new_product_list import listar_productos
 
 def post(path):
+
     locate_image('vender', check=True, wait=1)
     locate_image('productos', check=True, wait=2)
     locate_image('indicaproducto', move=False, click=False, check=True, wait=1)
@@ -158,7 +159,7 @@ def post(path):
             bot.scroll(-500)
             
         elif  locate_image('publicar'):
-            locate_image('verpublicacion', check=True, wait=3)
+            locate_image('verpublicacion', check=True, wait=2)
             sleep(2)
             bot.hotkey('ctrl', 'l')
             sleep(0.10)
@@ -169,16 +170,31 @@ def post(path):
             telegram_report(f'Publicado desde: {os.environ.get("USERNAME")}', '-1001781252897')
             break
 
-opcion = input('Ingrese opcion: ')
-if opcion==int(1):
+def post_email():
 
-    path = r'C:\Users\Owner\Desktop\Ofertas\MSI Gaming GeForce GTX 1650'
-    post(path)
-    listar_productos(path)
+    if locate_image('profile'):
 
-sleep(0.5)
-txt = read_txt(path, 'productos')
-sleep(0.5)
-telegram_report(f"""Productos:\n\n{txt}""", '-1001781252897')
+        profile_location = locate_image('account_mail', move=False, click=False, wait=1)[1]
+
+        bot.moveTo(profile_location[0]+80, profile_location[1]+30)
+        sleep(0.20)
+        bot.tripleClick(interval=0.02)
+        bot.hotkey('ctrl', 'c')
+        data = f"Desde: {pyperclip.paste()}"
+        sleep(1)
+        bot.click()
+        
+        telegram_report(f"{data}", '-1001781252897')
+
+if __name__ == '__main__':
+
+    opcion = input('Ingrese opcion: ')
+
+    if opcion==int(1):
+
+        path = r'C:\Users\Owner\Desktop\Ofertas\MSI Gaming GeForce GTX 1650'
+        post(path)
+        post_email()
+
 
     
