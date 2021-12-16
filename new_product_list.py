@@ -22,10 +22,9 @@ def listar_productos(path):
             crear_txt(path, 'productos', info)
             sleep(0.10)
 
-if __name__ =="__main__":
 
-    path = '/home/owner/Desktop/AmazonDB/Ofertas'
-
+def report_list(path):
+    
     listar_productos(path)
 
     sleep(0.5)
