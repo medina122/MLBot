@@ -1,7 +1,6 @@
 import pyautogui as bot, os, pyperclip
 from time import sleep
 from funciones import locate_image, read_txt, telegram_report
-from enlistar_productos import listar_productos
 
 def post(path):
 
