@@ -12,7 +12,7 @@ def locate_image(name, move=True, click=True, check=False, co=0.8, wait=0, durat
     path = os.path.abspath(os.path.dirname(__file__))
     data = ''
 
-    if path.startswith('C'):
+    if path.startswith('C:'):
         data = path +f'\src\{name}.png'
     
     else:
