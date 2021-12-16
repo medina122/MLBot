@@ -1,0 +1,9 @@
+Procesador de escritorio desbloqueado Intel Core i9-11900K de 11ª generación. Con la tecnología Intel Turbo Boost Max 3.0 y la compatibilidad con PCIe Gen 4.0, los procesadores Intel Core de 11.ª generación desbloqueados están optimizados para los jugadores entusiastas y los creadores serios, y ayudan a ofrecer overclocking de alto rendimiento para un aumento añadido. Solución térmica no incluida en la caja. Compatible con placas base basadas en chipset serie 500 y selectas series 400. Consulte el proveedor de la placa base para obtener detalles de compatibilidad. 125 W.
+
+Compatible con Intel 500 Series y Select Intel 400 Series chipset basado en placas base
+Compatible con tecnología Intel Turbo Boost Max 3.0
+Soporte de memoria Intel Optane
+Compatible con PCIe Gen 4.0
+No incluye solución térmica
+
+ 

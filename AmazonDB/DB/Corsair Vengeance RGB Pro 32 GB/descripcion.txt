@@ -1,0 +1,15 @@
+Caracteristicas: 
+
+Tecnología de memoria RAM: DDR4
+Tamaño de la memoria de la computadora: 32 GB
+Velocidad de memoria: 3200 MHz
+
+La memoria DDR4 de alto rendimiento ilumina tu sistema con una iluminación viva y animada de diez LED RGB ultrabrillantes y direccionables individualmente por módulo.
+Toma el control con el software CORSAIR iCUE y sincroniza la iluminación en todos tus productos compatibles con CORSAIR iCUE, incluyendo memoria, ventiladores, refrigeradores, teclados y mucho más.
+Personaliza perfiles de iluminación con millones de diferentes patrones y colores, o crea tu propio software CORSAIR iCUE.
+Compatible con placas base Intel y AMD DDR4.
+No requiere cables o cables adicionales para una instalación limpia y sin problemas.
+PCB de rendimiento personalizado para la más alta calidad de señal y estabilidad de rendimiento.
+Circuitos integrados cuidadosamente seleccionados para mayor potencial de overclocking.
+El disipador de calor de aluminio integrado proporciona una excelente refrigeración de memoria incluso cuando está overclocked.
+Compatible con Intel XMP 2.0 para una instalación sencilla y un rendimiento óptimo.

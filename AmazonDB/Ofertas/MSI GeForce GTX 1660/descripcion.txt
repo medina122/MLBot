@@ -1,0 +1,5 @@
+Chipset: NVIDIA GeForce GTX 1660 Super
+Boost de reloj: 1830 MHz.
+Interfaz de memoria: 192 bits
+Memoria de video: 6 GB GDDR6.
+Potencia: DisplayPort x 3 (v1. 4) / 1 x HDMI 2. 0B.

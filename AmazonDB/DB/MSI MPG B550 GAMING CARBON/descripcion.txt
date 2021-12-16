@@ -1,0 +1,26 @@
+La serie MPG saca lo mejor de los jugadores al permitir una expresion completa en color con control avanzado de iluminacion RGB y sincronizacion. Experimente en otro nivel de personalizacion con una tira de LED frontal que proporciona notificaciones convenientes en el juego y en tiempo real. Con la serie MPG, transforme su equipo en el centro de atencion y las mejores tablas de clasificacion con estilo.  
+
+Caracteristicas:
+Soporte para procesadores AMD Ryzen ™ de tercera generacion y futuros procesadores AMD Ryzen ™ con actualizacion del BIOS
+Admite memoria DDR4, hasta 5100+ (OC) MHz
+Experiencia Lightning Fast Game: PCIe 4.0, Lightning Gen 4 x4 M.2 con M.2 Shield Frozr, AMD Turbo USB 3.2 GEN 2
+Diseno de potencia mejorado: 10 + 2 + 1 Duet Rail Power Design, Core Boost, DDR4 Boost
+LUZ MISTICA: 16,8 millones de colores / 29 efectos controlados con un solo clic. MYSTIC LIGHT EXTENSION admite tira de LED RGB y RAINBOW.
+Solucion termica de primera calidad: el diseno de disipador termico extendido con almohadilla termica de estrangulador adicional con capacidad para 7 W / mK y PCB con cobre espeso de 2 oz esta construido para un sistema de alto rendimiento y una experiencia de juego sin parar
+LAN 2.5G con LAN Manager y solucion Intel Wi-Fi 6 AX: solucion de red mejorada para uso profesional y multimedia. Ofrece una conexion de red segura, estable y rapida.
+Boton Flash BIOS con funcion ClearCMOS optimizada: simplemente use una llave USB para flashear cualquier BIOS en cuestion de segundos. Restaure el BIOS a la configuracion predeterminada sin ninguna accion adicional.
+Blindaje de E / S preinstalado: mejor proteccion EMI y mas comodidad para la instalacion
+Especificaciones
+Model Name MPG B550 GAMING CARBON WIFI
+CPU Support 3rd Gen AMD Ryzen™ processors and future AMD Ryzen™processors with BIOS update CPU
+Socket AMD Socket AM4
+Chipset AMD B550
+Chipset Graphics Interface1x PCI-E 4.0/3.0 x16 slot + 1x PCI-E 3.0 x16 slot Support 2-way AMD CrossFire™ Technology
+Display Interface DisplayPort, HDMI – Requires Processor Graphics
+Memory Support 4 DIMMs, Dual Channel DDR4-4866(OC)Expansion Slots3x PCI-E 3.0 x1 slots
+Storage 1x M.2 Gen4 x4 + 1x M.2 Gen3 x4 slot6x SATA 6Gb/s ports
+USB Ports 2x USB 3.2 Gen 2 10Gbps (1 Type-A + 1 Type-C)5x USB 3.2 Gen 1 5Gbps (4 Type-A + 1 Type-C)8x USB 2.0
+LAN Realtek® RTL8125B 2.5G LAN
+Wireless / BT Intel® Wi-Fi 6 AX200, Bluetooth 5.1
+Audio 8-Channel(7.1) HD Audio with Audio Boost 
+ 

@@ -1,0 +1,69 @@
+RTX.  IT’S ON. Disfruta de los mayores exitos de ventas de hoy como nunca antes con la fidelidad visual del trazado de rayos en tiempo real y el rendimiento definitivo de DLSS con tecnologia de IA.
+
+LA VICTORIA SE MIDE EN MILISEGUNDOS: NVIDIA Reflex ofrece la maxima ventaja competitiva. La latencia mas baja. La mejor capacidad de respuesta. Gracias a las GPU GeForce RTX serie 30 y los monitores NVIDIA
+
+TU JUEGO CREATIVO:  Lleva tus proyectos creativos a un nuevo nivel con las GPU GeForce RTX serie 30. Ofrece aceleracion por IA en las mejores aplicaciones creativas. Con el soporte de la plataforma NVIDIA Studio de controladores dedicados y herramientas exclusivas. Y creado para obtener resultados en un tiempo record. Tanto si estas renderizando escenas en 3D complejas, editando video de 8K o retransmitiendo con la mejor codificacion y calidad de imagen, las GPU GeForce RTX te ofrecen el rendimiento necesario para tus mejores creaciones.
+
+G-SYNC: Adquiere objetivos mas rapido, reacciona con mas rapidez y aumenta la precision del objetivo con un conjunto revolucionario de tecnologias para medir y optimizar la latencia del sistema para los juegos competitivos.
+
+CONVIERTETE EN EL REY DE LAS TRANSMISIONES: Acapara la atencion de todos gracias a unos graficos increibles y a una transmision en directo fluida y sin cortes. La codificacion y la decodificacion de hardware de ultima generacion se combinan para que presumas de tus mejores momentos con gran detalle. Y la nueva y completa aplicacion NVIDIA Broadcast te ofrece potentes capacidades de IA para mejorar la calidad de audio y video con efectos como el fondo virtual, el fotograma automatico de la camara web y la eliminacion de ruido del microfono. Asi, siempre podras dar lo mejor de ti a tu audiencia
+
+ARQUITECTURA NVIDIA AMPERE: La nueva arquitectura NVIDIA Ampere ofrece el juego definitivo y presenta los nucleos avanzados de trazado de rayos de segunda generacion y los Tensor Cores de tercera generacion con un rendimiento superior.
+
+ACELERACION POR IA DE DLSS: NVIDIA DLSS es una renderizacion de IA revolucionaria que aumenta las velocidades de fotogramas con una calidad de imagen sin concesiones utilizando Tensor Cores de procesamiento de IA dedicados en GeForce RTX. Dispondras de margen de rendimiento para establecer los ajustes y las resoluciones necesarias a fin de disfrutar de una experiencia visual increible. La revolucion de la IA ha llegado al gaming.
+
+DIRECTX 12 ULTIMATE: Los desarrolladores pueden ahora anadir efectos graficos aun mas sorprendentes a los juegos para PC (Microsoft Windows). Las tarjetas graficas GeForce RTX presentan caracteristicas avanzadas de DX12 como el trazado de rayos y el sombreado de tasa variable, que dan vida a los juegos con efectos visuales muy realistas y velocidades de fotogramas mas rapidas. 
+
+
+Caracteristicas:
+
+Diseno de Triple Ventilador .
+TRI FROZR 2S se mantiene fresco con estilo. Las termicas se mantienen bajo control de manera magistral bajo un exterior SUPRIM esculpido, lo que le permite concentrarse en disfrutar de sus juegos en todo su esplendor.
+TORX FAN 4.0 es una obra maestra construida en equipo, con pares de aspas de ventilador unidas entre si con un diseno de anillo revolucionario para enfocar el flujo de aire y la presion de aire en el disipador de calor.
+Zero Frozr: La calma despues de la tormenta, los ventiladores se apagaran siempre que no sean necesarios.
+Thermal Padding: Iincorpora muchisimos thermalpads para mejorar la disipacion del calor de los componentes integrados.
+Refrigeracion.  Refrigeracion VIP. La dedicacion produce resultados. Los modulos de memoria reciben el tratamiento privado con su propio heatpipe de espacio cerrado dedicado que se ejecuta en un disipador de calor dedicado.
+El calor de la GPU es capturado inmediatamente por una placa base de cobre niquelado y luego se transfiere rapidamente a una serie de heatpipes. Esta ampliacion de los sistemas de transferencia termica con mecanismos de alta eficiencia que comienzan en la base mejora la eficiencia general.
+Una gran cantidad de almohadillas termicas proporcionan una disipacion de calor adicional para los componentes de la placa. Las almohadillas termicas debajo de la resistente placa posterior de flujo continuo de metal cepillado brindan enfriamiento adicional.
+La BIOS dual te da la opcion de priorizar para un rendimiento completo en modo JUEGO o bajo ruido en modo SILENCIOSO.
+Los fusibles adicionales incorporados en la PCB personalizada brindan proteccion adicional contra danos electricos.
+Un soporte de soporte incluido proporciona un refuerzo adicional para la tarjeta grafica.
+La solida calidad de construccion en areas clave se refuerza con una correa rigida de metal anti-flexion.
+Dragon Center . El software exclusivo de MSI Dragon Center te ayudara con todo tu ecosistema MSI. Monitoriza, trastea y optimiza en tiempo real con tan solo unos pocos clicks.
+
+Especificaciones:
+
+Familia de procesador : Nvidia
+Procesador grafico : GeForce RTX™ 3090
+Maxima resolucion : 7680 x 4320
+CUDA : si
+Nucleos CUDA : 10496
+velocidad de reloj : 1860 MHz
+Memoria
+Memoria : 24 GB
+Tipo : GDDR6X
+Interfaz : 384-bit
+Velocidad : 19500 MHz
+Puertos
+DisplayPort : 3
+HDMI 2.1 : 1
+Tipo : PCI Express® Gen 4
+Diseno
+Tipo de enfriamiento : Activo
+Numero de ventiladores : 3
+Desempeno
+DirectX : 12
+OpenGL : 4.6
+HDCP : Si
+Dual Link DVI : No
+NVIDIA G-SYNC : SI
+NVIDIA DLSS : Si
+Control de energia
+Energia minima necesaria : 850W
+Consumo energetico : 420W
+Conectores de energia : 3 x 8-pin
+Peso y dimensiones
+Profundidad : 140 mm
+Altura : 61 mm
+Ancho : 336 
+ 
