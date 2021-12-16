@@ -167,7 +167,7 @@ def post(path):
             sleep(0.10)
             link = pyperclip.paste()
             telegram_report(f'{read_txt(path, "titulo")}\nPrecio: {read_txt(path, "precio")}\nURL: {link}', '-1001781252897') # BOT
-            telegram_report(f'{os.environ.get("USERNAME")}', '-1001781252897') # BOT
+            telegram_report(f'Publicado desde: {os.environ.get("USERNAME")}', '-1001781252897') # BOT
             break
 
 def post_email():
@@ -180,7 +180,7 @@ def post_email():
         sleep(0.20)
         bot.tripleClick(interval=0.02)
         bot.hotkey('ctrl', 'c')
-        data = f"Email: {pyperclip.paste()}"
+        data = f"{pyperclip.paste()}"
         sleep(1)
         bot.click()
         
