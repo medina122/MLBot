@@ -193,3 +193,27 @@ if __name__ == '__main__':
         path = input(r'Ingrese carpeta del producto: ')
         post(path)
         post_email()
+
+    elif int(opcion) == 2:
+        
+        mainfolder = input(r'Ingrese carpeta de los productos: ')
+        
+        for folder in os.listdir(mainfolder):
+
+            path = ''
+
+            if mainfolder.startswith('C:'):
+
+                path = mainfolder + f'\{folder}'  
+
+            else: 
+                
+                path = mainfolder + f'/{folder}'  
+
+            post(path)
+        
+        sleep(2)
+        
+        post_email()
+
+
