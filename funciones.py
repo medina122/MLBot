@@ -126,7 +126,7 @@ def corregir_archivo(path, name, content):
 
 def corregir_archivos(name, content):
 
-    mainfolder = r'/home/owner/Desktop/tools/mercadolibre/AmazonDB/DB'
+    mainfolder = r'/home/owner/Desktop/tools/mercadolibre/AmazonDB/Ofertas'
     
     for folder in os.listdir(mainfolder):
 
@@ -138,12 +138,3 @@ def corregir_archivos(name, content):
             path = mainfolder + f'/{folder}'  
 
         corregir_archivo(path, name, content)
-
-corregir_archivos('plantilla', """HAGA TODAS SUS PREGUNTAS ANTES DE DARLE AL BOTON DE COMPRAR
-
-HACEMOS ENVIOS SIN COSTO A TODO EL PAIS
-
-PROMOCION VALIDA HASTA QUE SE AGOTE EL STOCK
-
-___//_//_//9__3__2___9__2__8___9__7__7///___//__//___
-""")
