@@ -19,28 +19,30 @@ def post(path):
     locate_image('confirmar')
 
     locate_image('completainformacion', move=False, click=False, check=True, wait=2)
-    if locate_image('marca'):
+    
+    if locate_image('marca')[0]:
         read_txt(path, 'marca', copy=True, paste=True)
         locate_image('datosproducto')
 
-    if locate_image('modelo'):
+    if locate_image('modelo')[0]:
         read_txt(path, 'modelo', copy=True, paste=True)
         locate_image('datosproducto')
     locate_image('confirmar', wait=1)
+
     sleep(1)
 
     while True:
 
         # Ubicamos por apartados
 
-        if locate_image('condicion', move=False, click=False):
+        if locate_image('condicion', move=False, click=False)[0]:
             locate_image('nuevo', check=True, wait=1)
             sleep(2)
             continue
 
-        elif locate_image('color', move=False, click=False):
+        elif locate_image('color', move=False, click=False)[0]:
 
-            if locate_image('elegircolor'):
+            if locate_image('elegircolor')[0]:
                 locate_image('color', click=False)
                 locate_image('elegirnegro') or bot.typewrite('Negro')
                 bot.typewrite(' ')
@@ -49,7 +51,7 @@ def post(path):
                 locate_image('confirmar', wait=2)
                 sleep(2)
 
-        elif locate_image('panelfotos', move=False, click=False) and locate_image('portada', move=False, click=False)==False:
+        elif locate_image('panelfotos', move=False, click=False)[0] and locate_image('portada', move=False, click=False)[0]==False:
             locate_image('fotos')
             sleep(1)
             pyperclip.copy(path+'/img')
@@ -72,81 +74,82 @@ def post(path):
             sleep(1.5)
             continue
 
-        elif locate_image('codigouniversal', move=False, click=False):
-            if locate_image('codigo', wait=1):
+        elif locate_image('codigouniversal', move=False, click=False)[0]:
+            if locate_image('codigo', wait=1)[0]:
                 read_txt(path, 'serial', copy=True, paste=True)
             locate_image('continuar', wait=1)
             sleep(1)
             continue
 
-        elif locate_image('fichatecnica', move=False, click=False):
+        elif locate_image('fichatecnica', move=False, click=False)[0]:
 
             checklist = ['input', 'input2', 'input3', 'input4', 'input5']
 
             for input in checklist:
                 while True:
-                    if locate_image(input, move=True, click=False, co=0.99, duration=0):
+                    if locate_image(input, move=True, click=False, co=0.99, duration=0)[0]:
                         locate_image('noaplica', move=True, click=True, duration=0)
                         bot.scroll(-30)
-                        locate_image('datosproducto', move=True, click=True, duration=0)
+                        locate_image('datosproducto', move=True, click=True, duration=0.1)
                         continue
                     else: break
+
             bot.scroll(-1000)
-            sleep(1)
+            sleep(0.1)
             for input in checklist:
                 while True:
-                    if locate_image(input, move=True, click=False, co=0.99, duration=0):
+                    if locate_image(input, move=True, click=False, co=0.99, duration=0)[0]:
                         locate_image('noaplica', move=True, click=True, duration=0)
                         bot.scroll(-30)
                         locate_image('datosproducto', move=True, click=True, duration=0)
                         continue
                     else: break
             bot.scroll(-1000)
-            locate_image('confirmar', wait=3)
+            locate_image('confirmar', wait=2)
             bot.scroll(-1000)
             locate_image('siguiente', check= True, wait=2)
             sleep(1)
             continue
 
-        elif locate_image('soles', move=False, click=False):
-            if locate_image('precio', move=False, click=False, wait=1) or locate_image('precio2'):
+        elif locate_image('soles', move=False, click=False)[0]:
+            if locate_image('precio', move=False, click=False, wait=1)[0] or locate_image('precio2')[0]:
                 read_txt(path, 'precio', copy=True, paste=True)
                 locate_image('confirmar', wait=2)
                 sleep(1)
             continue
 
-        elif locate_image('tipopublicacion', move=False, click=False):
-            if locate_image('premium', wait=1):
+        elif locate_image('tipopublicacion', move=False, click=False)[0]:
+            if locate_image('premium', wait=1)[0]:
                 locate_image('confirmar', wait=2)
             sleep(1)
             continue
         
-        elif locate_image('mercadoenvios', move=False, click=False):
+        elif locate_image('mercadoenvios', move=False, click=False)[0]:
             locate_image('confirmar', wait=1)    
             sleep(1)
             continue
 
-        elif locate_image('ofrecesretiro', move=False, click=False):
+        elif locate_image('ofrecesretiro', move=False, click=False)[0]:
             locate_image('retiro', wait=2)
             sleep(1)
             continue
 
-        elif locate_image('mercadopago', move=False, click=False):
+        elif locate_image('mercadopago', move=False, click=False)[0]:
             locate_image('continuar', wait=2)
             sleep(1)
             continue
 
-        elif locate_image('ofrecesgarantia', move=False, click=False) and locate_image('garantia_check', move=False, click=False)==False:
+        elif locate_image('ofrecesgarantia', move=False, click=False)[0] and locate_image('garantia_check', move=False, click=False)[0]==False:
             locate_image('garantia')
             read_txt(path, 'garantia', copy=True, paste=True)            
             locate_image('confirmar', wait=2)   
             sleep(1)
             continue
 
-        elif locate_image('descripcion', move=False, click=False) and locate_image('descripcion2', move=False, click=False)==False:
+        elif locate_image('descripcion', move=False, click=False)[0] and locate_image('descripcion2', move=False, click=False)[0]==False:
             locate_image('descripcion', wait=1)
 
-            if locate_image('descripcion2', wait=1):
+            if locate_image('descripcion2', wait=1)[0]:
                 read_txt(path, 'descripcion', copy=True, paste=True)
                 bot.press('enter')
                 bot.press('enter')
@@ -157,7 +160,7 @@ def post(path):
                 sleep(1)
             bot.scroll(-500)
             
-        elif  locate_image('publicar'):
+        elif  locate_image('publicar')[0]:
             locate_image('verpublicacion', check=True, wait=2)
             sleep(3)
             bot.hotkey('ctrl', 'l')
@@ -171,7 +174,7 @@ def post(path):
 
 def post_email():
 
-    if locate_image('profile'):
+    if locate_image('profile')[0]:
 
         profile_location = locate_image('account_mail', move=False, click=False, wait=1)[1]
 
