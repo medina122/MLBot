@@ -126,7 +126,7 @@ def corregir_archivo(path, name, content):
 
 def corregir_archivos(name, content):
 
-    mainfolder = r'C:\Users\Owner\Desktop\MLBot\AmazonDB\Ofertas'
+    mainfolder = r'/home/owner/Desktop/tools/mercadolibre/AmazonDB/DB'
     
     for folder in os.listdir(mainfolder):
 
