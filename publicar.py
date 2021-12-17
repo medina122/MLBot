@@ -190,6 +190,7 @@ if __name__ == '__main__':
     opcion = input('Ingrese opcion: ')
 
     if int(opcion) == 1:
+        
         path = input(r'Ingrese carpeta del producto: ')
         post(path)
         post_email()
@@ -213,7 +214,7 @@ if __name__ == '__main__':
             post(path)
         
         sleep(2)
-        
+
         post_email()
 
 
