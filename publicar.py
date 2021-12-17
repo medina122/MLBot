@@ -190,7 +190,7 @@ if __name__ == '__main__':
     opcion = input('Ingrese opcion: ')
 
     if int(opcion) == 1:
-        
+
         path = input(r'Ingrese carpeta del producto: ')
         post(path)
         post_email()
@@ -216,5 +216,7 @@ if __name__ == '__main__':
         sleep(2)
 
         post_email()
+
+        telegram_report(read_txt(mainfolder, 'productos'), '-1001781252897') # BOT
 
 

@@ -138,3 +138,26 @@ def corregir_archivos(name, content):
             path = mainfolder + f'/{folder}'  
 
         corregir_archivo(path, name, content)
+
+def listar_productos(path):
+
+    mainfolder = os.listdir(path)
+    
+    for folder in mainfolder:
+
+        product = ''
+
+        if folder.endswith('.txt'):
+            break
+        
+        else: 
+
+            if path.startswith('C:'):
+                    
+                product = path + f'\{folder}'
+
+            else: 
+                product = path + f'/{folder}'
+            
+            content = f"""{read_txt(product, 'titulo')} - {read_txt(product, 'precio')}"""
+            crear_txt(path, 'productos', content)
