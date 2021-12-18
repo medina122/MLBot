@@ -1,4 +1,4 @@
-import pyautogui as bot, os, pyperclip
+import pyautogui as bot, os, pyperclip, random
 from time import sleep
 from funciones import locate_image, read_txt, telegram_report
 
@@ -110,6 +110,25 @@ def post(path):
             locate_image('siguiente', check= True, wait=2)
             sleep(1)
             continue
+
+        # elif locate_image('ya_casi_publicas', move=False, click=False):
+        #     locate_image('cargar_direccion', wait=1)
+
+        #     sleep(2)
+
+        #     locate_image('elegir', wait=1)
+        #     bot.press('down', presses=random.randint(1,4))
+        #     bot.press('enter')
+        #     bot.press('tab')
+        #     bot.typewrite(str(random.randint(21,87)))
+        #     bot.press('tab')
+        #     bot.typewrite(str(random.randint(30,55)))
+        #     bot.press('tab')
+        #     bot.typewrite(str(random.cho))
+        #     bot.press('tab')
+        #     bot.press('tab')
+        #     bot.press('tab')
+
 
         elif locate_image('soles', move=False, click=False):
             if locate_image('precio', move=False, click=False, wait=1) or locate_image('precio2'):
