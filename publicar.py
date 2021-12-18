@@ -5,10 +5,10 @@ from funciones import locate_image, read_txt, telegram_report
 def post(path):
 
     locate_image('vender', check=True, wait=1)
-    locate_image('productos', check=True, wait=2)
-    locate_image('productos')
+    locate_image('productos', check=True, wait=3)
+    locate_image('productos', wait=0.10)
     locate_image('indicaproducto', move=False, click=False, check=True, wait=1)
-    locate_image('titulo', move=False, click=False)
+    locate_image('titulo', move=False, click=False) or locate_image('titulo2')
     read_txt(path, 'titulo', copy=True, paste=True)
     sleep(2)
     bot.press('enter')
@@ -37,7 +37,7 @@ def post(path):
 
         if locate_image('condicion', move=False, click=False):
             locate_image('nuevo', check=True, wait=1)
-            sleep(2)
+            sleep(3)
             continue
 
         elif locate_image('color', move=False, click=False):
@@ -111,27 +111,10 @@ def post(path):
             locate_image('confirmar', wait=2)
             bot.scroll(-1000)
             locate_image('siguiente', check= True, wait=2)
-            sleep(1)
+            sleep(3)
             continue
 
-        # elif locate_image('ya_casi_publicas', move=False, click=False):
-        #     locate_image('cargar_direccion', wait=1)
-
-        #     sleep(2)
-
-        #     locate_image('elegir', wait=1)
-        #     bot.press('down', presses=random.randint(1,4))
-        #     bot.press('enter')
-        #     bot.press('tab')
-        #     bot.typewrite(str(random.randint(21,87)))
-        #     bot.press('tab')
-        #     bot.typewrite(str(random.randint(30,55)))
-        #     bot.press('tab')
-        #     bot.typewrite(str(random.cho))
-        #     bot.press('tab')
-        #     bot.press('tab')
-        #     bot.press('tab')
-
+        
 
         elif locate_image('soles', move=False, click=False):
             if locate_image('precio', move=False, click=False, wait=1) or locate_image('precio2'):
