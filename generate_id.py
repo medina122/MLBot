@@ -20,4 +20,7 @@ def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 if __name__ == "__main__":
-    generar(nombres, apellidos, documentos)
+    while True:
+        clear()
+        generar(nombres, apellidos, documentos)
+        input('\nPresione enter para generar otra vez')

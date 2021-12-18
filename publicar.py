@@ -61,6 +61,9 @@ def post(path):
             sleep(0.3)
             bot.press('enter')
             sleep(1)
+
+            # Faltan las fotos de Linux
+
             locate_image('organizar')
             sleep(0.5)
             locate_image('seleccionar')
