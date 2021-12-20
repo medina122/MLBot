@@ -62,12 +62,13 @@ def post(path):
             else:  pyperclip.copy(path+'\img')
 
             bot.hotkey('ctrl', 'l')
+            sleep(0.03)
             bot.press('backspace')
-            sleep(0.2)
+            sleep(0.12)
             bot.hotkey('ctrl', 'v')
-            sleep(0.3)
+            sleep(0.20)
             bot.press('enter')
-            sleep(1)
+            sleep(2)
 
             if os.name == 'posix': 
                 bot.hotkey('ctrl', 'a')
@@ -81,9 +82,11 @@ def post(path):
                 bot.press('enter')
 
             locate_image('fotos', move=False, click=False, check=True, wait=3)
-            locate_image('cantidad')
-            bot.press('backspace')
-            read_txt(path, 'cantidad', copy=True, paste=True)
+            
+            if locate_image('cantidad'):
+                bot.press('backspace')
+                read_txt(path, 'cantidad', copy=True, paste=True)
+            
             locate_image('confirmar', wait=1)
             sleep(1.5)
             continue
@@ -109,7 +112,7 @@ def post(path):
                     else: break
 
             bot.scroll(-1000)
-            sleep(0.1)
+            sleep(0.20)
             for input in checklist:
                 while True:
                     if locate_image(input, move=True, click=False, co=0.99, duration=0):
@@ -150,7 +153,7 @@ def post(path):
             distritos = ['Chachapoyas', 'Asuncion', 'Balsas', 'Cheto', 'Chiliquin', 'Chuquibamba', 'Cochabamba', 'Cochabamba', 'Granada', 'Huancas', 'La Jalca', 'Llata', 'Lucanas', 'Paijan', 'Pampas', 'Pomacocha', 'San Ignacio', 'San Juan', 'Santiago de Chuco', 'Tambobamba', 'Tingo', 'Tocmo', 'Tumbes', 'Yungay', 'Soloco', 'Sonche', 'La peca', 'Imaza', 'Florida', 'Recta', 'Conila', 'Luya']
             bot.typewrite(f"{str(random.choice(distritos))}", interval=random.randint(5,20)/100)
             locate_image('guardar_direccion', wait=2)
-            locate_image('telefono')
+            locate_image('telefono', wait=2, check=True)
             bot.typewrite('950')
             bot.typewrite(str(random.randint(235412,965487)))
             locate_image('guardar_y_publicar', check=True, wait=2)
