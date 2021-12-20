@@ -5,7 +5,10 @@ from funciones import locate_image, read_txt, telegram_report
 def post(path):
 
     locate_image('vender', check=True, wait=1)
-    locate_image('productos', check=True, wait=3)
+
+    if locate_image('nueva_publicacion', wait=random.randint(3,5)):
+        sleep(random.randint(2,3))
+    locate_image('productos', check=True, wait=random.randint(1,2))
     locate_image('productos', wait=0.10)
     locate_image('indicaproducto', move=False, click=False, check=True, wait=1)
     locate_image('titulo', move=False, click=False) or locate_image('titulo2')
@@ -37,7 +40,7 @@ def post(path):
 
         if locate_image('condicion', move=False, click=False):
             locate_image('nuevo', check=True, wait=1)
-            sleep(3)
+            sleep(random.randint(4,5))
             continue
 
         elif locate_image('color', move=False, click=False):
@@ -54,21 +57,29 @@ def post(path):
         elif locate_image('panelfotos', move=False, click=False) and locate_image('portada', move=False, click=False)==False:
             locate_image('fotos')
             sleep(1)
-            pyperclip.copy(path+'/img')
+
+            if os.name == 'posix': pyperclip.copy(path+'/img') 
+            else:  pyperclip.copy(path+'\img')
+
             bot.hotkey('ctrl', 'l')
-            sleep(0.5)
+            bot.press('backspace')
+            sleep(0.2)
             bot.hotkey('ctrl', 'v')
             sleep(0.3)
             bot.press('enter')
             sleep(1)
 
-            # Faltan las fotos de Linux
+            if os.name == 'posix': 
+                bot.hotkey('ctrl', 'a')
+                bot.press('enter')
 
-            locate_image('organizar')
-            sleep(0.5)
-            locate_image('seleccionar')
-            sleep(0.8)
-            bot.press('enter')
+            else: 
+                locate_image('organizar')
+                sleep(0.5)
+                locate_image('seleccionar')
+                sleep(0.8)
+                bot.press('enter')
+
             locate_image('fotos', move=False, click=False, check=True, wait=3)
             locate_image('cantidad')
             bot.press('backspace')
@@ -93,7 +104,7 @@ def post(path):
                     if locate_image(input, move=True, click=False, co=0.99, duration=0):
                         locate_image('noaplica', move=True, click=True, duration=0)
                         bot.scroll(-30)
-                        locate_image('datosproducto', move=True, click=True, duration=0.1)
+                        locate_image('datosproducto', move=True, click=True, duration=0)
                         continue
                     else: break
 
@@ -114,8 +125,36 @@ def post(path):
             sleep(3)
             continue
 
-        
+        elif locate_image('ya_casi_publicas', move=False, click=False):
+            locate_image('cargar_direccion', wait=1)
 
+            sleep(2)
+
+            locate_image('elegir', check=True, wait=1)
+            bot.press('down', presses=random.randint(1,4))
+            bot.press('enter')
+            bot.press('tab')
+            bot.typewrite(str(random.randint(21,87)), interval=random.randint(5,20)/100)
+            bot.press('tab')
+            bot.typewrite(str(random.randint(30,55)), interval=random.randint(5,20)/100)
+            bot.press('tab')
+            bot.typewrite(f"Piso {str(random.randint(1,20))} - Local {str(random.randint(1,150))}", interval=random.randint(5,20)/100)
+            bot.press('tab')
+            bot.typewrite(f"{str(random.randint(1,300))}", interval=random.randint(5,20)/100)
+            bot.press('tab')
+            bot.press('down', presses=random.randint(1,20), interval=random.randint(5,20)/100)
+            sleep(2)
+            bot.press('tab')
+            bot.press('down', presses=random.randint(1,25), interval=random.randint(5,20)/100)
+            bot.press('tab')
+            distritos = ['Chachapoyas', 'Asuncion', 'Balsas', 'Cheto', 'Chiliquin', 'Chuquibamba', 'Cochabamba', 'Cochabamba', 'Granada', 'Huancas', 'La Jalca', 'Llata', 'Lucanas', 'Paijan', 'Pampas', 'Pomacocha', 'San Ignacio', 'San Juan', 'Santiago de Chuco', 'Tambobamba', 'Tingo', 'Tocmo', 'Tumbes', 'Yungay', 'Soloco', 'Sonche', 'La peca', 'Imaza', 'Florida', 'Recta', 'Conila', 'Luya']
+            bot.typewrite(f"{str(random.choice(distritos))}", interval=random.randint(5,20)/100)
+            locate_image('guardar_direccion', wait=2)
+            locate_image('telefono')
+            bot.typewrite('950')
+            bot.typewrite(str(random.randint(235412,965487)))
+            locate_image('guardar_y_publicar', check=True, wait=2)
+        
         elif locate_image('soles', move=False, click=False):
             if locate_image('precio', move=False, click=False, wait=1) or locate_image('precio2'):
                 read_txt(path, 'precio', copy=True, paste=True)
@@ -164,6 +203,7 @@ def post(path):
                 locate_image('confirmar', wait=2)
                 sleep(1)
             bot.scroll(-500)
+            continue
             
         elif  locate_image('publicar'):
             locate_image('verpublicacion', check=True, wait=2)
