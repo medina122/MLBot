@@ -168,9 +168,9 @@ def post(path):
 
         elif locate_image('tipopublicacion', move=False, click=False):
             if locate_image('premium', wait=1):
-                locate_image('confirmar', wait=2)
-                sleep(0.1)
+                sleep(2)
                 bot.scroll(-300)
+                locate_image('confirmar', wait=1)
             sleep(1)
             continue
         
