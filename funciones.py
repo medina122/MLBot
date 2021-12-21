@@ -78,7 +78,7 @@ def read_txt(path, name, copy=False, paste=False):
         data_txt = path + f'/{name}.txt'  
     
     # Abrimos y leemos el archivo 
-    with open(data_txt, 'r', encoding='utf-8') as file:
+    with open(data_txt, 'r', encoding='utf-8', errors='ignore') as file:
         content = file.read()
         
         if copy:
