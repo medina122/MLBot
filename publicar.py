@@ -1,6 +1,6 @@
 import pyautogui as bot, os, pyperclip, random
 from time import sleep
-from funciones import locate_image, read_txt, telegram_report
+from funciones import listar_productos, locate_image, read_txt, telegram_report
 
 def post(path):
 
@@ -278,3 +278,6 @@ if __name__ == '__main__':
         telegram_report(read_txt(mainfolder, 'productos'), '-1001781252897') # BOT
 
 
+    elif int(opcion) == 3:
+        path = input('Ingrese ruta de de productos a listar: ')
+        listar_productos(path)
