@@ -1,0 +1,5 @@
+6Puertos I/O de montaje superior: 1 USB 3.0, 2 USB 2.0, 1 auricular, 1 puerto frontal para micrófono
+Fuente de alimentación: optimiza tu gestión de cables con la cubierta de fuente de alimentación incluida para ocultar el desorden de cables
+Opciones de almacenamiento: 2 bahías externas de 5,25 pulgadas, 2 bahías de unidad interna de 2,5 pulgadas (con bandeja HDD) con acceso a la unidad oculta en el panel posterior
+Opciones de configuración de refrigeración de aire/líquido: 1 radiador de 9.449 in (parte superior/frontal). 1 radiador de 4.724 in (trasero), 2 ubicaciones de ventiladores de 4.724 in o 2 ventiladores de 5.512 in (parte superior) con 2 ubicaciones de ventilador de 4.724 in (frontal)
+Solución completa: soporta hasta 240 milímetros de refrigeración líquida del radiador para una aplicación ideal de refrigeración de CPU, tarjeta gráfica de hasta 415 milímetros de largo (sin ventilador frontal)

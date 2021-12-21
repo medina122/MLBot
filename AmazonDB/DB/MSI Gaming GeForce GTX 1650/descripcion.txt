@@ -1,0 +1,5 @@
+5Chipset: NVIDIA GeForce GTX 1650.
+Reloj de impulso: 1620 MHz.
+Memoria de vídeo: 4 GB GDDR6.
+Interfaz de memoria: 128 bits.
+Salida: DL-DVI-D x 1 / DisplayPort x 1 (v1.4) / HDMI 2.0b x 1.
