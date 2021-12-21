@@ -56,13 +56,13 @@ def post(path):
 
         elif locate_image('panelfotos', move=False, click=False) and locate_image('portada', move=False, click=False)==False:
             locate_image('fotos')
-            sleep(1)
+            sleep(2)
 
             if os.name == 'posix': pyperclip.copy(path+'/img') 
             else:  pyperclip.copy(path+'\img')
 
             bot.hotkey('ctrl', 'l')
-            sleep(0.03)
+            sleep(0.05)
             bot.press('backspace')
             sleep(0.12)
             bot.hotkey('ctrl', 'v')
@@ -122,7 +122,8 @@ def post(path):
                         continue
                     else: break
             bot.scroll(-1000)
-            locate_image('confirmar', wait=2)
+            locate_image('confirmar', wait=1)
+            sleep(0.5)
             bot.scroll(-1000)
             locate_image('siguiente', check= True, wait=2)
             sleep(3)
@@ -134,7 +135,7 @@ def post(path):
             sleep(2)
 
             locate_image('elegir', check=True, wait=1)
-            bot.press('down', presses=random.randint(1,4))
+            bot.press('down', presses=1)
             bot.press('enter')
             bot.press('tab')
             bot.typewrite(str(random.randint(21,87)), interval=random.randint(5,20)/100)
@@ -168,6 +169,8 @@ def post(path):
         elif locate_image('tipopublicacion', move=False, click=False):
             if locate_image('premium', wait=1):
                 locate_image('confirmar', wait=2)
+                sleep(0.1)
+                bot.scroll(-300)
             sleep(1)
             continue
         
