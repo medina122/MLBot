@@ -1,5 +1,6 @@
 from time import sleep
 import pyautogui as bot
+import random
 import colorama, requests, os, pyperclip
 from colorama import Fore
 
@@ -7,6 +8,8 @@ colorama.init()
 
 def locate_image(name, move=True, click=True, check=False, co=0.8, wait=0, duration=0.10):
     
+    bot.PAUSE = random.randint(5,20)/100
+
     if wait != 0: sleep(wait)
 
     path = os.path.abspath(os.path.dirname(__file__))
