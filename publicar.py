@@ -52,46 +52,47 @@ def post(path):
                 read_txt(path, 'telefono', copy=True, paste=True)
                 sleep(0.5)
                 locate_image('confirmar', wait=2)
-                sleep(2)
+                sleep(random.randint(4,5))
 
         elif locate_image('panelfotos', move=False, click=False) and locate_image('portada', move=False, click=False)==False:
-            locate_image('fotos')
-            sleep(2)
 
-            if os.name == 'posix': pyperclip.copy(path+'/img') 
-            else:  pyperclip.copy(path+'\img')
+            if locate_image('fotos') and locate_image('portada', move=False, click=False)==False:
+                sleep(2)
 
-            bot.hotkey('ctrl', 'l')
-            sleep(0.05)
-            bot.press('backspace')
-            sleep(0.12)
-            bot.hotkey('ctrl', 'v')
-            sleep(0.20)
-            bot.press('enter')
-            sleep(2)
+                if os.name == 'posix': pyperclip.copy(path+'/img') 
+                else:  pyperclip.copy(path+'\img')
 
-            if os.name == 'posix': 
-                bot.hotkey('ctrl', 'a')
-                bot.press('enter')
-
-            else: 
-                locate_image('organizar')
-                sleep(0.5)
-                locate_image('seleccionar')
-                sleep(0.8)
-                bot.press('enter')
-
-            locate_image('fotos', move=False, click=False, check=True, wait=3)
-            
-            bot.scroll(-300)
-            sleep(0.2)
-            
-            if locate_image('cantidad'):
+                bot.hotkey('ctrl', 'l')
+                sleep(0.05)
                 bot.press('backspace')
-                read_txt(path, 'cantidad', copy=True, paste=True)
-            
-            locate_image('confirmar', wait=1)
-            sleep(1.5)
+                sleep(0.12)
+                bot.hotkey('ctrl', 'v')
+                sleep(0.20)
+                bot.press('enter')
+                sleep(2)
+
+                if os.name == 'posix': 
+                    bot.hotkey('ctrl', 'a')
+                    bot.press('enter')
+
+                else: 
+                    locate_image('organizar')
+                    sleep(0.5)
+                    locate_image('seleccionar')
+                    sleep(0.8)
+                    bot.press('enter')
+
+                locate_image('fotos', move=False, click=False, check=True, wait=3)
+                
+                bot.scroll(-300)
+                sleep(0.2)
+                
+                if locate_image('cantidad'):
+                    bot.press('backspace')
+                    read_txt(path, 'cantidad', copy=True, paste=True)
+                
+                locate_image('confirmar', wait=1)
+                sleep(1.5)
             continue
 
         elif locate_image('codigouniversal', move=False, click=False):
