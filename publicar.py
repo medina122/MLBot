@@ -244,42 +244,43 @@ def post_email():
         telegram_report(f"{data}", '-1001781252897')
 
 if __name__ == '__main__':
+    while True: 
 
-    opcion = input('Ingrese opcion: ')
+        opcion = input('Ingrese opcion: ')
 
-    if int(opcion) == 1:
+        if int(opcion) == 1:
 
-        path = input(r'Ingrese carpeta del producto: ')
-        post(path)
-        post_email()
-
-    elif int(opcion) == 2:
-        
-        mainfolder = input(r'Ingrese carpeta de los productos: ')
-        
-        for folder in os.listdir(mainfolder):
-
-            path = ''
-
-            if mainfolder.startswith('C:'):
-
-                path = mainfolder + f'\{folder}'  
-
-            else: 
-                
-                path = mainfolder + f'/{folder}'  
-
+            path = input(r'Ingrese carpeta del producto: ')
             post(path)
-        
-        sleep(2)
+            post_email()
 
-        post_email()
+        elif int(opcion) == 2:
+            
+            mainfolder = input(r'Ingrese carpeta de los productos: ')
+            
+            for folder in os.listdir(mainfolder):
 
-        listar_productos(mainfolder)
-        telegram_report(read_txt(mainfolder, 'productos'), '-1001781252897') # BOT
+                path = ''
+
+                if mainfolder.startswith('C:'):
+
+                    path = mainfolder + f'\{folder}'  
+
+                else: 
+                    
+                    path = mainfolder + f'/{folder}'  
+
+                post(path)
+            
+            sleep(2)
+
+            post_email()
+
+            listar_productos(mainfolder)
+            telegram_report(read_txt(mainfolder, 'productos'), '-1001781252897') # BOT
 
 
-    elif int(opcion) == 3:
-        path = input('Ingrese ruta de de productos a listar: ')
-        listar_productos(path)
-        telegram_report(read_txt(path, 'productos'), '-1001781252897') # BOT
+        elif int(opcion) == 3:
+            path = input('Ingrese ruta de de productos a listar: ')
+            listar_productos(path)
+            

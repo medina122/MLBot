@@ -167,4 +167,3 @@ def listar_productos(path):
         
     telegram_report(read_txt(path, 'productos'), '-1001781252897')
         
-listar_productos('/home/owner/Desktop/tools/mercadolibre/AmazonDB/Ofertas')
