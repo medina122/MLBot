@@ -130,6 +130,7 @@ def post(path):
             sleep(0.5)
             bot.scroll(-1000)
             locate_image('siguiente', check= True, wait=2)
+            locate_image('siguiente', wait=0.10)
             sleep(3)
             continue
 
