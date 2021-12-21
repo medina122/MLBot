@@ -223,7 +223,7 @@ def post(path):
             bot.hotkey('ctrl', 'c')
             sleep(0.10)
             link = pyperclip.paste()
-            telegram_report(f'{read_txt(path, "titulo")}\nPrecio: {read_txt(path, "precio")}\nURL: {link}', '-1001781252897') # BOT
+            telegram_report(f'{read_txt(path, "titulo")}\n{read_txt(path, "precio")} Soles\n{link}', '-1001781252897') # BOT
             telegram_report(f'Publicado desde: {os.environ.get("USERNAME")}', '-1001781252897') # BOT
             break
 
