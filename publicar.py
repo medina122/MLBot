@@ -83,6 +83,9 @@ def post(path):
 
             locate_image('fotos', move=False, click=False, check=True, wait=3)
             
+            bot.scroll(-300)
+            sleep(0.2)
+            
             if locate_image('cantidad'):
                 bot.press('backspace')
                 read_txt(path, 'cantidad', copy=True, paste=True)
