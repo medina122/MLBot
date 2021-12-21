@@ -164,6 +164,7 @@ def listar_productos(path):
             
             content = f"""{read_txt(product, 'titulo')} - {read_txt(product, 'precio')}"""
             crear_txt(path, 'productos', content)
-        
-    telegram_report(read_txt(path, 'productos'), '-1001781252897')
+    sleep(0.10)
+    productos = read_txt(path, 'productos')
+    telegram_report(productos, '-1001781252897')
         
