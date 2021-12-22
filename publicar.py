@@ -278,7 +278,6 @@ if __name__ == '__main__':
             post_email()
 
             listar_productos(mainfolder)
-            telegram_report(read_txt(mainfolder, 'productos'), '-1001781252897') # BOT
 
 
         elif int(opcion) == 3:
