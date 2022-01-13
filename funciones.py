@@ -148,7 +148,7 @@ def corregir_archivos(name, content):
 
         corregir_archivo(path, name, content)
 
-def listar_productos(path, report=True):
+def listar_productos(path, report=True, delete=True):
 
     mainfolder = os.listdir(path)
     
@@ -176,3 +176,12 @@ def listar_productos(path, report=True):
         productos = read_txt(path, 'productos')
         telegram_report(productos, '-1001781252897')
         
+    if delete:
+
+        if path.startswith('C:'):
+            data = path + f'\productos.txt'  
+
+        else: 
+            data = path + f'/productos.txt'  
+
+        os.remove(data)

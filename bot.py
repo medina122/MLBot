@@ -27,6 +27,8 @@ if __name__ == '__main__':
 
         elif int(opcion) == 2:
             
+            telegram_report(f'Publicando desde: {os.environ.get("USERNAME")}', '-1001781252897') # BOT
+            
             mainfolder = input(r'Ingrese carpeta de los productos: ')
                     
             for folder in os.listdir(mainfolder):
@@ -46,7 +48,6 @@ if __name__ == '__main__':
             sleep(2)
             post_email()
             listar_productos(mainfolder)
-            telegram_report(f'Publicando desde: {os.environ.get("USERNAME")}', '-1001781252897') # BOT
 
         elif int(opcion) == 3:
             path = input('Ingrese ruta de de productos a listar: ')

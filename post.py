@@ -223,7 +223,7 @@ def post(path):
                         
             locate_image('publicar', check=True)
             locate_image('verpublicacion', check=True, wait=2)
-            sleep(3)
+            locate_image('comprar_ahora', check=True, wait=2)
             bot.hotkey('ctrl', 'l')
             sleep(0.10)
             bot.hotkey('ctrl', 'c')
