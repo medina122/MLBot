@@ -6,6 +6,10 @@ from colorama import Fore
 
 colorama.init()
 
+def clear():
+    import os
+    os.system('cls' if os.name == 'nt' else 'clear')
+
 def locate_image(name, move=True, click=True, check=False, co=0.8, wait=0, duration=0.10):
     
     bot.PAUSE = random.randint(5,20)/100
