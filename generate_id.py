@@ -7,7 +7,7 @@ apellidos = ['Garcia', 'Ferreira' ,'Rodriguez', 'Lopez', 'Martinez', 'Sanchez', 
 nombres = ['Daniel', 'Claudia', 'Jose', 'Gustavo', 'Luis', 'John', 'Eduardo', 'Cristian', 'Alex', 'Angel', 'Henry', 'Alberto', 'Luz', 'Rosario', 'Sonia', 'Carlos', 'Maria', 'Cesar', 'Rafaek', 'Karla', 'Ronald', 'Karen', 'Leandro', 'Tony', 'Angel', 'Antonio', 'Miguel', 'Edgar', 'Manuel', 'Elizabeth', 'Victor', 'Hugo', 'David', 'William', 'Martin', 'Milagros', 'Marcos', 'Enrique', 'Ricardo', 'Steven', 'Jackson', 'Adrian', 'Alejandro', 'Gabriel', 'Nelson', 'Alexander']
 
 
-def generar(nombres, apellidos, documentos):
+def documento(nombres, apellidos, documentos):
     print('########################################################')
     print('Obteniendo datos:')
     print('--------------------------------------------------------')
@@ -18,7 +18,7 @@ def generar(nombres, apellidos, documentos):
 
 def generar():
         clear()
-        generar(nombres, apellidos, documentos)
+        documento(nombres, apellidos, documentos)
         input('\nPresione enter para generar otra vez')
     
 
