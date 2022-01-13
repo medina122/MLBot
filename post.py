@@ -214,9 +214,10 @@ def post(path):
                 locate_image('confirmar', wait=2)
                 sleep(1)
             bot.scroll(-500)
+            sleep(0.5)
             continue
             
-        elif  locate_image('publicar'):
+        elif locate_image('publicar'):
             locate_image('verpublicacion', check=True, wait=2)
             sleep(3)
             bot.hotkey('ctrl', 'l')
