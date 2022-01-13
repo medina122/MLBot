@@ -5,7 +5,6 @@ from post import post, post_email
 from generate_id import generar
 
 menu = """
-
 Menu de Opciones: 
 
 1- Publicar producto 
