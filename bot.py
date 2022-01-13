@@ -4,7 +4,7 @@ from funciones import listar_productos, clear, telegram_report
 from post import post, post_email
 from generate_id import generar
 
-# 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
+# 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
 
 menu = """
 Menu de Opciones: 
