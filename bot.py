@@ -1,6 +1,6 @@
 import pyautogui as bot, os, pyperclip, random
 from time import sleep
-from funciones import listar_productos
+from funciones import listar_productos, clear
 from post import post, post_email
 from generate_id import generar
 
@@ -8,8 +8,8 @@ menu = """
 
 Menu de Opciones: 
 
-1- Publicar producto y reportar por telegram
-2- Publicar grupo de productos y reportar por telegram
+1- Publicar producto 
+2- Publicar grupo de productos
 3- Enlistar productos
 4- Generar ID
 
@@ -17,7 +17,7 @@ Menu de Opciones:
 
 if __name__ == '__main__':
     while True: 
-
+        clear()
         print(menu)
         opcion = input('>> ')
 

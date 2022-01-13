@@ -19,8 +19,8 @@ def documento(nombres, apellidos, documentos):
 def generar():
         clear()
         documento(nombres, apellidos, documentos)
-        input('\nPresione enter para generar otra vez')
-    
+        input('\nPresione enter salir')
+        clear()    
 
 if __name__ == "__main__":
     generar()
