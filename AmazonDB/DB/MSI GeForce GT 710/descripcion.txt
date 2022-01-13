@@ -1,4 +1,0 @@
-8MHz/memory interface: 64 bit
-300w system power supply requirement; Interface is PCI express 2.0 x16 uses x8
-Connectors: VGA, dvi d dual link, HDMI; Form factor: Low profile
-HDMI connectors is maximum resolution 4096 x 2160 at 24 hertz; DVI connectors is maximum resolution 2560 x 1600 at 60 hertz
