@@ -11,7 +11,6 @@ Menu de Opciones:
 2- Publicar grupo de productos
 3- Enlistar productos
 4- Generar ID
-
 """
 
 if __name__ == '__main__':
