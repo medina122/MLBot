@@ -142,7 +142,7 @@ def corregir_archivos(name, content):
 
         corregir_archivo(path, name, content)
 
-def listar_productos(path):
+def listar_productos(path, report=True):
 
     mainfolder = os.listdir(path)
     
@@ -165,6 +165,8 @@ def listar_productos(path):
             content = f"""{read_txt(product, 'titulo')} - {read_txt(product, 'precio')}"""
             crear_txt(path, 'productos', content)
     sleep(0.10)
-    productos = read_txt(path, 'productos')
-    telegram_report(productos, '-1001781252897')
+    
+    if report:
+        productos = read_txt(path, 'productos')
+        telegram_report(productos, '-1001781252897')
         

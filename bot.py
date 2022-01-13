@@ -244,10 +244,21 @@ def post_email():
         
         telegram_report(f"{data}", '-1001781252897')
 
+menu = """
+
+Menu de Opciones: 
+
+1- Publicar producto y reportar por telegram
+2- Publicar grupo de productos y reportar por telegram
+3- Enlistar productos
+
+"""
+
 if __name__ == '__main__':
     while True: 
 
-        opcion = input('Ingrese opcion: ')
+        print(menu)
+        opcion = input('>> ')
 
         if int(opcion) == 1:
 
@@ -282,6 +293,6 @@ if __name__ == '__main__':
 
         elif int(opcion) == 3:
             path = input('Ingrese ruta de de productos a listar: ')
-            listar_productos(path)
+            listar_productos(path, report=False)
             
             
