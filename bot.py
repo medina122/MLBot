@@ -1,4 +1,4 @@
-import pyautogui as bot, os, pyperclip, random
+import os
 from time import sleep
 from funciones import listar_productos, clear
 from post import post, post_email
