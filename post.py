@@ -38,12 +38,12 @@ def post(path):
 
         # Ubicamos por apartados
 
-        if locate_image('condicion', move=False, click=False):
+        if locate_image('condicion', move=False, click=False, NotFound=False):
             locate_image('nuevo', check=True, wait=1)
             sleep(random.randint(4,5))
             continue
 
-        elif locate_image('color', move=False, click=False):
+        elif locate_image('color', move=False, click=False, NotFound=False):
 
             if locate_image('elegircolor')[0]:
                 locate_image('color', click=False)
@@ -54,7 +54,7 @@ def post(path):
                 locate_image('confirmar', wait=2)
                 sleep(random.randint(4,5))
 
-        elif locate_image('panelfotos', move=False, click=False) and locate_image('portada', move=False, click=False)==False:
+        elif locate_image('panelfotos', move=False, click=False, NotFound=False) and locate_image('portada', move=False, click=False, NotFound=False)==False:
 
             if locate_image('fotos') and locate_image('portada', move=False, click=False)==False:
                 sleep(2)
@@ -72,7 +72,9 @@ def post(path):
                 sleep(2)
 
                 if os.name == 'posix': 
+                    sleep(0.10)
                     bot.hotkey('ctrl', 'a')
+                    sleep(0.03)
                     bot.press('enter')
 
                 else: 
@@ -90,19 +92,22 @@ def post(path):
                 if locate_image('cantidad'):
                     bot.press('backspace')
                     read_txt(path, 'cantidad', copy=True, paste=True)
+
+                    if os.name == 'posix': 
+                        bot.press('backspace')
                 
                 locate_image('confirmar', wait=1)
                 sleep(1.5)
             continue
 
-        elif locate_image('codigouniversal', move=False, click=False):
+        elif locate_image('codigouniversal', move=False, click=False, NotFound=False):
             if locate_image('codigo', wait=1):
                 read_txt(path, 'serial', copy=True, paste=True)
             locate_image('continuar', wait=1)
             sleep(1)
             continue
 
-        elif locate_image('fichatecnica', move=False, click=False):
+        elif locate_image('fichatecnica', move=False, click=False, NotFound=False):
 
             checklist = ['input', 'input2', 'input3', 'input4', 'input5']
 
@@ -134,7 +139,7 @@ def post(path):
             sleep(3)
             continue
 
-        elif locate_image('ya_casi_publicas', move=False, click=False):
+        elif locate_image('ya_casi_publicas', move=False, click=False, NotFound=False):
             locate_image('cargar_direccion', wait=1)
 
             sleep(2)
@@ -164,14 +169,14 @@ def post(path):
             bot.typewrite(str(random.randint(235412,965487)))
             locate_image('guardar_y_publicar', check=True, wait=2)
         
-        elif locate_image('soles', move=False, click=False):
+        elif locate_image('soles', move=False, click=False, NotFound=False):
             if locate_image('precio', move=False, click=False, wait=1) or locate_image('precio2'):
                 read_txt(path, 'precio', copy=True, paste=True)
                 locate_image('confirmar', wait=2)
                 sleep(1)
             continue
 
-        elif locate_image('tipopublicacion', move=False, click=False):
+        elif locate_image('tipopublicacion', move=False, click=False, NotFound=False):
             if locate_image('premium', wait=1):
                 sleep(2)
                 bot.scroll(-300)
@@ -179,29 +184,29 @@ def post(path):
             sleep(1)
             continue
         
-        elif locate_image('mercadoenvios', move=False, click=False):
+        elif locate_image('mercadoenvios', move=False, click=False, NotFound=False):
             locate_image('confirmar', wait=1)    
             sleep(1)
             continue
 
-        elif locate_image('ofrecesretiro', move=False, click=False):
+        elif locate_image('ofrecesretiro', move=False, click=False, NotFound=False):
             locate_image('retiro', wait=2)
             sleep(1)
             continue
 
-        elif locate_image('mercadopago', move=False, click=False):
+        elif locate_image('mercadopago', move=False, click=False, NotFound=False):
             locate_image('continuar', wait=2)
             sleep(1)
             continue
 
-        elif locate_image('ofrecesgarantia', move=False, click=False) and locate_image('garantia_check', move=False, click=False)==False:
+        elif locate_image('ofrecesgarantia', move=False, click=False, NotFound=False) and locate_image('garantia_check', move=False, click=False, NotFound=False)==False:
             locate_image('garantia')
             read_txt(path, 'garantia', copy=True, paste=True)            
             locate_image('confirmar', wait=2)   
             sleep(1)
             continue
 
-        elif locate_image('descripcion', move=False, click=False) and locate_image('descripcion2', move=False, click=False)==False:
+        elif locate_image('descripcion', move=False, click=False, NotFound=False) and locate_image('descripcion2', move=False, click=False, NotFound=False)==False:
             locate_image('descripcion', wait=1)
 
             if locate_image('descripcion2', wait=1):
@@ -216,7 +221,7 @@ def post(path):
             bot.scroll(-500)
             sleep(0.2)
                         
-            locate_image('publicar')
+            locate_image('publicar', check=True)
             locate_image('verpublicacion', check=True, wait=2)
             sleep(3)
             bot.hotkey('ctrl', 'l')
@@ -225,7 +230,6 @@ def post(path):
             sleep(0.10)
             link = pyperclip.paste()
             telegram_report(f'{read_txt(path, "titulo")}\n{read_txt(path, "precio")} Soles\n{link}', '-1001781252897') # BOT
-            telegram_report(f'Publicado desde: {os.environ.get("USERNAME")}', '-1001781252897') # BOT
             break
 
 def post_email():

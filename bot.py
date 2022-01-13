@@ -1,6 +1,6 @@
 import os
 from time import sleep
-from funciones import listar_productos, clear
+from funciones import listar_productos, clear, telegram_report
 from post import post, post_email
 from generate_id import generar
 
@@ -28,7 +28,7 @@ if __name__ == '__main__':
         elif int(opcion) == 2:
             
             mainfolder = input(r'Ingrese carpeta de los productos: ')
-            
+                    
             for folder in os.listdir(mainfolder):
 
                 path = ''
@@ -44,14 +44,14 @@ if __name__ == '__main__':
                 post(path)
             
             sleep(2)
-
             post_email()
-
             listar_productos(mainfolder)
+            telegram_report(f'Publicando desde: {os.environ.get("USERNAME")}', '-1001781252897') # BOT
 
         elif int(opcion) == 3:
             path = input('Ingrese ruta de de productos a listar: ')
             listar_productos(path, report=False)
+
 
         elif int(opcion) == 4:
             generar()
