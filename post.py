@@ -3,6 +3,18 @@ import pyautogui as bot, os, pyperclip, random
 from time import sleep
 from funciones import listar_productos, locate_image, read_txt, telegram_report
 
+telefono = '932928977'
+
+plantilla = """
+HAGA TODAS SUS PREGUNTAS ANTES DE DARLE AL BOTON DE COMPRAR
+
+HACEMOS ENVIOS SIN COSTO A TODO EL PAIS
+
+PROMOCION VALIDA HASTA QUE SE AGOTE EL STOCK
+
+___//_//_//9__3__2___9__2__8___9__7__7///___//__//___
+"""
+
 def post(path):
 
     locate_image('vender', check=True, wait=3)
@@ -50,7 +62,7 @@ def post(path):
                 sleep(0.20)
                 bot.typewrite(' ')
                 sleep(0.10)
-                read_txt(path, 'telefono', copy=True, paste=True)
+                bot.typewrite(telefono)
                 sleep(1)
                 locate_image('confirmar', wait=2)
                 sleep(random.randint(4,5))
@@ -232,8 +244,8 @@ def post(path):
                 bot.press('enter')
                 sleep(0.10)
                 bot.press('enter')
-                read_txt(path, 'plantilla', copy=True, paste=True)
-                sleep(0.20)
+                bot.typewrite(plantilla, interval=0.05)
+                sleep(0.70)
                 locate_image('descripcion')
                 bot.scroll(-500)
                 locate_image('confirmar', wait=2)
