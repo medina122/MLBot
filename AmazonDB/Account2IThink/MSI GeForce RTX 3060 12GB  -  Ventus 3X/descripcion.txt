@@ -1,0 +1,5 @@
+Chipset: NVIDIA GeForce RTX 3060
+Memoria de vídeo: 12 GB GDDR6
+Interfaz de memoria: 192 bits
+Salida: DisplayPort x 3 (v1.4a) / HDMI 2.1 x 1
+Resolución máxima digital: 7680 x 4320

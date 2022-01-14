@@ -13,6 +13,8 @@ Menu de Opciones:
 2- Publicar grupo de productos
 3- Enlistar productos
 4- Generar ID
+5- Modificar precios
+
 """
 
 if __name__ == '__main__':
@@ -29,9 +31,10 @@ if __name__ == '__main__':
 
         elif int(opcion) == 2:
             
-            telegram_report(f'Publicando desde: {os.environ.get("USERNAME")}', '-1001781252897') # BOT
             
             mainfolder = input(r'Ingrese carpeta de los productos: ')
+            telegram_report(f'Publicando desde: {os.environ.get("USERNAME")}', '-1001781252897') # BOT
+            post_email()
                     
             for folder in os.listdir(mainfolder):
 
@@ -48,7 +51,6 @@ if __name__ == '__main__':
                 post(path)
             
             sleep(2)
-            post_email()
             listar_productos(mainfolder)
 
         elif int(opcion) == 3:
