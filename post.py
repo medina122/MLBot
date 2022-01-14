@@ -213,8 +213,8 @@ def post(path):
 
         elif locate_image('ofrecesgarantia', move=False, click=False, NotFound=False) and locate_image('garantia_check', move=False, click=False, NotFound=False)==False:
             locate_image('garantia')
-            read_txt(path, 'garantia', copy=True, paste=True)            
-            locate_image('confirmar', wait=2)   
+            bot.typewrite('12', interval=0.05)           
+            locate_image('confirmar', wait=3)   
             sleep(1)
             continue
 
@@ -222,16 +222,20 @@ def post(path):
             locate_image('descripcion', wait=1)
 
             if locate_image('descripcion2', wait=1):
+                sleep(0.20)
                 read_txt(path, 'descripcion', copy=True, paste=True)
+                sleep(0.10)
                 bot.press('enter')
+                sleep(0.10)
                 bot.press('enter')
                 read_txt(path, 'plantilla', copy=True, paste=True)
+                sleep(0.20)
                 locate_image('descripcion')
                 bot.scroll(-500)
                 locate_image('confirmar', wait=2)
-                sleep(1)
+                sleep(2)
             bot.scroll(-500)
-            sleep(0.2)
+            sleep(1)
                         
             locate_image('publicar', check=True, wait=2)
             locate_image('verpublicacion', check=True, wait=5)
