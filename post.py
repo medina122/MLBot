@@ -24,11 +24,11 @@ def post(path):
     
     if locate_image('marca'):
         read_txt(path, 'marca', copy=True, paste=True)
-        locate_image('datosproducto')
+        locate_image('datosproducto', duration=0)
 
     if locate_image('modelo'):
         read_txt(path, 'modelo', copy=True, paste=True)
-        locate_image('datosproducto')
+        locate_image('datosproducto', duration=0)
     locate_image('confirmar', wait=3)
 
     sleep(3)
@@ -44,12 +44,14 @@ def post(path):
 
         elif locate_image('color', move=False, click=False, NotFound=False):
 
-            if locate_image('elegircolor')[0]:
+            if locate_image('elegircolor'):
                 locate_image('color', click=False)
                 locate_image('elegirnegro') or bot.typewrite('Negro')
+                sleep(0.20)
                 bot.typewrite(' ')
+                sleep(0.10)
                 read_txt(path, 'telefono', copy=True, paste=True)
-                sleep(0.5)
+                sleep(1)
                 locate_image('confirmar', wait=2)
                 sleep(random.randint(4,5))
 
@@ -90,9 +92,11 @@ def post(path):
                 
                 if locate_image('cantidad') or locate_image('cantidad2'):
                     sleep(0.5)
+                    bot.hotkey('ctrl', 'a')
+                    sleep(0.10)
                     bot.press('backspace')
                     sleep(0.5)
-                    read_txt(path, 'cantidad', copy=True, paste=True)
+                    bot.typewrite(str(random.randint(3,9)))
                 
                 locate_image('confirmar', wait=3)
                 sleep(3)
@@ -100,7 +104,8 @@ def post(path):
 
         elif locate_image('codigouniversal', move=False, click=False, NotFound=False):
             if locate_image('codigo', wait=2):
-                read_txt(path, 'serial', copy=True, paste=True)
+                bot.typewrite('90311', interval=0.05)
+                bot.typewrite(str(random.randint(000,999)), interval=0.05)
             locate_image('continuar', wait=3)
             sleep(2)
             continue
@@ -117,7 +122,6 @@ def post(path):
                         locate_image('datosproducto', move=True, click=True, duration=0)
                         continue
                     else: break
-            sleep(0.20)
             for input in checklist:
                 while True:
                     if locate_image(input, move=True, click=False, co=0.99, duration=0):
@@ -127,12 +131,12 @@ def post(path):
                         continue
                     else: break
             sleep(0.2)
-            bot.scroll(-1000)
+            bot.scroll(-500)
             locate_image('confirmar', wait=3)
             sleep(0.5)
-            bot.scroll(-1000)
+            bot.scroll(-500)
             locate_image('siguiente', check= True, wait=3)
-            sleep(3)
+            sleep(2)
             continue
 
         elif locate_image('ya_casi_publicas', move=False, click=False, NotFound=False):
@@ -141,36 +145,36 @@ def post(path):
             sleep(2)
 
             locate_image('elegir', check=True, wait=2)
-            bot.press('down', presses=1, interval=0.05)
+            bot.press('down', presses=1, interval=0.1)
             bot.press('enter')
             bot.press('tab')
-            sleep(0.10)
-            bot.typewrite(str(random.randint(21,87)), interval=random.randint(5,20)/100)
+            sleep(0.30)
+            bot.typewrite(str(random.randint(21,87)), interval=random.randint(8,20)/100)
             bot.press('tab')
-            sleep(0.10)
-            bot.typewrite(str(random.randint(30,55)), interval=random.randint(5,20)/100)
+            sleep(0.30)
+            bot.typewrite(str(random.randint(30,55)), interval=random.randint(8,20)/100)
+            sleep(0.30)
+            bot.press('tab')
+            bot.typewrite(f"Piso {str(random.randint(1,20))} - Local {str(random.randint(1,150))}", interval=random.randint(8,20)/100)
+            sleep(0.30)
+            bot.press('tab')
+            bot.typewrite(f"{str(random.randint(1,300))}", interval=random.randint(8,20)/100)
             sleep(0.10)
             bot.press('tab')
-            bot.typewrite(f"Piso {str(random.randint(1,20))} - Local {str(random.randint(1,150))}", interval=random.randint(5,20)/100)
-            sleep(0.10)
-            bot.press('tab')
-            bot.typewrite(f"{str(random.randint(1,300))}", interval=random.randint(5,20)/100)
-            sleep(0.10)
-            bot.press('tab')
-            bot.press('down', presses=random.randint(1,20), interval=random.randint(5,20)/100)
+            bot.press('down', presses=random.randint(1,20), interval=random.randint(8,20)/100)
             sleep(2)
             bot.press('tab')
-            bot.press('down', presses=random.randint(1,25), interval=random.randint(5,20)/100)
-            sleep(0.10)
+            bot.press('down', presses=random.randint(1,25), interval=random.randint(8,20)/100)
+            sleep(0.30)
             bot.press('tab')
-            sleep(0.10)
+            sleep(0.30)
             distritos = ['Chachapoyas', 'Asuncion', 'Balsas', 'Cheto', 'Chiliquin', 'Chuquibamba', 'Cochabamba', 'Cochabamba', 'Granada', 'Huancas', 'La Jalca', 'Llata', 'Lucanas', 'Paijan', 'Pampas', 'Pomacocha', 'San Ignacio', 'San Juan', 'Santiago de Chuco', 'Tambobamba', 'Tingo', 'Tocmo', 'Tumbes', 'Yungay', 'Soloco', 'Sonche', 'La peca', 'Imaza', 'Florida', 'Recta', 'Conila', 'Luya']
-            bot.typewrite(f"{str(random.choice(distritos))}", interval=random.randint(5,20)/100)
+            bot.typewrite(f"{str(random.choice(distritos))}", interval=random.randint(8,20)/100)
             locate_image('guardar_direccion', wait=2)
             locate_image('telefono', wait=2, check=True)
-            bot.typewrite('950')
+            bot.typewrite('950', interval=0.09)
             sleep(0.20)
-            bot.typewrite(str(random.randint(235412,965487)), interval=0.05)
+            bot.typewrite(str(random.randint(235412,965487)), interval=0.07)
             locate_image('guardar_y_publicar', check=True, wait=4)
         
         elif locate_image('soles', move=False, click=False, NotFound=False):
@@ -184,7 +188,7 @@ def post(path):
             if locate_image('premium', wait=1):
                 sleep(2)
                 bot.scroll(-300)
-                locate_image('confirmar', wait=2)
+                locate_image('confirmar', wait=3)
             sleep(1)
             continue
         
@@ -194,7 +198,7 @@ def post(path):
             continue
 
         elif locate_image('elige_un_domicilio', move=False, click=False, NotFound=False):
-            domicilio = locate_image('elige_un_domicilio', wait=2)[1]
+            domicilio = locate_image('elige_un_domicilio', wait=3)[1]
             bot.moveTo(domicilio[0]+35, domicilio[1]+130, duration=0.25)
             sleep(2)
             bot.click()

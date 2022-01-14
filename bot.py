@@ -55,7 +55,7 @@ if __name__ == '__main__':
 
         elif int(opcion) == 3:
             path = input('Ingrese ruta de de productos a listar: ')
-            listar_productos(path, report=False, delete=False)
+            listar_productos(path)
 
 
         elif int(opcion) == 4:

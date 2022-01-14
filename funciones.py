@@ -10,7 +10,7 @@ def clear():
     import os
     os.system('cls' if os.name == 'nt' else 'clear')
 
-def locate_image(name, move=True, click=True, check=False, co=0.8, wait=0, duration=0.10, NotFound=True):
+def locate_image(name, move=True, click=True, check=False, co=0.8, wait=0, duration=0.20, NotFound=True):
     
     bot.PAUSE = random.randint(5,20)/100
 
@@ -43,14 +43,14 @@ def locate_image(name, move=True, click=True, check=False, co=0.8, wait=0, durat
                     bot.click(cords, duration=duration)
                     sleep(0.20)
                 
-                print(f'Found {data}')
+                print(f'Found {name}')
             
                 return True, cords
 
             else: 
                 
                 if NotFound:
-                    print(f'Not found {data}')
+                    print(f'Not found {name}')
 
     else:
         
@@ -64,12 +64,12 @@ def locate_image(name, move=True, click=True, check=False, co=0.8, wait=0, durat
             if click:
                 bot.click(cords, duration=duration)
             
-            print(f'Found {data}')
+            print(f'Found {name}')
 
             return True, cords
         
         else: 
-            print(f'Not found {data}')
+            print(f'Not found {name}')
             return False
 
 def read_txt(path, name, copy=False, paste=False):
