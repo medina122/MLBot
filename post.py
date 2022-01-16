@@ -116,8 +116,7 @@ def post(path):
 
         elif locate_image('codigouniversal', move=False, click=False, NotFound=False):
             if locate_image('codigo', wait=2):
-                bot.typewrite('90311', interval=0.05)
-                bot.typewrite(str(random.randint(000,999)), interval=0.05)
+                bot.typewrite('90311017', interval=0.05)
             locate_image('continuar', wait=3)
             sleep(2)
             continue
@@ -255,7 +254,7 @@ def post(path):
                         
             locate_image('publicar', check=True, wait=2)
             locate_image('verpublicacion', check=True, wait=5)
-            locate_image('comprar_ahora', move=False, click=False, check=True, wait=2)
+            locate_image('comprar_ahora', move=False, click=False, check=True, wait=3)
             bot.hotkey('ctrl', 'l')
             sleep(0.20)
             bot.hotkey('ctrl', 'c')
