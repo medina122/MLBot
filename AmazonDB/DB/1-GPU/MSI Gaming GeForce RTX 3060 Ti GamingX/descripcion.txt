@@ -1,0 +1,6 @@
+Chipset: NVIDIA GeForce RTX 3060 Ti LHR
+Reloj de impulso: 1770 MHz
+Memoria de vídeo: 8 GB GDDR6
+Interfaz de memoria: 256 bits
+Salida: DisplayPort x 3 (v1.4a) / HDMI 2.1 x 1
+
