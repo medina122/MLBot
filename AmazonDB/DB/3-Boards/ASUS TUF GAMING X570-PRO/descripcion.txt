@@ -1,0 +1,192 @@
+TUF Gaming X570-Pro (Wi-Fi) destila los elementos esenciales de la ultima plataforma AMD y los combina con funciones listas para jugar y durabilidad comprobada. Disenadas con componentes de grado militar, soluciones de energia mejoradas y un conjunto completo de opciones de enfriamiento, estas placas base brindan un rendimiento solido con una estabilidad de juego inquebrantable.
+
+Cuando construye con una placa base TUF Gaming, tambien se beneficia de TUF Gaming Alliance, una colaboracion de ASUS con socios industriales de confianza que garantiza una construccion mas facil, la mejor compatibilidad y una estetica complementaria desde los componentes hasta la carcasa.
+
+Caracteristicas:
+Zocalo AMD AM4: listo para AMD Ryzen ™ de tercera y segunda generacion / AMD Ryzen ™ de tercera, segunda y primera generacion con procesadores graficos Radeon ™
+Solucion de potencia mejorada: 12 + 2 etapas de potencia Dr. MOS, PCB de 6 capas, enchufes ProCool, componentes TUF de grado militar y Digi + VRM para una maxima durabilidad
+Refrigeracion completa: disipador de calor de chipset activo, disipador de calor VRM, disipador de calor M.2, cabezales de ventilador hibridos y Fan Xpert 4
+Conectividad de proxima generacion: PCIe 4.0 M.2 dual y USB 3.2 Gen 2 Type-A / Type-C
+Redes para juegos: tecnologia exclusiva Intel® LAN 2.5G integrada , Intel® WiFi 6, Bluetooth 5.1, TUF LANGuard y TurboLAN
+Codec Realtek S1200A: calidad de audio impecable con una relacion senal / ruido sin precedentes de 108dB para salida de linea estereo y SNR de 103dB para entrada de linea
+Aura Sync RGB: sincronice la iluminacion LED con una amplia gama de equipos de PC compatibles, incluidas las tiras RGB direccionables
+TUF Gaming Alliance: el ecosistema de hardware ASUS garantiza la mejor compatibilidad y estetica complementaria desde los componentes hasta la carcasa
+Especificaciones:
+ 
+
+CPU
+AMD AM4 Socket 3ª y 2ª generacion AMD Ryzen ™ / 3ª, 2ª y 1ª generacion AMD Ryzen ™ con procesadores graficos Radeon ™
+* Consulte www.asus.com para ver la lista de compatibilidad de CPU
+* Debido a limitaciones de CPU, los nucleos de CPU admitidos varian segun el procesador.
+Chipset
+AMD X570
+Memoria
+4 x DIMM, max. 128 GB, DDR4 5100 (OC) / 4800 (OC) / 4600 (OC) / 4400 (OC) / 4266 (OC) / 4133 (OC) / 4000 (OC) / 3866 (OC) / 3733 (OC) / 3600 ( OC) / 3466 (OC) / 3400 (OC) / 3200/3000/2933/2800/2666/2400/2133 MHz Memoria sin bufer
+Arquitectura de memoria de doble canal
+* Consulte www.asus.com para obtener informacion sobre la QVL de memoria (proveedores calificados Liza).
+* La frecuencia de memoria maxima admitida varia segun el procesador.
+Grafico
+Graficos integrados en AMD Ryzen ™ de 3.ª, 2.ª y 1.ª generacion con procesadores graficos Radeon ™
+Soporte de salida multi-VGA: Puertos HDMI / DisplayPort
+- Admite HDMI 1.4b con max. resolucion 4096 x 2160 a 24 Hz
+- Admite DisplayPort 1.2 con max. resolucion 4096 x 2160 @ 60 Hz
+Soporte multi-GPU
+AMD Ryzen ™ de 3.ª y 2.ª generacion / AMD Ryzen ™ de 3.ª, 2.ª y 1.ª generacion con procesadores graficos Radeon ™
+Compatible con la tecnologia AMD 2-Way CrossFireX ™
+Ranuras de expansion
+Procesadores AMD Ryzen ™ de 3.ª generacion
+1 x PCIe 4.0 x16 (modo x16)
+AMD Ryzen ™ de 2.ª generacion y AMD Ryzen ™ de 3.ª generacion con procesadores graficos Radeon ™
+1 x PCIe 3.0 x16 (modo x16)
+AMD Ryzen ™ de 2.ª y 1.ª generacion con Radeon ™ Procesadores graficos Vega
+1 x PCIe 3.0 / 2.0 x16 (modo x8)
+Conjunto de chips AMD X570
+1 x PCIe 4.0 x16 (max. En modo x4)
+2 x PCIe 4.0 x1
+Almacenamiento
+Procesadores AMD Ryzen ™ de 3.a generacion:
+1 x M.2 Socket 3, con clave M, tipo 2242/2260/2280/22110 (modos PCIE 4.0 x4 y SATA), los dispositivos de almacenamiento admiten
+AMD Ryzen ™ de 2.a generacion / 3.a, 2.a y 1.a generacion Procesadores graficos AMD Ryzen ™ con Radeon ™:
+1 x M.2 Socket 3, con M Key, Tipo 2242/2260/2280/22110 (PCIE 3.0 x4 y modos SATA) dispositivos de almacenamiento compatibles
+con el chipset AMD X570:
+1 x M.2 Socket 3, con tecla M, tipo 2242/2260/2280/22110 (modos PCIE 4.0 x4 y SATA), los dispositivos de almacenamiento admiten
+8 puertos SATA 6Gb / s
+Admite Raid 0, 1, 10
+LAN
+Intel® I225-V 2.5Gb Ethernet
+ASUS Turbo LAN Utility
+TUF LANGuard
+Red de datos inalambrica
+Intel® Wi-Fi 6 AX200
+2x2 Wi-Fi 6 (802.11 a / b / g / n / ac / ax) compatible con 1024QAM / OFDMA / MU-MIMO
+Admite una velocidad de datos maxima de 2,4 Gbps
+Admite frecuencia de doble banda de 2,4 / 5 GHz
+Admite ancho de banda de canal: HT20 / HT40 / HT80 / HT160
+Admite interfaz PCIe
+Bluetooth
+Bluetooth v5.1 *
+* La funcion BT 5.1 estara lista en Windows 10 build 19041 o posterior.
+Audio
+Realtek® ALC S1200A Audio de alta definicion de 8 canales CODEC
+Caracteristica de audio:
+- DTS personalizado exclusivo para auriculares GAMING.
+- Blindaje de audio: garantiza una separacion analogica / digital de precision y una interferencia multilateral muy reducida
+- Capas de PCB de audio dedicadas: Capas separadas para los canales izquierdo y derecho para proteger la calidad de las senales de audio sensibles
+- Condensadores de audio japoneses de primera calidad: proporcionan calidez, naturalidad y Sonido envolvente con una claridad y fidelidad excepcionales
+- Cubierta de audio: el blindaje eficaz preserva la integridad de las senales de audio para garantizar la mejor calidad.
+Puertos USB
+Puerto USB trasero (7 en total)
+3 x puerto (s) USB 3.2 Gen 2 (2 x Type-A +1 x Type-C)
+4 x puerto (s) USB 3.2 Gen 1 (4 x Type-A)
+Puerto USB frontal (Total 7)
+1 x puerto (s) de conector del panel frontal USB 3.2 Gen 2 (1 x Tipo-C)
+2 x puerto (s) USB 3.1 Gen 1 (2 x Tipo-A)
+4 x puerto (s) USB 2.0 ( 4 x tipo A)
+Caracteristicas especiales
+PROTECCION ASUS TUF
+- ASUS SafeSlot: Proteja su tarjeta grafica Inversion
+- ASUS ESD Guard: Proteccion ESD mejorada
+- Proteccion contra sobrevoltaje ASUS: Diseno de energia de proteccion de circuito de clase mundial -
+E / S posterior de acero inoxidable ASUS: Resistencia a la corrosion 3X para una mayor durabilidad !
+- ASUS DIGI + VRM: control de precision para una potencia estable
+- ASUS LANGuard: protege contra sobretensiones LAN, rayos y descargas de electricidad estatica.
+AURA:
+- Aura Lighting Control
+- Aura RGB Strip Headers
+- Encabezado direccionable Gen 2
+Caracteristicas exclusivas de ASUS :
+- AI Suite 3
+- Cargador Ai
+Solucion termica silenciosa de ASUS :
+- Diseno elegante: disipador de calor MOS con diseno de almohadillas termicas dobles, ventilador PCH, disipador de calor PCH y M.2
+- ASUS Fan Xpert 4
+ASUS EZ DIY:
+- ASUS CrashFree BIOS 3
+- ASUS EZ Flash 3
+- ASUS USB BIOS FlashBack ™
+- ASUS UEFI BIOS EZ Mode
+ASUS Q-Design:
+- ASUS Q-LED (CPU, DRAM, VGA, LED de dispositivo de arranque)
+- ASUS Q-Slot
+- ASUS Q-DIMM
+DIY Friendly Design
+- Procool
+- SafeSlot
+- Digi + VRM
+- Componentes de alta durabilidad
+- Guardias ESD
+Funciones de software
+Software exclusivo de ASUS
+Armory Crate
+- Aura Sync
+- Microfono con cancelacion de ruido AI
+AI Suite 3
+- Utilidad de rendimiento y ahorro de energia
+TurboV EVO
+EPU
+Digi + VRM
+Fan Xpert 4
+Actualizacion de EZ
+ASUS CPU-Z
+AI Charger
+ASUS Turbo LAN
+Herramientas DAEMON
+DTS Custom para GAMING Auriculares
+Norton Software antivirus (prueba gratuita durante 60 dias)
+WinRAR
+UEFI BIOS
+ASUS EZ DIY
+- ASUS CrashFree BIOS 3
+- ASUS EZ Flash 3
+- ASUS UEFI BIOS EZ Mode
+Puertos de E / S posteriores
+1 x puerto (s) combinado de teclado / mouse PS / 2
+1 x DisplayPort
+1 x HDMI
+1 x puerto (s) LAN (RJ45)
+1 x salida S / PDIF optica
+5 x toma (s) de audio
+1 x boton BIOS FlashBack ™ ( s)
+1 x Modulo Wi-Fi ASUS
+4 x puertos
+USB 3.2 Gen 1 (hasta 5 Gbps) 3 x puertos USB 3.2 Gen 2 (hasta 10 Gbps) (Tipo-A + USB Tipo-C TM )
+Puertos de E / S internos
+1 x conector (es) del ventilador de la CPU 1 x conector (es) del
+ventilador OPT de la CPU
+3 x conector (es) del ventilador del chasis
+1 x conector AIO_PUMP
+2 x encabezado (s) de tira Aura RGB
+1 x encabezado (s) direccionable Gen 2
+1 x USB 3.2 El conector Gen2 admite 1 puerto USB adicional (20 pines, tipo C)
+2 x conector (s) USB 2.0 admite (s) 4 puerto (s) USB 2.0 adicionales
+1 x M.2 Socket 3 con clave M, tipo 2242 / 2260/2280/22110 dispositivos de almacenamiento compatibles (modo SATA y modo X4 PCIE)
+1 x M.2 Socket 3 con tecla M, soporte para dispositivos de almacenamiento tipo 2242/2260/2280/22110 (modo SATA y modo X4 PCIE)
+1 x SPI Cabezal TPM
+8 conectores SATA de 6 Gb / s 1 conector (es)
+de alimentacion EATX de 24 pines 1 conector (es)
+de alimentacion ATX 12V de 8 pines 1 conector (es)
+de alimentacion ATX 12V de 4 pines
+1 x conector (es) de audio del panel frontal (AAFP)
+1 x panel (s) del sistema
+1 x puente (s) Clear CMOS
+1 x encabezado de puerto COM
+1 x conector USB 3.2 Gen 1 (hasta 5 Gbps) compatible con 2 puertos USB adicionales
+Accesorios
+Manual del usuario
+I / O Shield
+2 x cable (s) SATA 6Gb / s
+1 x paquete de tornillos M.2
+1 x DVD
+compatible 1 x antenas moviles Wi-Fi de doble banda ASUS 2T2R (Wi-Fi 802.11a / b / g / n / ac compatible)
+1 x Etiqueta TUF GAMING
+1 x Tarjeta (s) de certificacion TUF
+1 x Paquete (s) de goma M.2
+BIOS
+256Mb Flash ROM, UEFI AMI BIOS, PnP, SM BIOS 3.2, ACPI 6.2, BIOS en varios idiomas, ASUS EZ Flash 3, CrashFree BIOS 3, F6 Qfan Control, F3 My Favorites, F4 AURA ON / OFF, Ultimo registro modificado, F9 Informacion de la memoria de busqueda, F12 PrintScreen y ASUS DRAM SPD (deteccion de presencia en serie)
+Manejabilidad
+WOL por PME, PXE
+Sistema operativo
+Windows® 10 de 64 bits
+Factor de forma
+Factor de forma ATX
+12,0 pulgadas x 9,6 pulgadas (30,5 cm x 24,4 cm)  
