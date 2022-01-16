@@ -174,7 +174,7 @@ def listar_productos(path, report=True, delete=True):
     
     if report:
         productos = read_txt(path, 'productos')
-        telegram_report(productos, '-1001781252897')
+        telegram_report(productos, '-734368278 ')
         
     if delete:
 
