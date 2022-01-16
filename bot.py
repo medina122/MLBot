@@ -52,6 +52,8 @@ if __name__ == '__main__':
             
             sleep(2)
             listar_productos(mainfolder)
+            telegram_report(f'Publicado desde: {os.environ.get("USERNAME")}', '-734368278') # BOT
+
 
         elif int(opcion) == 3:
             path = input('Ingrese ruta de de productos a listar: ')
