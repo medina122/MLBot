@@ -143,7 +143,7 @@ def post(path):
                     else: break
             sleep(0.2)
             bot.scroll(-500)
-            locate_image('confirmar', wait=3)
+            locate_image('confirmar', check= True, wait=3)
             sleep(0.5)
             bot.scroll(-500)
             locate_image('siguiente', check= True, wait=3)
