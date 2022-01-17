@@ -1,0 +1,43 @@
+MECH ofrece un diseno centrado en el rendimiento que mantiene lo esencial para realizar cualquier tarea. La combinacion de una configuracion de ventilador dual confiable colocada en un diseno industrial rigido permite que esta tarjeta grafica de aspecto elegante se adapte a cualquier construccion.
+
+Rendimiento para dominar tu juego. La tarjeta grafica AMD Radeon ™ RX 6700 XT, impulsada por la arquitectura AMD RDNA ™ 2, con 40 potentes unidades de computo mejoradas, el nuevo AMD Infinity Cache y 12 GB de memoria GDDR6 dedicada, esta disenado para ofrecer velocidades de cuadro ultra altas y una potencia de 1440p resolucion de juegos.
+
+Caracteristicas:
+Hasta 2620 MHz / 16 Gbps
+GDDR6 de 12 GB
+DisplayPort x 3 (v1.4)
+HDMI x 1 (Admite 4K @ 120Hz / 8K @ 60Hz y VRR como se especifica en HDMI 2.1)
+Diseno termico de doble ventilador
+TORX Fan 3.0: el galardonado diseno MSI TORX Fan 3.0 crea una alta presion estatica y supera los limites del rendimiento termico.
+Utilidad Afterburner Overclocking
+Admite configuraciones de multiples GPU.
+OC Scanner: una funcion automatizada encuentra la configuracion de overclock estable mas alta.
+Visualizacion en pantalla: proporciona informacion en tiempo real del rendimiento de su sistema.
+Predator: grabacion de video en el juego.
+Dragon Center: El software Dragon Center exclusivo de MSI le permite monitorear, ajustar y optimizar los productos MSI en tiempo real.
+ 
+
+Especificaciones:
+Nombre del modelo RX 6700 XT MECH 2X 12G OC
+Unidad de procesamiento de graficos Radeon ™ RX 6700 XT
+Interfaz PCI Express® Gen 4
+Nucleos 2560 Unidades
+Aumento de los relojes del nucleo: hasta 2620 MHz / juego: hasta 2474 MHz
+Velocidad de memoria 16 Gbps
+Memoria 12GB GDDR6
+Bus de memoria de 192 bits
+Salida DisplayPort x 3 (v1.4) / HDMI x 1 (Admite 4K @ 120Hz / 8K @ 60Hz y VRR como se especifica en HDMI 2.1)
+Soporte HDCP Y
+Consumo de energia 230 W
+Conectores de alimentacion de 8 pines x 2
+PSU recomendada 650 W
+Dimension de la tarjeta (mm) 247 x 131 x 51 mm
+Peso (tarjeta / paquete) 921 g / 1393 g
+Compatibilidad con la version de DirectX 12
+Compatibilidad con API Open GL Version 4.6
+Tecnologia Multi-GPU Y
+Postcombustion OC Y
+Pantallas maximas 4
+VR listo Y
+Resolucion maxima digital 7680 x 4320
+ 

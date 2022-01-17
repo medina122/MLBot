@@ -1,0 +1,20 @@
+En esta generación el modelo Ryzen 9 5900X de 12 núcleos y 24 hilos de AMD mantiene su diseño de doble CCD, sin necesidad de CCX dentro de los CCD, usando únicamente seis núcleos por CCD conectados a un IOD mediante el interfaz Infinity Fabric de AMD. Un diseño que mantiene el tamaño de cache, pero que hace mejorar al procesador de forma importante en cualquier aplicación incluso sin necesidad de cambiar el proceso de fabricación. 
+
+Características técnicas del AMD Ryzen 9 5900X:
+Número de núcleos: 12
+Número de hilos de proceso: 24
+Reloj base: 3.7GHz
+Frecuencia Turbo: Hasta 4.8GHz
+Total Cache L2: 6MB
+Total Cache L3: 64MB
+Frecuencia desbloqueada: Si
+CMOS: FinFET TSMC 7nm
+Socket: AM4
+Versión PCI Express: PCI Express 4.0 x24
+Solución térmica: ninguna
+TDP por defecto: 105W
+Temperatura máxima: 95 grados 
+Tipo de memoria: DDR4
+Canales de memoria: 2 canales
+Velocidad máxima de memoria: DDR4 3200MHz
+Arquitectura: Zen3 
