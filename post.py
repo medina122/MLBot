@@ -129,7 +129,7 @@ def post(path):
                 while True:
                     if locate_image(input, move=True, click=False, co=0.99, duration=0):
                         locate_image('noaplica', move=True, click=True, duration=0)
-                        bot.scroll(-10)
+                        bot.scroll(-30)
                         locate_image('datosproducto', move=True, click=True, duration=0)
                         continue
                     else: break
@@ -137,7 +137,7 @@ def post(path):
                 while True:
                     if locate_image(input, move=True, click=False, co=0.99, duration=0):
                         locate_image('noaplica', move=True, click=True, duration=0)
-                        bot.scroll(-10)
+                        bot.scroll(-30)
                         locate_image('datosproducto', move=True, click=True, duration=0)
                         continue
                     else: break
@@ -145,7 +145,7 @@ def post(path):
             bot.scroll(-500)
             locate_image('confirmar', check= True, wait=3)
             sleep(0.5)
-            bot.scroll(-500)
+            bot.scroll(-800)
             locate_image('siguiente', check= True, wait=3)
             sleep(2)
             continue
