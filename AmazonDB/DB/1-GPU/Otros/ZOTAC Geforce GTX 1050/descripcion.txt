@@ -1,8 +1,0 @@
-Todo el mundo merece un gran juego. Por eso hemos creado el rápido y potente ZOTAC GeForce GTX 1050 Ti Mini. 
-Ahora puedes convertir tu PC en un verdadero equipo de juego, con NVIDIA Pascal, la arquitectura de GPU más avanzada jamás creada. Está cargado de innovadoras tecnologías NVIDIA Game Ready que permiten a cada jugador experimentar los últimos títulos en su gloria en forma súper compacta.
-
-Velocidad del reloj: 7000 MHz
-Memoria: 4 GB, GDDR5
-Interfaz PCI Express 3.0
-Puertos: 1 DisplayPorts, 1 HDMI
-Chipset: NVIDIA

@@ -1,7 +1,0 @@
-5Reloj central (MHz): 1355 en modo OC y 1340 en modo de juego
-WINDFORCE 2X con diseño de ventilador de aspas
-Fusión RGB, iluminación de color personalizable de 55.1 ft
-Elegante placa trasera de metal, reloj de memoria de 8000 MHz
-Motor gráfico intuitivo AORUS
-
-GDDR5 8GB

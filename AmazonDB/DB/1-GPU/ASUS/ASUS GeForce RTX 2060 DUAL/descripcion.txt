@@ -1,5 +1,0 @@
-Alimentado por NVIDIA Turing con 1785 MHz Boost Clock, 1920 nucleos CUDA y memoria GDDR6 de 6 GB overclocked
-Soporta hasta 4 monitores con DisplayPort 1. 4. HDMI 2. Puertos 0 y DVI
-Los ventiladores Wing-Blade cuentan con resistencia al polvo IP5X y funcionan a niveles de 0 dB cuando las temperaturas alcanzan por debajo de 55 C.
-La placa trasera protectora cuenta con una construccion de aluminio duradero para evitar la flexion de PCB y danos de rastreo.
-GPU Tweak II hace que el rendimiento de monitoreo y la transmision en tiempo real sea más facil que nunca, e incluye software adicional como Game Booster, XSplit Gamecaster, WTFast y QuantumCloud

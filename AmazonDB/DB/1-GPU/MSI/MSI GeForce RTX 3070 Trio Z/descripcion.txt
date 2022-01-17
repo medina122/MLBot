@@ -1,7 +1,0 @@
-La ultima iteración de la iconica serie GAMING de MSI trae una vez más rendimiento, eficiencia de bajo ruido y estetica que los jugadores hardcore han llegado a reconocer y confiar. Ahora tambien puedes disfrutar de todos tus juegos favoritos con una potente tarjeta grafica que no recalienta y es silenciosa. Justo como te gusta. La GeForce RTX 3070 esta impulsada por la arquitectura RTX de 2ª generacion de Ampere, NVIDIA. Construido con nucleos RT mejorados y nucleos Tensor, multiprocesadores para streaming y memoria G6 de alta velocidad, te da la potencia que necesitas para arrasar con los juegos mas exigentes. Esta tarjeta grafica GeForce RTX 3070 con LHR (velocidad de hash lite) ofrece una velocidad de hash ETH de 25 MH/s (est. ).
-Chipset: NVIDIA GeForce RTX 3070 LHR
-Boost del reloj: 1845 MHz.
-Memoria de video: 8 GB GDDR6.
-Interfaz de memoria: 256 bits.
-Salida: 3 DisplayPort (1.4a), 1 HDMI 2.1.
- 
