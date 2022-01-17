@@ -1,5 +1,0 @@
-La serie Speedster ejemplifica un estilo aerodinamico moderno aunque un diseño limpio y elegante. Es un diseño cuidadoso con el unico proposito de maximizar el flujo de aire para mejorar la refrigeracion y el rendimiento.
-Una nueva arquitectura de memoria revolucionaria que redefine como ofrecer niveles mas altos de rendimiento y eficiencia para juegos 4K.
-La arquitectura AMD RDNA 2 eleva y unifica la experiencia de juego desde el rendimiento hasta las imagenes en consolas y PC
-Los nuevos aceleradores de rayo manejan la interseccion de rayos y ofrecen un hardware de alto rendimiento acelerado rayTracing
- 

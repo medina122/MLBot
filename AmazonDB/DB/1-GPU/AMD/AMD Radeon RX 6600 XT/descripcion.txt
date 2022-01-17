@@ -1,6 +1,0 @@
-Memoria de vídeo: 8 GB GDDR6
-Procesador Stream: 2048
-Reloj de juego: 2428 MHz (OC) / 2382 MHz (silencioso)
-Reloj Boost: 2607 MHz (OC) / 2593 MHz (silencioso)
-Reloj de memoria: 16 Gbps
-

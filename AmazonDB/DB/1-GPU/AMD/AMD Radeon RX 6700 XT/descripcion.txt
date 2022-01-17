@@ -1,9 +1,0 @@
-El ROG STRIX Radeon RX 6700 XT combina una solucion de refrigeracion lider en la industria con un rendimiento de potencia de gama alta y comodidades adicionales para criaturas. Un disipador de calor masivo se enfria por ventiladores Axial-tech que utilizan un nuevo esquema de rotacion. Y los condensadores, estranguladores y MOSFET de la plataforma superior ofrecen sin esfuerzo cientos de vatios con un aviso de milisegundos.
-El diseno del ventilador Axial-Tech se ha mejorado con mas aspas de ventilador y un nuevo esquema de rotacion
-El diseno de 9 ranuras expande la superficie de refrigeracion en comparacion con la ultima generacion para mayor espacio termico que nunca
-Super Alloy Power II incluye estranguladores de aleacion premium, condensadores de polimero solido y una variedad de etapas de potencia de alta corriente
-El disipador de calor MaxContact permite 2 veces mas contacto con el chip GPU para una mejor transferencia termica
-El marco reforzado evita la torsion excesiva y la flexion lateral del PCB
-FanConnect II equipa un cabezal de ventilador controlado hibrido para una refrigeracion optima del sistema
-La placa trasera ventilada evita que el aire caliente recircule a traves de la matriz de refrigeracion
- 
