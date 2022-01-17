@@ -253,9 +253,9 @@ def post(path):
             sleep(1)
                         
             locate_image('publicar', check=True, wait=2)
-            locate_image('verpublicacion', check=True, wait=5)
             sleep(5)
             bot.scroll(-10)
+            locate_image('verpublicacion', check=True, wait=5)
             sleep(0.5)
             locate_image('comprar_ahora', move=False, click=False, check=True)
             bot.hotkey('ctrl', 'l')
