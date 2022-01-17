@@ -21,7 +21,7 @@ def post(path):
 
     if locate_image('nueva_publicacion', wait=random.randint(3,5)):
         sleep(random.randint(2,3))
-    locate_image('productos', check=True, wait=random.randint(3,4))
+    locate_image('productos', check=True, wait=random.randint(5,6))
     locate_image('indicaproducto', move=False, click=False, check=True, wait=3)
     locate_image('titulo', move=False, click=False) or locate_image('titulo2')
     read_txt(path, 'titulo', copy=True, paste=True)
