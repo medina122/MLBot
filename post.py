@@ -238,6 +238,8 @@ def post(path):
 
             if locate_image('descripcion2', wait=1):
                 sleep(0.20)
+                bot.typewrite(">>>> CARACTERISTICAS DEL PRODUCTO <<<<<")
+                bot.typewrite('\n')
                 read_txt(path, 'descripcion', copy=True, paste=True)
                 sleep(0.10)
                 bot.press('enter')
