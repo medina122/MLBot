@@ -1,0 +1,58 @@
+Las tarjetas graficas de la serie GeForce GTX 700 representan un salto evolutivo con respecto a las generaciones anteriores, ya que proporcionan un juego mas rapido, silencioso y fluido para que puedas enfrentarte a los ultimos titulos de PC con los ajustes de calidad al maximo y maximas resoluciones.
+
+Caracteristicas:
+
+Desarrollado por NVIDIA GeForce GT 730 GPU
+Integrado con la primera memoria DDR3 de 2048 MB y la interfaz de memoria de 64 bits
+Reloj de nucleo: 902 MHz
+Caracteristicas DVI-D / HDMI / D-Sub de doble enlace
+Admite interfaz de bus PCI Express 2.0 x8
+Requisito de fuente de alimentacion del sistema: 300 W
+
+Especificaciones Gigabyte GeForce GT 730:
+
+Procesador
+CUDA: No
+Familia de procesadores de graficos: NVIDIA
+Procesador grafico: GeForce GT 730
+Frecuencia del procesador: 902 MHz
+Maxima resolucion: 4096 x 2160 Pixeles
+Resolucion (maxima analogica): 2048 x 1536 Pixeles
+Resolucion (maxima digital): 4096 x 2160 Pixeles
+Maximas pantallas por tarjeta de video: 3
+
+Memoria
+Capacidad memoria de adaptador grafico: 2 GB
+Tipo de memoria de adaptador grafico: GDDR3
+Ancho de datos: 64 bit
+Velocidad de memoria del reloj: 1800 MHz
+
+Puertos e Interfaces
+Tipo de interfaz: PCI Express 2.0
+Numero de puertos HDMI: 1
+Cantidad de puertos DVI-D: 1
+Cantidad de puertos VGA (D-Sub): 1
+
+Desempeno
+PhysX: No
+Sintonizador de TV integrado: No
+Version DirectX: 11.2
+Version OpenGL: 4.4
+Dual Link DVI: Si
+Full HD: Si
+
+Diseno
+Tipo de enfriamiento: Activo
+Numero de ventiladores: 1 Ventilador(es)
+Factor de forma: Full-Height/Full-Length (FH/FL)
+Altura del soporte: Full-Height (FH)
+Numero de ranuras: 1
+
+Control de energia
+Suministro de energia al sistema minimo: 300 W
+
+Peso y dimensiones
+Peso: 177 g
+Profundidad: 120 mm
+Altura: 30 mm 
+ 

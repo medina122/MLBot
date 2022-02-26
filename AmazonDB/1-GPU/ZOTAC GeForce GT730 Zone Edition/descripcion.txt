@@ -1,0 +1,50 @@
+Actualice a graficos y memoria dedicados para obtener imagenes y rendimiento de alta definicion inigualables con ZOTAC GeForce® GT 730. La reproduccion acelerada de Blu-ray 3D por hardware permite que ZOTAC GeForce® GT 730 rinda videos estereoscopicos de alta definicion con pantallas y software de reproduccion compatibles . La avanzada transmision de bits de audio HD multicanal sin perdida de audio Dolby TrueHD y DTS-HD garantiza que la GeForce® GT 730 de ZOTAC ofrezca un audio rico en audiofilos para que coincida con las hermosas imagenes. La tecnologia NVIDIA® Surround con soporte de pantalla triple permite que la ZOTAC GeForce® GT 730 brinde una inmersion de juego sin igual y una productividad maxima.
+
+Especificaciones:
+Procesador
+CUDA: Si
+Nucleos CUDA: 384
+Familia de procesadores de graficos: NVIDIA
+Procesador grafico: GeForce GT 730
+Frecuencia del procesador: 902 MHz
+Maxima resolucion: 4096 x 2160 Pixeles
+Adaptador grafico, RAMDAC: 400 MHz
+Resolucion (maxima analogica): 2560 x 1600 Pixeles
+Resolucion (maxima digital): 4096 x 2160 Pixeles
+Maximas pantallas por tarjeta de video: 3
+Memoria
+Capacidad memoria de adaptador grafico: 4 GB
+Tipo de memoria de adaptador grafico: GDDR3
+Ancho de datos: 64 bit
+Velocidad de memoria del reloj: 1600 MHz
+Puertos e Interfaces
+Tipo de interfaz: PCI Express x16 2.0
+Numero de puertos HDMI: 1
+Cantidad de puertos DVI-D: 1
+Cantidad de puertos VGA (D-Sub): 1
+Desempeno
+PhysX: Si
+Sintonizador de TV integrado: No
+Version DirectX: 12.0
+Version OpenGL: 4.4
+HDCP: Si
+Dual Link DVI: Si
+Alta Definicion Total: Si
+Diseno
+Tipo de enfriamiento: Pasivo
+Numero de ranuras: 1
+Control de energia
+Suministro de energia al sistema minimo: 300 W
+Consumo energetico: 25 W
+Requisitos del sistema
+Sistema operativo Windows soportado: Si
+Peso y dimensiones
+Altura: 111,2 mm
+Ancho: 145,8 mm
+Empaquetado
+Manual de usuario: Si
+Ancho del paquete: 260 mm
+Profundidad del paquete: 58 mm
+Altura del paquete: 160 mm 
+
+ 

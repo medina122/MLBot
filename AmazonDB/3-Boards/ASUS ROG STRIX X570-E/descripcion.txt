@@ -1,0 +1,7 @@
+Enchufe AMD AM4 y PCIe 4. 0: El emparejamiento perfecto para Zen 3 Ryzen 5000 y 3ª generaciOn AMD Ryzen CPUs
+Aura Sync RGB: iluminacion RGB aura Sync exclusiva de ASUS, incluyendo encabezados RGB y cabeceras direccionables Gen 2
+Enfriamiento completo: disipador de calor PCH activo, disipador de calor MOS con tubo de calor de 0.315 in, doble a bordo M. 2 disipadores de calor y una bomba de agua + cabecera
+Conectividad de juegos: soporta PCIe 4. 0, HDMI 2. 0, DisplayPort 1. 2 y cuenta con doble M. 2 y USB 3. 2 conectores tipo A y tipo C
+Red de juegos: 2. LAN de 5 Gbps e Intel Gigabit Ethernet con ASUS LANGuard, Wi-Fi 6 (802. 11 Ax) con MU-MIMO, y Gateway equipo a travEs de GameFirst V
+Asegurate de que tu BIOS esté actualizada si instalas una CPU compatible de la serie Ryzen 5000. Visita la busqueda del sitio Asus por el nombre del modelo de la placa base, haz clic en la pestaña "Soporte", controladores y herramientas, a continuacion, BIOS y Firmware para descargar la ultima BIOS.
+ 

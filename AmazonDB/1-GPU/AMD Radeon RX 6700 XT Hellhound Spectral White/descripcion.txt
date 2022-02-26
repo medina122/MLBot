@@ -1,0 +1,17 @@
+-Memoria de video: 12 GB GDDR6
+-Procesador de transmision: 2560
+-Reloj de juego: 2424 MHz
+-Reloj de aumento: hasta 2581 MHz
+-Reloj de memoria: 16 Gbps
+
+Especificaciones
+
+-Velocidad de memoria: 16 GHz
+-Coprocesador grafico: AMD Radeon RX 6700 XT
+-Marca chipset: AMD
+-Tamano de ram de la tarjeta grafica: 12 GB
+-Numero de modelo del producto: AXRX 6700XT 12GBD6-3DHLV2
+-Peso del producto: 2.2 pounds
+-Dimensiones del producto: 15.75 x 9.06 x 4.72 pulgadas
+-Dimensiones del articulo largo x ancho x altura: 15.75 x 9.06 x 4.72 pulgadas
+ 

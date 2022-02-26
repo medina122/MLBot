@@ -1,0 +1,6 @@
+New turing architecture
+6gb 192-bit gddr6
+Super compACt 6.83-inch card, fits 99% of systems
+Dual slot, 4k/ hdr/ VR ready
+3 x DisplayPort 1.4, 1 x HDMI 2.0b
+Boost clock 1785 mhz

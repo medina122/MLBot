@@ -1,0 +1,56 @@
+ La GeForce RTX ™ 3090 es una gran GPU (BFGPU) feroz con un rendimiento de clase TITAN. Esta impulsado por Ampere, la arquitectura RTX de segunda generacion de NVIDIA, que duplica el rendimiento del trazado de rayos y la inteligencia artificial con nucleos RT mejorados, nucleos Tensor y nuevos multiprocesadores de transmision. Ademas, cuenta con asombrosos 24 GB de memoria G6X, todo para brindar la mejor experiencia de juego.
+
+RTX.  IT’S ON. Disfruta de los mayores exitos de ventas de hoy como nunca antes con la fidelidad visual del trazado de rayos en tiempo real y el rendimiento definitivo de DLSS con tecnologia de IA.
+
+LA VICTORIA SE MIDE EN MILISEGUNDOS: NVIDIA Reflex ofrece la maxima ventaja competitiva. La latencia mas baja. La mejor capacidad de respuesta. Gracias a las GPU GeForce RTX serie 30 y los monitores NVIDIA
+
+TU JUEGO CREATIVO:  Lleva tus proyectos creativos a un nuevo nivel con las GPU GeForce RTX serie 30. Ofrece aceleracion por IA en las mejores aplicaciones creativas. Con el soporte de la plataforma NVIDIA Studio de controladores dedicados y herramientas exclusivas. Y creado para obtener resultados en un tiempo record. Tanto si estas renderizando escenas en 3D complejas, editando video de 8K o retransmitiendo con la mejor codificacion y calidad de imagen, las GPU GeForce RTX te ofrecen el rendimiento necesario para tus mejores creaciones.
+
+G-SYNC: Adquiere objetivos mas rapido, reacciona con mas rapidez y aumenta la precision del objetivo con un conjunto revolucionario de tecnologias para medir y optimizar la latencia del sistema para los juegos competitivos.
+
+CONVIERTETE EN EL REY DE LAS TRANSMISIONES: Acapara la atencion de todos gracias a unos graficos increibles y a una transmision en directo fluida y sin cortes. La codificacion y la decodificacion de hardware de ultima generacion se combinan para que presumas de tus mejores momentos con gran detalle. Y la nueva y completa aplicacion NVIDIA Broadcast te ofrece potentes capacidades de IA para mejorar la calidad de audio y video con efectos como el fondo virtual, el fotograma automatico de la camara web y la eliminacion de ruido del microfono. Asi, siempre podras dar lo mejor de ti a tu audiencia
+
+ARQUITECTURA NVIDIA AMPERE: La nueva arquitectura NVIDIA Ampere ofrece el juego definitivo y presenta los nucleos avanzados de trazado de rayos de segunda generacion y los Tensor Cores de tercera generacion con un rendimiento superior.
+
+ACELERACION POR IA DE DLSS: NVIDIA DLSS es una renderizacion de IA revolucionaria que aumenta las velocidades de fotogramas con una calidad de imagen sin concesiones utilizando Tensor Cores de procesamiento de IA dedicados en GeForce RTX. Dispondras de margen de rendimiento para establecer los ajustes y las resoluciones necesarias a fin de disfrutar de una experiencia visual increible. La revolucion de la IA ha llegado al gaming.
+
+DIRECTX 12 ULTIMATE: Los desarrolladores pueden ahora anadir efectos graficos aun mas sorprendentes a los juegos para PC (Microsoft Windows). Las tarjetas graficas GeForce RTX presentan caracteristicas avanzadas de DX12 como el trazado de rayos y el sombreado de tasa variable, que dan vida a los juegos con efectos visuales muy realistas y velocidades de fotogramas mas rapidas. 
+
+Caracteristicas:
+
+Boost Clock / Memory Speed
+TBD MHz / TBD Gbps
+24GB GDDR6X
+DisplayPort x 3 / HDMI x 1
+Diseno termico Tri-FROZR 2: TORX Fan 4.0: TORX FAN 4.0 es el resultado del trabajo en equipo, con sus pares de aspas de ventilador unidas con un diseno de anillo exterior que enfoca el flujo de aire al sistema de enfriamiento TRI FROZR 2 actualizado.
+Core Pipe:  El diseno de alta precision de los core pipes conseguiran el mejor contacto con la GPU para poder expandir el calor a traves de todo el disipador para conseguir una refrigeracion como nunca antes.
+Airflow Control: Con el control de Airflow no oiras nada. Los deflectores ofrecen un area adicional en la superficie para poder guiar el aire donde se necesita y asi optimizar la refrigeracion. Wave-Curved 2.0 reducen el airflow innecesario para conseguir una reduccion de ruido sin precedentes.
+RGB Mystic Light: A traves de Mystic Light podras controlar absolutamente toda la iluminacion RGB de los dispositivos MSI, incluso dispositivos de terceros.
+Dragon Center: El software Dragon Center exclusivo de MSI lo ayuda a aprovechar al maximo sus productos MSI. Monitoriza, modifique y optimice en tiempo real con tan solo unos pocos clics.
+
+Especificaciones:
+
+Nombre del modelo GeForce RTX ™ 3090 GAMING X TRIO 24G
+Unidad de procesamiento de graficos NVIDIA® GeForce RTX ™ 3090
+Interfaz PCI Express® Gen 4
+Nucleos 10496 Unidades
+Aumento de relojes de nucleo: 1785 MHz
+Velocidad de memoria 19,5 Gbps
+Memoria 24GB GDDR6X
+Bus de memoria de 384 bits
+Salida DisplayPort x 3 (v1.4a) / HDMI 2.1 x 1
+Soporte HDCP Y
+Consumo de energia 370W
+Conectores de alimentacion de 8 pines x 3
+PSU recomendada 750 W
+Dimension de la tarjeta (mm) 323 x 140 x 56 mm
+Peso (tarjeta / paquete) 1565 g / 2370 g
+Compatibilidad con la version de DirectX 12 API
+Compatibilidad con la version de OpenGL 4.6
+Soporte NVLink Y
+Pantallas maximas 4
+VR listo Y
+Tecnologia G-SYNC® Y
+Sincronizacion vertical adaptable Y
+Resolucion maxima digital 7680x4320 
+ 

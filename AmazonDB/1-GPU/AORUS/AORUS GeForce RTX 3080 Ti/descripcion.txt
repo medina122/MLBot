@@ -1,7 +1,0 @@
-NVIDIA Ampere Streaming Multiprocessors 2ª generacion RT Nucleos Tensor 3ª generacion Powered by GeForce RTX 3080 Ti Integrado con 12GB GDDR6X 384-bit interfaz de memoria WATERFORCE Water Block sistema de refrigeracion Deteccion de fugas RGB Fusion 2.0 3x HDMI 2.1, 3x DP 1.4 Placa trasera de metal protectora 4 registro requerido) Core C.. bloqueo: 1770 MHz. Obtenga el mejor rendimiento de juego con las tarjetas graficas AORUS RTX 3080Ti. Desarrollado por la arquitectura RTX de 2ª generación de NVIDIA y refinado con el sistema de refrigeracion WATERFORCE Water Block de AORUS, el AORUS GeForce RTX 3080 Ti XTREME 12G ofrece imagenes impresionantes, frecuencias de fotogramas increiblemente rapidas y aceleracion de IA a juegos y aplicaciones creativas con sus nucleos RT y nucleos Tensor mejorados, y memoria G6X superrapida.
-NVIDIA Ampere Streaming Multiprocesadores
-Nucleos RT de segunda generacion
-Nucleos tensor de 3ª generacion
-Alimentado por GeForce RTX 3080 Ti
-Integrado con interfaz de memoria de 12 GB GDDR6X de 384 bits
- 

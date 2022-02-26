@@ -1,0 +1,55 @@
+RTX.  IT’S ON. Disfruta de los mayores exitos de ventas de hoy como nunca antes con la fidelidad visual del trazado de rayos en tiempo real y el rendimiento definitivo de DLSS con tecnologia de IA.
+
+LA VICTORIA SE MIDE EN MILISEGUNDOS: NVIDIA Reflex ofrece la maxima ventaja competitiva. La latencia mas baja. La mejor capacidad de respuesta. Gracias a las GPU GeForce RTX serie 30 y los monitores NVIDIA
+
+TU JUEGO CREATIVO:  Lleva tus proyectos creativos a un nuevo nivel con las GPU GeForce RTX serie 30. Ofrece aceleracion por IA en las mejores aplicaciones creativas. Con el soporte de la plataforma NVIDIA Studio de controladores dedicados y herramientas exclusivas. Y creado para obtener resultados en un tiempo record. Tanto si estas renderizando escenas en 3D complejas, editando video de 8K o retransmitiendo con la mejor codificacion y calidad de imagen, las GPU GeForce RTX te ofrecen el rendimiento necesario para tus mejores creaciones.
+
+G-SYNC: Adquiere objetivos mas rapido, reacciona con mas rapidez y aumenta la precision del objetivo con un conjunto revolucionario de tecnologias para medir y optimizar la latencia del sistema para los juegos competitivos.
+
+CONVIERTETE EN EL REY DE LAS TRANSMISIONES: Acapara la atencion de todos gracias a unos graficos increibles y a una transmision en directo fluida y sin cortes. La codificacion y la decodificacion de hardware de ultima generacion se combinan para que presumas de tus mejores momentos con gran detalle. Y la nueva y completa aplicacion NVIDIA Broadcast te ofrece potentes capacidades de IA para mejorar la calidad de audio y video con efectos como el fondo virtual, el fotograma automatico de la camara web y la eliminacion de ruido del microfono. Asi, siempre podras dar lo mejor de ti a tu audiencia
+
+ARQUITECTURA NVIDIA AMPERE: La nueva arquitectura NVIDIA Ampere ofrece el juego definitivo y presenta los nucleos avanzados de trazado de rayos de segunda generacion y los Tensor Cores de tercera generacion con un rendimiento superior.
+
+ACELERACION POR IA DE DLSS: NVIDIA DLSS es una renderizacion de IA revolucionaria que aumenta las velocidades de fotogramas con una calidad de imagen sin concesiones utilizando Tensor Cores de procesamiento de IA dedicados en GeForce RTX. Dispondras de margen de rendimiento para establecer los ajustes y las resoluciones necesarias a fin de disfrutar de una experiencia visual increible. La revolucion de la IA ha llegado al gaming.
+
+DIRECTX 12 ULTIMATE: Los desarrolladores pueden ahora anadir efectos graficos aun mas sorprendentes a los juegos para PC (Microsoft Windows). Las tarjetas graficas GeForce RTX presentan caracteristicas avanzadas de DX12 como el trazado de rayos y el sombreado de tasa variable, que dan vida a los juegos con efectos visuales muy realistas y velocidades de fotogramas mas rapidas.
+
+La EVGA GeForce RTX 3080 Ti ofrece el rendimiento sin precedentes que los jugadores anhelan para los juegos de resolucion 4K, impulsados por la arquitectura NVIDIA Ampere. Esta construido con RT Cores y Tensor Cores mejorados, nuevos multiprocesadores de transmision y memoria G6X ultrarrapida para una experiencia de juego increible. Combinado con la proxima generacion de diseno, enfriamiento y overclocking con EVGA Precision X1, la EVGA GeForce RTX 3080Series presenta una nueva definicion en el maximo rendimiento.
+
+Caracteristicas:
+EVGA iCX3 Technology Adjustable ARGB LED
+All-Metal Backplate, Pre-Installed
+Built for EVGA Precision X12nd
+Gen Ray Tracing Cores3rd Gen
+Tensor Cores
+PCI Express® Gen 4
+Microsoft DirectX® 12
+UltimateGDDR6X
+Graphics Memory NVIDIA DLSS
+NVIDIA® GeForce Experience™
+NVIDIA G-SYNC®
+NVIDIA GPU Boost™Game Ready Drivers
+7th Gen NVIDIA Encoder
+5th Gen NVIDIA Decoder
+Vulkan RT API,
+OpenGL 4.6
+DisplayPort 1.4a
+HDCP 2.3
+VR ReadySupports 4K 120Hz HDR, 8K 60Hz HDR and Variable Refresh Rate as specified in HDMI 2.1
+Especificaciones:
+Boost Clock: 1800 MHz
+Memory Clock: 19000 MHz Effective
+CUDA Cores: 10240
+Bus Type: PCIe 4.0
+Memory Detail: 12288MB GDDR6X
+Memory Bit Width: 384 Bit
+Memory Bandwidth: 912 GB/s
+LED Logo: ARGB
+Height: 5.38 in - 136.75mm
+Length: 11.81 in - 300mm
+Width: 2.75 Slots
+750 Watt or greater power supply.
+PCI Express, PCI Express 2.0, PCI Express
+3.0 or PCI Express 4.0 compliant motherboard with one graphics slot.
+Three available 8pin or 6 2pin PCIe power dongles
+Windows 10 64bit 

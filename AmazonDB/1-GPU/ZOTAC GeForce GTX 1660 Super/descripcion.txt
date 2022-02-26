@@ -1,0 +1,40 @@
+La nueva generacion de tarjetas graficas GeForce GTX para juegos ZOTAC ya está aqui. Basado en la nueva arquitectura NVIDIA Turing, esta equipado con memoria GDDR5 Fast. Preparate para ser rapido y fuerte.
+caracteristicas
+super compacto
+Preparado para 4K, HDR y VR
+NVIDIA ansel
+Compatible con NVIDIA G-SYNC
+
+especificaciones
+NVIDIA GeForce GTX 1660 Super gpu
+1408 nucleos CUDA
+Memoria GDDR6 de 6GB
+Bus de memoria de 192 bits
+reloj de impulso del motor: 1785 mhz
+reloj de memoria: 14.0 gbps
+PCI Express 3.0
+conexiones
+3 x DisplayPort 1.4 (hasta 7680x4320 @ 60hz)
+1x HDMI 2.0B (hasta 3840x2160 @ 60hz)
+Capacidad de visualizacion cuadruple simultanea
+
+requerimientos de energia
+Se recomienda una fuente de alimentacion de 450 vatios
+Consumo maximo de energia de 125 vatios
+
+controladores listos para compatibilidad de software
+API de microsoft direct 12, API de Vulkan
+opengl 4.Microsoft Windows 10 (actualización de abril de 2018 o posterior) / 7 x64
+
+dentro de la caja
+zotac gaming GeForce GTX 1660 Super ventilador doble
+manual de usuario
+
+dimensiones
+longitud: 209,6 mm (8,3 pulgadas)
+altura: 119,3 mm (4,7 pulgadas)
+ancho: 2 ranuras (41 mm) (1,61 pulgadas)
+caja
+altura: 283 mm (11,14 pulgadas)
+ancho: 218 mm (8,58 pulgadas)
+profundidad: 83 mm (3,27 pulgadas).
