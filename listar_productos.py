@@ -30,5 +30,3 @@ def listar_productos():
             informacion_requerida = f"{leer_archivo_del_producto(ruta_de_la_subcarpeta, 'titulo')} -- {leer_archivo_del_producto(ruta_de_la_subcarpeta, 'precio')}\n"
             crear_reporte(informacion_requerida)
             sleep(0.05)
-
-listar_productos()

@@ -5,15 +5,15 @@ from funciones import listar_productos, locate_image, read_txt, telegram_report
 
 telefono = '932928977'
 
-plantilla = """
-HAGA TODAS SUS PREGUNTAS ANTES DE DARLE AL BOTON DE COMPRAR
+# plantilla = """
+# HAGA TODAS SUS PREGUNTAS ANTES DE DARLE AL BOTON DE COMPRAR
 
-HACEMOS ENVIOS SIN COSTO A TODO EL PAIS
+# HACEMOS ENVIOS SIN COSTO A TODO EL PAIS
 
-PROMOCION VALIDA HASTA QUE SE AGOTE EL STOCK
+# PROMOCION VALIDA HASTA QUE SE AGOTE EL STOCK
 
-___//_//_//9__3__2___9__2__8___9__7__7///___//__//___
-"""
+# ___//_//_//9__3__2___9__2__8___9__7__7///___//__//___
+# """
 
 def post(path):
 
@@ -245,7 +245,7 @@ def post(path):
                 bot.press('enter')
                 sleep(0.10)
                 bot.press('enter')
-                bot.typewrite(plantilla, interval=0.05)
+                read_txt(path, 'plantilla', copy=True, paste=True)
                 sleep(0.70)
                 locate_image('descripcion')
                 bot.scroll(-500)
