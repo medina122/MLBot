@@ -1,4 +1,4 @@
-from pybot import locate_image
+from pybot_backup import locate_image
 from time import sleep
 
 def windscribe():
