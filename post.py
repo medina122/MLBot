@@ -5,15 +5,19 @@ from funciones import listar_productos, locate_image, read_txt, telegram_report
 
 telefono = '932928977'
 
-# plantilla = """
-# HAGA TODAS SUS PREGUNTAS ANTES DE DARLE AL BOTON DE COMPRAR
+plantilla = """
+___//_//_//9__3__2___9__2__8___9__7__7///___//__//___
 
-# HACEMOS ENVIOS SIN COSTO A TODO EL PAIS
+>>>>LEER IMPORTANTE ---- TERMINOS Y CONDICIONES <<<<<
 
-# PROMOCION VALIDA HASTA QUE SE AGOTE EL STOCK
-
-# ___//_//_//9__3__2___9__2__8___9__7__7///___//__//___
-# """
+FORMAS DE PAGO Y ENTREGA:
+1. Aceptamos todos los medios de pago desde la plataforma de Mercado Pago.
+2. Los pagos mediante saldo de Mercado pago o la opción Pago Efectivo de Mercado Pago son de acreditación inmediata.
+3. Los pagos con tarjetas están sujetos a verificación. No se aceptan pagos de tarjetas débito o crédito de cuentas nuevas o sin reputación, compras con cuentas con mala reputación serán canceladas.
+4. Nuestra tienda es en línea. Se entrega boleta con DNI.
+5. Cualquier duda o consulta en la opción de preguntas.
+6. Para mas información te dejamos nuestro numero de contacto en el apartado de características principales
+"""
 
 def post(path):
 
@@ -245,7 +249,8 @@ def post(path):
                 bot.press('enter')
                 sleep(0.10)
                 bot.press('enter')
-                read_txt(path, 'plantilla', copy=True, paste=True)
+                pyperclip.copy(plantilla)
+                bot.hotkey('ctrl', 'v')
                 sleep(0.70)
                 locate_image('descripcion')
                 bot.scroll(-500)
