@@ -17,7 +17,7 @@ def image_position(img_name: str, conf: float, await_img: bool):
         while not cords:
             attempt += 1
             print(f'Locating {img_name}, attempt: {attempt}')
-            sleep(0.25)
+            sleep(0.5)
             cords =  bot.locateOnScreen(image, conf)
     else: print(f'Not found: {img_name}')    
     return cords

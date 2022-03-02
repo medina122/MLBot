@@ -32,5 +32,3 @@ def locate_image(img_name, conf=0.8, await_img=False, move=True, click=True):
     except: 
         print('Actions cannot be completed')
     return image
-
-print('Program has finished!')
