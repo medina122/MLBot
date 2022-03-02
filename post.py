@@ -25,8 +25,10 @@ def post(path):
 
     if locate_image('nueva_publicacion', wait=random.randint(3,5)):
         sleep(random.randint(2,3))
-    locate_image('productos', check=True, wait=random.randint(5,6))
-    locate_image('productos', wait=1)
+    locate_image('hola_productos', check=True, wait=5)
+    bot.moveTo(random.randint(300,500), random.randint(100,800), duration=0.20)
+    locate_image('productos', wait=3)
+    sleep(0.5)
     locate_image('indicaproducto', move=False, click=False, check=True, wait=5)
     locate_image('titulo', move=False, click=False) or locate_image('titulo2')
     read_txt(path, 'titulo', copy=True, paste=True)
@@ -243,8 +245,10 @@ def post(path):
 
             if locate_image('descripcion2', wait=1):
                 sleep(0.20)
-                bot.typewrite(">>>> CARACTERISTICAS DEL PRODUCTO <<<<<")
+                bot.typewrite(">>>> CARACTERISTICAS DEL PRODUCTO <<<<<", interval=0.04)
+                sleep(0.2)
                 bot.typewrite('\n')
+                sleep(1)
                 read_txt(path, 'descripcion', copy=True, paste=True)
                 sleep(0.10)
                 bot.press('enter')
@@ -264,8 +268,8 @@ def post(path):
             sleep(5)
             bot.scroll(-10)
             locate_image('verpublicacion', check=True, wait=5)
-            sleep(0.5)
-            locate_image('comprar_ahora', move=False, click=False, check=True)
+            sleep(3)
+            locate_image('soles_producto_publicado', move=False, click=False, check=True)
             bot.hotkey('ctrl', 'l')
             sleep(0.20)
             bot.hotkey('ctrl', 'c')

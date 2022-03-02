@@ -1,8 +1,10 @@
+from pydoc import describe
 from time import sleep
 import pyautogui as bot
 import random
 import colorama, requests, os, pyperclip
 from colorama import Fore
+import os
 
 colorama.init()
 
@@ -75,13 +77,7 @@ def locate_image(name, move=True, click=True, check=False, co=0.8, wait=0, durat
 def read_txt(path, name, copy=False, paste=False):
 
     # Obtenemos y sobrescribimos la ruta para leer un archivo de texto
-    data_txt = ''
-
-    if path.startswith('C:'):
-        data_txt = path + f'\{name}.txt' 
-
-    else: 
-        data_txt = path + f'/{name}.txt'  
+    data_txt = os.path.join(path, name)+'.txt'
     
     # Abrimos y leemos el archivo 
     with open(data_txt, 'r', encoding='utf-8', errors='ignore') as file:
