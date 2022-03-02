@@ -98,11 +98,7 @@ def read_txt(path, name, copy=False, paste=False):
 
 def crear_txt(path, name, content ):
     
-    if path.startswith('C:'):
-        data = path + f'\{name}.txt'  
-
-    else: 
-        data = path + f'/{name}.txt'  
+    data = os.path.join(path, name)+'.txt'
     
     with open(data, 'a') as file:
         file.write(content + '\n')   
@@ -115,14 +111,7 @@ def telegram_report(txt, chatid):
 
 def corregir_archivo(path, name, content): 
     
-    data = ''
-
-    if path.startswith('C:'):
-
-        data = path + f'\{name}.txt'  
-
-    else: 
-        data = path + f'/{name}.txt'  
+    data = os.path.join(path, name) + '.txt'
 
     with open(data, 'w') as file:
         file.write(content)

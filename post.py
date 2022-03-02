@@ -27,7 +27,7 @@ def post(path):
         sleep(random.randint(2,3))
     locate_image('hola_productos', check=True, wait=5)
     bot.moveTo(random.randint(300,500), random.randint(100,800), duration=0.20)
-    locate_image('productos', wait=3)
+    locate_image('productos', wait=5)
     sleep(0.5)
     locate_image('indicaproducto', move=False, click=False, check=True, wait=5)
     locate_image('titulo', move=False, click=False) or locate_image('titulo2')
