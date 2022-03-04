@@ -1,11 +1,6 @@
-from pydoc import locate
 import pyautogui as bot, os, pyperclip, random
 from time import sleep
-# from funciones import listar_productos, locate_image, read_txt, telegram_report
-
-# despues
-from funciones import read_txt, telegram_report
-from pybot_test import locate_image
+from functions import read_txt, telegram_report, locate_image
 
 telefono = '932928977'
 

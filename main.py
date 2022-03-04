@@ -1,6 +1,6 @@
 import os
 from time import sleep
-from funciones import listar_productos, clear, telegram_report
+from functions import listar_productos, clear, telegram_report
 from post import post, post_email
 from generate_id import generar
 
