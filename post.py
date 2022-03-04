@@ -1,7 +1,11 @@
 from pydoc import locate
 import pyautogui as bot, os, pyperclip, random
 from time import sleep
-from funciones import listar_productos, locate_image, read_txt, telegram_report
+# from funciones import listar_productos, locate_image, read_txt, telegram_report / antes
+
+# despues
+from funciones import read_txt, telegram_report
+from pybot_test import locate_image
 
 telefono = '932928977'
 
@@ -149,7 +153,7 @@ def post(path):
                         continue
                     else: break
             sleep(0.2)
-            bot.scroll(-500)
+            bot.scroll(-800)
             locate_image('confirmar', check= True, wait=3)
             sleep(0.5)
             bot.scroll(-800)
