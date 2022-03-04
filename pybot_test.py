@@ -7,7 +7,8 @@ tweens = [bot.easeInElastic, bot.easeInBack, bot.easeInBounce, bot.easeInCirc, b
 
 def image_position(img_name: str, conf: float, check: bool):
     image = os.path.join(path, 'src', img_name) + '.png'
-    cords = bot.locateOnScreen(image, conf)
+    print(image)
+    cords = bot.locateOnScreen(image, confidence=conf)
 
     if cords != (None):
         print(cords)
@@ -18,11 +19,11 @@ def image_position(img_name: str, conf: float, check: bool):
             attempt += 1
             print(f'Locating {img_name}, attempt: {attempt}')
             sleep(0.5)
-            cords =  bot.locateOnScreen(image, conf)
+            cords =  bot.locateOnScreen(image, confidence=conf)
     else: print(f'Not found: {img_name}')    
     return cords
     
-def locate_image(img_name, conf=0.8, check=False, move=True, click=True, wait=None, end=None):
+def locate_image(img_name, conf=.8, check=False, move=True, click=True, wait=None, end=None):
 
     if wait != None: sleep(wait)
 
@@ -37,4 +38,3 @@ def locate_image(img_name, conf=0.8, check=False, move=True, click=True, wait=No
     
     if end != None: sleep(end)
     return image
-    

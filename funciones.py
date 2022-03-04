@@ -1,4 +1,3 @@
-from pydoc import describe
 from time import sleep
 import pyautogui as bot
 import random
@@ -18,15 +17,7 @@ def locate_image(name, move=True, click=True, check=False, co=0.8, wait=0, durat
 
     if wait != 0: sleep(wait)
 
-    path = os.path.abspath(os.path.dirname(__file__))
-    data = ''
-
-    if path.startswith('C:'):
-        data = path +f'\src\{name}.png'
-    
-    else:
-        data = path +f'/src/{name}.png'
-    
+    data = os.path.join(os.getcwd(), 'src', name)+'.png'
     
     if check:
 
