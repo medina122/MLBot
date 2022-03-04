@@ -36,9 +36,9 @@ def post(path):
     locate_image('elegircategoria', move=False, click=False, check=True, wait=3)
     bot.press('enter')
     locate_image('confirmarcategoria', move=False, click=False, check=True, wait=2)
-    locate_image('confirmar', wait=2)
+    locate_image('confirmar', wait=2, check=True)
 
-    locate_image('completainformacion', move=False, click=False, check=True, wait=2)
+    locate_image('completainformacion', move=False, click=False, check=True, wait=3)
     
     if locate_image('marca'):
         read_txt(path, 'marca', copy=True, paste=True)
