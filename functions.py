@@ -39,7 +39,8 @@ def locate_image(img_name, conf=.8, check=False, move=True, click=True, wait=Non
             if move: bot.moveTo(image, duration=random.randint(10,30)/100, tween=random.choice(tweens))
             if click: 
                 bot.click(image, duration=random.randint(10,30)/100, tween=random.choice(tweens))
-                bot.moveRel(random.randint(200,1200), random.randint(100,800))
+                # Si le agrego esto, me jodera las variables que usan el movimiento relativo
+                # bot.moveRel(random.randint(200,1200), random.randint(100,800))
 
     except: 
         print('Actions cannot be completed')

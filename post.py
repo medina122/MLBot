@@ -287,8 +287,7 @@ def post_email():
 
     if locate_image('profile'):
 
-        profile_location = locate_image('account_mail', move=False, click=False, wait=1)
-
+        profile_location = locate_image('account_mail', move=False, click=False, wait=0.2)
         bot.moveTo(profile_location[0]+80, profile_location[1]+30)
         sleep(0.20)
         bot.tripleClick(interval=0.02)
