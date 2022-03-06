@@ -1,0 +1,9 @@
+Ilumine su sistema con una iluminación vívida y animada de diez LED RGB ultrabrillantes direccionables individualmente por módulo.
+Elija entre docenas de perfiles de iluminación preestablecidos o cree los suyos propios en el software CORSAIR iCUE.
+Solo 44 mm de alto para una amplia compatibilidad con enfriadores de aire como el CORSAIR A500.
+Optimizado para un ancho de banda máximo y tiempos de respuesta ajustados en las placas base Intel y AMD DDR4 más recientes.
+Un PCB de rendimiento personalizado proporciona la más alta calidad de señal para el mayor nivel de rendimiento y estabilidad.
+Los módulos VENGEANCE RGB PRO SL usan solo chips de memoria estrechamente protegidos, para un mayor potencial de overclocking.
+Tome el control con el software CORSAIR iCUE y sincronice la iluminación con otros productos CORSAIR RGB, incluidos refrigeradores, teclados y ventiladores.
+Un disipador de calor de aluminio sólido mejora la conductividad térmica para un excelente enfriamiento de la memoria incluso cuando se realiza overclocking, con un estilo moderno para complementar su iluminación RGB.
+Admite Intel XMP 2.0 para una instalación y configuración simples de una sola configuración.

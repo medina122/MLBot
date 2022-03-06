@@ -1,0 +1,5 @@
+15 teclas LCD: toque para cambiar escenas, iniciar medios, ajustar audio y más
+Totalmente personalizable: personalice las teclas con íconos personalizados o elija entre cientos
+Integración directa: captura de juegos de control, OBS, XSplit, TipeeeStream, Twitch, YouTube, Mixer y más
+Fácil configuración: simplemente arrastre y suelte acciones en las teclas de la aplicación
+Control ilimitado: Anide carpetas dentro de carpetas para almacenar tantas acciones como desee

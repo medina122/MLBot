@@ -1,0 +1,8 @@
+Fácil actualización para un arranque, apagado, carga de aplicaciones y respuesta más rápidos (en comparación con el disco duro SATA de 2,5" a 5400 RPM; según las especificaciones publicadas y las pruebas comparativas internas que utilizan PCMrark vantage score)
+Aumenta el rendimiento de escritura en ráfaga, lo que lo hace ideal para cargas de trabajo típicas de PC
+El equilibrio perfecto entre rendimiento y fiabilidad
+Velocidades de lectura/escritura de hasta 535 MB/s/450 MB/s (según pruebas internas; el rendimiento puede variar según la capacidad de la unidad, el dispositivo host, el sistema operativo y la aplicación).
+Resistente a los golpes para una durabilidad comprobada: incluso si se le cae la computadora (resistente a los golpes (hasta 1500 G) y resistente a las vibraciones (5 gRMS, 10 2000 HZ/4,9 gRMS, 7 800 HZ), temperatura (de 0 grados Celsius a 70 grados Celsius))
+3 años de garantía limitada del fabricante
+Ordene con su dispositivo habilitado para Alexa; Solo pregunta 'Alexa, ordena SanDisk microSD'
+Dispositivos compatibles: Escritorio

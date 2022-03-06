@@ -1,0 +1,4 @@
+Velocidades de lectura de hasta 160 MB/s* para ahorrar tiempo al transferir imágenes de alta resolución y videos 4K UHD(2); Requiere dispositivos compatibles capaces de alcanzar tales velocidades
+Velocidades de escritura de hasta 90 MB/s para disparos rápidos.* Requiere dispositivos compatibles capaces de alcanzar tales velocidades
+Lector de tarjetas microSD compacto y duradero
+Rápidas velocidades de transferencia UHS I de hasta 170 MB/s*

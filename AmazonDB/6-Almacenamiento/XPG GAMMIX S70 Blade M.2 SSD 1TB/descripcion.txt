@@ -1,0 +1,10 @@
+Interfaz: PCIe Gen4 NVMe 1.4
+Velocidad en PS5: en el entorno operativo de PS5, la velocidad de lectura secuencial de los modelos de 1 TB y 2 TB se midió a 6100 MB/s * Para poder trabajar en PS5, se requiere el firmware de PS5 21.02-04.00.00.42 o superior
+Velocidad en PC/portátil: R/W secuencial hasta 7400/6800 MB/s *Prueba realizada en el laboratorio interno de ADATA, el rendimiento real varía según el sistema emparejado y el entorno de prueba. Cuando se combina con el puerto PCie 3.0, el R/W máximo se limitará a 3400/3000 MB/s
+Factor de forma: M.2 2280 *Esta unidad solo funcionará con M/B que admita PCIe 4 (PCIe 3 compatible con versiones anteriores). La unidad está diseñada para funcionar con una instalación directa en M/B, es posible que no funcione con una carcasa externa
+¿Tienes una PS5 y necesitas más capacidad? La GAMMIX S70 BLADE es su respuesta. Conecta uno a tu PS5 y disfruta de un rendimiento mejor y más fluido con el almacenamiento integrado.
+Con la última interfaz PCIe Gen4, GAMMIX S70 BLADE lo ayudará a dominar la competencia con un rendimiento de lectura/escritura secuencial de hasta 7400/6800/MB por segundo. ¡Eso es hasta dos veces más rápido que los SSD PCIe 3.0! Para facilitar su uso, es retrocompatible con PCIe 3.0. (Cuando se combina con el puerto PCie 3.0, el R/W máximo se limitará a 3400/3000 MB/s)
+Para operaciones confiables y estabilidad, la GAMMIX S70 BLADE está equipada con un disipador de calor de aluminio que puede reducir las temperaturas hasta en un 20 por ciento.
+GAMMIX S70 BLADE admite la tecnología de código de corrección de errores LDPC para detectar y corregir una amplia gama de errores de datos para transmisiones de datos precisas. Además, con la protección de datos de extremo a extremo (E2E), la compatibilidad con el motor RAID y el cifrado AES de 256 bits, el S70 BLADE garantiza la seguridad y la integridad de los datos.
+Eficiencia y durabilidad mejoradas con 3D NAND Flash
+En combinación con Dynamic SLC Caching y DRAM Cache Buffer, GAMMIX S70 BLADE le brinda un aumento de rendimiento para juegos de PC/consola, overclocking, edición de video y renderizado.

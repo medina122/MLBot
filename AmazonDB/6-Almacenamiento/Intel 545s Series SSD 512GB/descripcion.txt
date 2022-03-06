@@ -1,0 +1,5 @@
+Unidad de estado sólido: interna de 512 GB
+Celda 3D de triple nivel (TLC)
+Tasa de transferencia Sata 6 GB/s 550 Mbps
+Factores de forma de bajo consumo y conscientes del espacio
+Fácil actualización e instalación

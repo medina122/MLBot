@@ -1,0 +1,11 @@
+Espacio de guardado M. 2 SATA (42 mm) que ahorra espacio para dispositivos informáticos ultracompactos
+Memoria Flash 3D NAND
+Caché DRAM DDR3
+Interfaz Sata III de 6 GB/s y tecnología de almacenamiento en caché SLC para velocidades de transferencia excepcionales
+Diseñado con un motor RAID y codificación LDPC (comprobación de paridad de baja densidad) para garantizar la integridad de los datos
+A diferencia de los chips NAND planos existentes, la memoria flash 3D NAND es un tipo de memoria flash en la que las celdas de memoria se apilan verticalmente en varias capas. 3D NAND se desarrolló para superar las limitaciones de densidad de la NAND plana 2D y, por lo tanto, puede ofrecer un mayor nivel de rendimiento y resistencia.
+Cumpliendo con los factores de forma M.2 Tipo 2242 y 2280, los SSD 3D NAND M.2 de Transcend son perfectos para usar en Ultrabooks y portátiles livianos. Con una longitud de tan solo 42 mm, la SSD M.2 430S facilita la actualización de su computadora, ocupa poco espacio y le brinda el impulso de energía que tanto necesita.
+Con el estándar M.2 (42 mm), la interfaz SATA III de 6 Gb/s de próxima generación y un controlador potente, el SSD M.2 430S de Transcend alcanza increíbles velocidades de lectura y escritura de hasta 560 MB/s y 500 MB/s. Cuando se utiliza como caché, el M.2 SSD 430S proporciona un tiempo de arranque 1,5 veces más rápido que los discos duros convencionales.
+Con el estándar M.2 (42 mm), la interfaz SATA III de 6 Gb/s de próxima generación y un controlador potente, el SSD M.2 430S de Transcend alcanza increíbles velocidades de lectura y escritura de hasta 560 MB/s y 500 MB/s. Cuando se utiliza como caché, el M.2 SSD 430S proporciona un tiempo de arranque 1,5 veces más rápido que los discos duros convencionales.
+El factor de forma M.2 permite la expansión e integración de funciones en una solución de módulo de un solo factor de forma. Las SSD M.2 incluyen un factor de forma más pequeño pero con capacidades más grandes que las SSD mSATA y semidelgadas.
+Transcend SSD Scope es un software avanzado y fácil de usar que facilita garantizar que su Transcend SSD se mantenga saludable y continúe funcionando rápido y sin errores al determinar la condición y optimizar el rendimiento de su unidad.

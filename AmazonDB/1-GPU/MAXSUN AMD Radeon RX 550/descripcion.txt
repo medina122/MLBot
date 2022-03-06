@@ -1,0 +1,5 @@
+PCB chapado en plata y todos los condensadores sólidos proporcionan menor temperatura, mayor eficiencia y estabilidad
+Ventilador único de 3.5 in que proporciona bajo ruido y un gran flujo de aire
+Tamaño ITX perfecto en cualquier caso
+Velocidad de reloj y memoria: hasta 1183 MHz / 4 GB GDDR5 / 6000 MHz memoria, procesadores de transmisión 512
+Soporte: DirectX 12, Shader Model 5.0, OpenGL 4.6/4.5

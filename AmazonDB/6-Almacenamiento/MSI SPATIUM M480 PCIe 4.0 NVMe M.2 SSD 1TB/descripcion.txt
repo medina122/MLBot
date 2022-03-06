@@ -1,0 +1,6 @@
+Interfaz PCIe Gen4x4 y cumple con el estándar NVMe 1.4
+Velocidades de lectura secuencial de hasta 7000 MB/s y velocidades de escritura de hasta 6800 MB/s
+Hasta 1400TBW
+Capacidades integradas de seguridad de datos y corrección de errores
+Capacidades de 500 GB a 2 TB en factor de forma M.2 2280
+Optimizado para la interfaz PCIe Gen4, el SSD M480 alcanza velocidades de lectura/escritura de hasta 7000/6800 MB/s. La tecnología flash 3D NAND brinda almacenamiento denso en un diseño compacto y permite capacidades de almacenamiento de hasta 2 TB. Las funciones integradas de seguridad de datos y corrección de errores amplían la longevidad del almacenamiento flash NAND.

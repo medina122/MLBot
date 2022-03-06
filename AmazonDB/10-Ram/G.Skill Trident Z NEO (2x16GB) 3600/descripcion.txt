@@ -1,0 +1,8 @@
+Serie Trident Z NEO, diseñada específicamente para las series AMD Ryzen 3000, 5000, X570
+Kit de 32 GB que contiene 2 módulos de 16 GB, DDR4-3600, 288 pines, latencia CAS CL18 (18-22-22-42) a 1,35 V
+ECC: No, kit de doble canal, uso recomendado: alto rendimiento o memoria para juegos
+Diseñado para escalar el rendimiento de la memoria con la última plataforma AMD Ryzen, Trident Z Neo está optimizado para llevar la plataforma a su máxima velocidad.
+Diseñado con un contraste de aluminio cepillado negro y plata con recubrimiento en polvo, el disipador de calor de dos tonos Trident Z Neo agrega potencia y audacia a su construcción de próxima generación.
+Inspirado en las franjas de carreras de autos deportivos y superdeportivos, Trident Z Neo presenta un borde biselado a lo largo de la parte superior del diseño exclusivo de tres aletas con la inclinación asimétrica para lograr una apariencia elegante y limpia.
+Diseñado con circuitos integrados de memoria seleccionados a mano y PCB de 10 capas personalizadas, todos y cada uno de los módulos están hechos para mantener la mejor integridad de la señal para lograr un rendimiento de overclocking rápido.
+Controle y personalice completamente la iluminación RGB de 8 zonas a través del software descargable Trident Z Lighting Control.

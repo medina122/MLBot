@@ -1,0 +1,6 @@
+Rendimiento de almacenamiento Extreme Gen4: un controlador PCIe Gen4 x4 ofrece velocidades de lectura secuencial de hasta 4700 MB/seg y velocidades de escritura secuencial de 1950 MB/seg, para tiempos de respuesta, escritura y lectura increíblemente rápidos.
+Interfaz Gen4 PCIe x4 NVMe M.2 de alta velocidad: utilizando la tecnología PCIe Gen4 para un ancho de banda máximo, el MP600 CORE ofrece un rendimiento de almacenamiento increíble.
+NAND QLC 3D de alta densidad: almacena más datos en la misma cantidad de espacio físico que las celdas de memoria de la generación anterior, lo que ofrece un valor excelente.
+Disipador de calor de aluminio incorporado: ayuda a dispersar el calor y reduce la aceleración, por lo que su SSD mantiene un alto rendimiento sostenido.
+Factor de forma compacto M.2 2280: encaja directamente en su placa base.
+El software CORSAIR SSD Toolbox permite controles de disco avanzados desde su escritorio, como borrado seguro y actualizaciones de firmware.
