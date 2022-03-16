@@ -1,0 +1,41 @@
+ Juega y crea sin renunciar a nada. El HD60 S+ te permite jugar a tus juegos de consola en alta fidelidad a 4K60 HDR10, al tiempo que capturas tus partidas con una calidad 1080p60 HDR10 espectacular. La compatibilidad con cualquier software de streaming te da todo el control creativo, y la tecnologia Visualizacion Instantanea potencia tu creatividad con una latencia ultrabaja. 
+
+Caracteristicas:
+
+Vives para jugar y te apasiona crear. Con el HD60 S+, disfruta de tus juego triple A en toda su espectacularidad grafica y aumenta facilmente tu calidad de produccion.
+Plug and Play. Conecta tu consola y tu ordenador. Ponte a crear. Asi de simple. Sin instalaciones tediosas ni software complicado. Solo tu, tu juego y tus espectadores. Todo conectado al instante a traves del HD60 S+.
+Captura Profesional. Con el HD60 S+ puedes empezar a transmitir en cualquier plataforma en tiempo record, haciendo streaming con una resolucion 1080p espectacular y la fluidez de los 60 fps. Ademas, funciona con OBS Studio, Streamlabs OBS, XSplit y cualquier otra herramienta que uses.
+Traspaso autentico de Senal. Mientras haces streaming por Twitch o grabas para YouTube, el HD60 S+ te permite jugar a tus juegos de alta fidelidad para Xbox One X y PS4 Pro como es debido: con una calidad espectacular 4K60 HDR10 con latencia cero.
+Visualizacion Instantanea. Ahora tu creatividad cuenta con una tecnologia de latencia ultrabaja. Incluso procesando una calidad increible de pixeles, todo funciona a la perfeccion y no pierdes ni un solo fotograma.
+Tu Centro de Produccion. Software especializado para el maximo rendimiento. Potente y facil de usar. Descubre 4KCU, disenado a medida para ayudarte a sacar el maximo partido de tu HD60 S+.
+Captura a HDR10: Graba las luces mas brillantes y las sombras mas oscuras.
+Grabacion Flashback: Retrocede en el tiempo para guardar tus partidas de forma retroactiva.
+Comentarios en directo: Anade tu voz en una pista independiente.
+Videoteca: Organiza tu catalogo de videos y encuentra archivos con rapidez.
+Especificaciones Elgato HD60 S+:
+Detalles tecnicos
+Interno: No
+Interfaz de host: USB 3.0
+Capturado de: Consola de juegos
+Productos compatibles: Xbox One X, PS4 Pro
+Video
+Formato de video soportado: 480p,576p,1080i
+Puertos e Interfaces
+Numero de puertos HDMI: 2
+Entrada HDMI: 1
+Numero de salidas HDMI: 1
+Peso y dimensiones
+Ancho: 112 mm
+Profundidad: 75 mm
+Altura: 19 mm
+Peso: 115 g
+Software
+Sistema operativo Windows soportado: Windows 10 x64
+Requisitos del sistema
+Windows 10 (64 bits), macOS 10.13 (o posterior)
+Procesador Intel Core i5 de 4.ª generacion con 4 nucleos (i5-4xxx o similar)
+NVIDIA GeForce GTX 10xx (o superior)
+4 GB de RAM, puerto USB 3.0 integrado
+Conexion a Internet
+Contenido
+HD60 S+, USB 3.0 cable, HDMI 2.0 cable 
