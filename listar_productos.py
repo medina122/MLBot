@@ -14,7 +14,7 @@ def crear_reporte(contenido):
         file.write(contenido)
         file.close()
 
-def listar_productos():
+def listar_productos(): # Global
 
     carpeta_principal = r"C:\Users\owner\Desktop\Projects\MLBot\AmazonDB" # AmazonDB
 
@@ -30,3 +30,15 @@ def listar_productos():
             informacion_requerida = f"{leer_archivo_del_producto(ruta_de_la_subcarpeta, 'titulo')} -- {leer_archivo_del_producto(ruta_de_la_subcarpeta, 'precio')}\n"
             crear_reporte(informacion_requerida)
             sleep(0.05)
+
+def listar_productos_una_carpeta():
+
+    carpeta = r'C:\Users\owner\Desktop\Projects\MLBot\AmazonDB\1-GPU'
+
+    for producto in os.listdir(carpeta):
+        ruta_de_la_subcarpeta = os.path.join(carpeta, producto)
+        informacion_requerida = f"{leer_archivo_del_producto(ruta_de_la_subcarpeta, 'titulo')} -- {leer_archivo_del_producto(ruta_de_la_subcarpeta, 'precio')}\n"
+        crear_reporte(informacion_requerida)
+        sleep(0.05)
+
+listar_productos_una_carpeta()
