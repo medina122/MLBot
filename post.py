@@ -29,19 +29,19 @@ def post(path):
         sleep(random.randint(2,3))
     Bot.locate('hola_productos', check=True, wait=3)
     pg.moveTo(random.randint(300,500), random.randint(100,800), duration=0.20)
-    Bot.locate('productos', wait=3)
+    Bot.locate('productos', wait=2)
     sleep(0.5)
     Bot.locate('indicaproducto', move=False, click=False, check=True, wait=3)
     Bot.locate('titulo', move=False, click=False) or Bot.locate('titulo2')
     read_txt(path, 'titulo', copy=True, paste=True)
     sleep(2)
     pg.press('enter')
-    Bot.locate('elegircategoria', move=False, click=False, check=True, wait=3)
+    Bot.locate('elegircategoria', move=False, click=False, check=True, wait=2)
     pg.press('enter')
     Bot.locate('confirmarcategoria', move=False, click=False, check=True, wait=2)
     Bot.locate('confirmar', wait=2, check=True)
 
-    Bot.locate('completainformacion', move=False, click=False, check=True, wait=3)
+    Bot.locate('completainformacion', move=False, click=False, check=True, wait=2)
     
     if Bot.locate('marca'):
         read_txt(path, 'marca', copy=True, paste=True)
@@ -50,7 +50,7 @@ def post(path):
     if Bot.locate('modelo'):
         read_txt(path, 'modelo', copy=True, paste=True)
         Bot.locate('datosproducto')
-    Bot.locate('confirmar', wait=3)
+    Bot.locate('confirmar', wait=2)
 
     sleep(3)
 
@@ -58,12 +58,12 @@ def post(path):
 
         # Ubicamos por apartados
 
-        if Bot.locate('condicion', move=False, click=False, wait=1):
-            Bot.locate('nuevo', check=True, wait=3)
-            sleep(random.randint(4,5))
+        if Bot.locate('condicion', move=False, click=False, wait=0.25):
+            Bot.locate('nuevo', check=True, wait=2)
+            sleep(random.randint(3,4))
             continue
 
-        elif Bot.locate('color', move=False, click=False, wait=1):
+        elif Bot.locate('color', move=False, click=False, wait=0.25):
 
             if Bot.locate('elegircolor',):
                 Bot.locate('color', click=False, move=True)
@@ -75,9 +75,9 @@ def post(path):
                 pg.typewrite(telefono)
                 sleep(1)
                 Bot.locate('confirmar', wait=2)
-                sleep(random.randint(4,5))
+                sleep(random.randint(3,4))
 
-        elif Bot.locate('panelfotos', click=False, wait=1) and not Bot.locate('portada', click=False):
+        elif Bot.locate('panelfotos', click=False, wait=0.25) and not Bot.locate('portada', click=False):
 
             if Bot.locate('panelfotos') and not Bot.locate('portada', click=False):
                 sleep(2)
@@ -104,10 +104,10 @@ def post(path):
                     Bot.locate('organizar') or Bot.locate('organizar2')
                     sleep(0.5)
                     Bot.locate('seleccionar') or Bot.locate('seleccionar2')
-                    sleep(0.8)
+                    sleep(0.5)
                     pg.press('enter')
 
-                Bot.locate('panelfotos', move=False, click=False, check=True, wait=3)
+                Bot.locate('panelfotos', move=False, click=False, check=True, wait=2)
                 
                 pg.scroll(-300)
                 sleep(2)
@@ -120,24 +120,24 @@ def post(path):
                     sleep(0.5)
                     pg.typewrite(str(random.randint(3,9)))
                 
-                Bot.locate('confirmar', wait=3)
+                Bot.locate('confirmar', wait=2)
                 sleep(3)
             continue
 
-        elif Bot.locate('codigouniversal', move=False, click=False, wait=1):
+        elif Bot.locate('codigouniversal', move=False, click=False, wait=0.25):
             if Bot.locate('codigo', wait=2):
-                pg.typewrite('90311017', interval=0.05)
-            Bot.locate('continuar', wait=3)
+                pg.typewrite('90311017', interval=0.08)
+            Bot.locate('continuar', wait=2)
             sleep(2)
             continue
 
-        elif Bot.locate('fichatecnica', move=False, click=False, wait=1):
+        elif Bot.locate('fichatecnica', move=False, click=False, wait=0.25):
 
             checklist = ['input', 'input2', 'input3', 'input4', 'input5', 'input6']
 
             for input in checklist:
                 while True:
-                    if Bot.locate(input, move=True, click=False, conf=0.99):
+                    if Bot.locate(input, move=True, click=False):
                         Bot.locate('noaplica', move=True, click=True)
                         pg.scroll(-30)
                         Bot.locate('datosproducto', move=True, click=True)
@@ -145,7 +145,7 @@ def post(path):
                     else: break
             for input in checklist:
                 while True:
-                    if Bot.locate(input, move=True, click=False, conf=0.99):
+                    if Bot.locate(input, move=True, click=False):
                         Bot.locate('noaplica', move=True, click=True)
                         pg.scroll(-30)
                         Bot.locate('datosproducto', move=True, click=True)
@@ -153,14 +153,14 @@ def post(path):
                     else: break
             sleep(0.2)
             pg.scroll(-800)
-            Bot.locate('confirmar', check= True, wait=3)
+            Bot.locate('confirmar', check= True, wait=2)
             sleep(0.5)
             pg.scroll(-800)
-            Bot.locate('siguiente', check= True, wait=3)
+            Bot.locate('siguiente', check= True, wait=2)
             sleep(2)
             continue
 
-        # elif Bot.locate('ya_casi_publicas', move=False, click=False, wait=1):
+        # elif Bot.locate('ya_casi_publicas', move=False, click=False, wait=0.25):
         #     Bot.locate('cargar_direccion', wait=3)
 
         #     sleep(random.randint(3,5))
@@ -198,57 +198,57 @@ def post(path):
         #     pg.typewrite(str(random.randint(235412,965487)), interval=0.25)
         #     Bot.locate('guardar_y_publicar', check=True, wait=10)
         
-        elif Bot.locate('soles', move=False, click=False, wait=1):
+        elif Bot.locate('soles', move=False, click=False, wait=0.25):
             if Bot.locate('precio', move=False, click=False, wait=1) or Bot.locate('precio2'):
                 read_txt(path, 'precio', copy=True, paste=True)
-                Bot.locate('confirmar', wait=3)
+                Bot.locate('confirmar', wait=2)
                 sleep(1)
             continue
 
-        elif Bot.locate('tipopublicacion', move=False, click=False, wait=1):
-            if Bot.locate('premium', wait=1):
+        elif Bot.locate('tipopublicacion', move=False, click=False, wait=0.25):
+            if Bot.locate('premium', wait=0.5):
                 sleep(2)
                 pg.scroll(-300)
-                Bot.locate('confirmar', wait=3)
+                Bot.locate('confirmar_tipopublicacion', wait=2)
             sleep(1)
             continue
         
-        elif Bot.locate('mercadoenvios', move=False, click=False, wait=1):
-            Bot.locate('confirmar', wait=2)    
+        elif Bot.locate('mercadoenvios', move=False, click=False, wait=0.25):
+            Bot.locate('confirmar_mercadoenvios', wait=2)    
             sleep(1)
             continue
 
-        elif Bot.locate('elige_un_domicilio', move=False, click=False, wait=1):
-            domicilio = Bot.get_position('elige_un_domicilio', wait=3)
+        elif Bot.locate('elige_un_domicilio', move=False, click=False, wait=0.25):
+            domicilio = Bot.get_position('elige_un_domicilio', wait=2)
             pg.moveTo(domicilio[0]+35, domicilio[1]+130, duration=0.25)
-            sleep(2)
+            sleep(1)
             pg.click()
             sleep(2)
             continue
 
-        elif Bot.locate('ofrecesretiro', move=False, click=False, wait=1):
-            Bot.locate('retiro', wait=2)
+        elif Bot.locate('ofrecesretiro', move=False, click=False, wait=0.25):
+            Bot.locate('retiro', wait=1)
             sleep(1)
             continue
 
-        elif Bot.locate('mercadopago', move=False, click=False, wait=1):
-            Bot.locate('continuar', wait=2)
+        elif Bot.locate('mercadopago', move=False, click=False, wait=0.25):
+            Bot.locate('continuar_mercadopago', wait=1)
             sleep(1)
             continue
 
-        elif Bot.locate('ofrecesgarantia', move=False, click=False, wait=1) and not Bot.locate('garantia_check', move=False, click=False):
+        elif Bot.locate('ofrecesgarantia', move=False, click=False, wait=0.25) and not Bot.locate('garantia_check', move=False, click=False):
             Bot.locate('garantia')
             pg.typewrite('12', interval=0.05)           
-            Bot.locate('confirmar', wait=3)   
+            Bot.locate('confirmar_garantia', wait=2)   
             sleep(1)
             continue
 
-        elif Bot.locate('descripcion', move=False, click=False, wait=1) and not Bot.locate('descripcion2', move=False, click=False):
+        elif Bot.locate('descripcion', move=False, click=False, wait=0.25) and not Bot.locate('descripcion2', move=False, click=False):
             Bot.locate('descripcion', wait=1)
 
             if Bot.locate('descripcion2', wait=1):
                 sleep(0.20)
-                pg.typewrite(">>>> CARACTERISTICAS DEL PRODUCTO <<<<<", interval=0.04)
+                pg.typewrite(">>>> CARACTERISTICAS DEL PRODUCTO <<<<<", interval=0.05)
                 sleep(0.2)
                 pg.press('enter')
                 sleep(0.2)
@@ -265,7 +265,7 @@ def post(path):
                 sleep(0.70)
                 Bot.locate('descripcion')
                 pg.scroll(-500)
-                Bot.locate('confirmar', wait=2)
+                Bot.locate('confirmar_descripcion', wait=1)
                 sleep(2)
             pg.scroll(-500)
             sleep(1)
@@ -273,8 +273,8 @@ def post(path):
             Bot.locate('publicar', check=True, wait=2)
             sleep(5)
             pg.scroll(-10)
-            Bot.locate('verpublicacion', check=True, wait=5)
-            sleep(3)
+            Bot.locate('verpublicacion', check=True, wait=2)
+            sleep(2)
             Bot.locate('soles_producto_publicado', move=False, click=False, check=True)
             pg.hotkey('ctrl', 'l')
             sleep(0.20)
@@ -282,7 +282,8 @@ def post(path):
             sleep(0.20)
             link = pyperclip.paste()
             sleep(0.10)
-            telegram_report(f'{read_txt(path, "titulo")}\n{read_txt(path, "precio")} Soles\n{link}', '-1001781252897') # pg
+            # desactivado por pruebas
+            #telegram_report(f'{read_txt(path, "titulo")}\n{read_txt(path, "precio")} Soles\n{link}', '-1001781252897') # pg
             break
 
 def post_email():
