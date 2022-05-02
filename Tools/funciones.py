@@ -48,7 +48,7 @@ def locate_image(img_name, conf=.8, check=False, move=True, click=True, wait=Non
     if end != None: sleep(end)
     return image
 
-def clear():
+def limpiar_consola():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def read_txt(path, name, copy=False, paste=False):
