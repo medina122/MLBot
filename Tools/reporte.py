@@ -35,4 +35,6 @@ def main():
     reporte = os.path.join(carpeta, 'reporte.txt')
     os.remove(reporte)
 
-main()
+if __name__ == '__main__':
+    while True:
+        main()
