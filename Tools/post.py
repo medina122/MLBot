@@ -1,6 +1,6 @@
 import pyautogui as pg, os, pyperclip, random
 from time import sleep
-from functions import read_txt, telegram_report
+from Tools.funciones import read_txt, telegram_report
 from bot_master import PyAutoGUI_Master
 
 Bot = PyAutoGUI_Master()
