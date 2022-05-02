@@ -2,7 +2,7 @@ import os
 from time import sleep
 from functions import listar_productos, clear, telegram_report
 from post import post, post_email
-from generate_id import generar
+from Tools import generar
 
 # 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
 
