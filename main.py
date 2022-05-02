@@ -1,6 +1,6 @@
 import os
 from time import sleep
-from Tools.functions import listar_productos, clear, telegram_report
+from Tools.funciones import listar_productos, limpiar_consola, telegram_report
 from Tools.post import post, post_email
 from Tools import generarid
 
