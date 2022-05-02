@@ -1,4 +1,3 @@
-from importlib.resources import path
 from time import sleep
 import os
 from funciones import limpiar_consola
