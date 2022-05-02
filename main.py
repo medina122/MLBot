@@ -19,7 +19,7 @@ Menu de Opciones:
 
 if __name__ == '__main__':
     while True: 
-        clear()
+        limpiar_consola()
         print(menu)
         opcion = input('>> ')
 
@@ -33,8 +33,7 @@ if __name__ == '__main__':
             
             
             mainfolder = input(r'Ingrese carpeta de los productos: ')
-            # Desactivado porque estoy haciendo testeos
-            #telegram_report(f'Publicando desde: {os.environ.get("USERNAME")}', '-1001781252897') # BOT
+            telegram_report(f'Publicando desde: {os.environ.get("USERNAME")}', '-1001781252897') # BOT
             #post_email()
                     
             for folder in os.listdir(mainfolder):
@@ -44,8 +43,8 @@ if __name__ == '__main__':
             
             sleep(2)
             listar_productos(mainfolder)
-            # Desactivado porque estoy haciendo testeos
-            #telegram_report(f'Publicado desde: {os.environ.get("USERNAME")}', '-734368278') # BOT
+
+            telegram_report(f'Publicado desde: {os.environ.get("USERNAME")}', '-734368278') # BOT
 
 
         elif int(opcion) == 3:
