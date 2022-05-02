@@ -71,7 +71,7 @@ def menu(ruta, titulo):
 """
     print(contenido)
 
-def main():
+def copiar_producto():
 
     limpiar_consola()
     ruta = input(r'[?] Ingrese ruta del producto: ')
@@ -157,5 +157,5 @@ def main():
 
 if __name__ == '__main__':
     while True: 
-        main()
+        copiar_producto()
 

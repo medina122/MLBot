@@ -26,15 +26,15 @@ def listar_carpetas(carpeta):
         informacion = f"{leer_txt(subcarpeta, 'titulo')} - {leer_txt(subcarpeta, 'precio')}"
         crear_txt(carpeta, 'reporte', 'a', informacion+'\n')
 
-def main():
+def generar_reporte(carpeta):
     cuenta = input('Ingrese correo electronico: ')
-    carpeta = input(r'Ingrese ruta a listar: ')
 
     listar_carpetas(carpeta)
-    telegram_report(f"Publicando desde: {cuenta}\n\n{leer_txt(carpeta, 'reporte')}", '-734368278')
+    telegram_report(f"Publicado desde: {cuenta}\n\n{leer_txt(carpeta, 'reporte')}", '-734368278')
     reporte = os.path.join(carpeta, 'reporte.txt')
     os.remove(reporte)
 
 if __name__ == '__main__':
     while True:
-        main()
+        carpeta = input(r'Ingrese ruta a listar: ')
+        generar_reporte(carpeta)

@@ -25,7 +25,7 @@ def crear_txt(ruta, titulo, contenido):
         archivo.write(contenido)
         archivo.close()
 
-def main():
+def nuevo_producto():
     limpiar_consola()
     ruta = input(r'Ingrese ruta del producto: ')
 
@@ -60,4 +60,4 @@ def main():
 
 if __name__ == '__main__':
     while True:
-        main()
+        nuevo_producto()

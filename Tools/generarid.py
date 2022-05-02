@@ -17,11 +17,11 @@ def documento(nombres, apellidos, documentos):
     print(f"Documento: {random.choice(documentos)}")
     print('########################################################')
 
-def generar():
+def generar_identidad():
         limpiar_consola()
         documento(nombres, apellidos, documentos)
         input('\nPresione enter salir')
         limpiar_consola()    
 
 if __name__ == "__main__":
-    generar()
+    generar_identidad()

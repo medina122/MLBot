@@ -53,7 +53,7 @@ Opciones:
 --------------------------------------
 """
 
-def listar_script():
+def listar_productos():
     limpiar_consola()
     print(menu)
     opcion = input('Ingrese opcion: ')
@@ -83,4 +83,4 @@ def listar_script():
 if __name__ == "__main__":
     
     while True:
-        listar_script()
+        listar_productos()
