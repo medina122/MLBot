@@ -49,7 +49,6 @@ def locate_image(img_name, conf=.8, check=False, move=True, click=True, wait=Non
     return image
 
 def clear():
-    import os
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def read_txt(path, name, copy=False, paste=False):

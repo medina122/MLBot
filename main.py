@@ -1,8 +1,8 @@
 import os
 from time import sleep
-from functions import listar_productos, clear, telegram_report
-from post import post, post_email
-from Tools import generar
+from Tools.functions import listar_productos, clear, telegram_report
+from Tools.post import post, post_email
+from Tools import generarid
 
 # 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
 
@@ -54,6 +54,6 @@ if __name__ == '__main__':
 
 
         elif int(opcion) == 4:
-            generar()
+            generarid()
             
             
