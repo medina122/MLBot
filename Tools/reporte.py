@@ -31,8 +31,7 @@ def generar_reporte(carpeta):
 
     listar_carpetas(carpeta)
     telegram_report(f"Publicado desde: {cuenta}\n\n{leer_txt(carpeta, 'reporte')}", '-734368278')
-    reporte = os.path.join(carpeta, 'reporte.txt')
-    os.remove(reporte)
+    os.remove(os.path.join(carpeta, 'reporte.txt'))
 
 if __name__ == '__main__':
     while True:
