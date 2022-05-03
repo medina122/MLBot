@@ -33,9 +33,9 @@ def nuevo_producto():
     
     while True:
 
-        limpiar_consola()
         if os.path.isdir(carpeta_principal):
-
+            
+            limpiar_consola()
             producto = input('Ingrese titulo de la carpeta del producto: ')
 
             if producto != '':
@@ -72,6 +72,7 @@ def nuevo_producto():
                             crear_txt(nuevo_producto, 'url', input('Ingrese url: '))
                         elif int(opcion) == 9: break
                     except: continue
+        else: break
 
 if __name__ == '__main__':
     nuevo_producto()

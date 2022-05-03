@@ -1,6 +1,11 @@
 from time import sleep
 import os
-from funciones import limpiar_consola
+
+def limpiar_consola():
+    command = 'clear'
+    if os.name in ('nt', 'dos'):
+        command = 'cls'
+    os.system(command)
 
 # Funcion para leer archivos txt a traves de rutas y nombres
 def leer_txt(ruta, nombre):
@@ -54,31 +59,28 @@ Opciones:
 """
 
 def listar_productos():
-    limpiar_consola()
-    print(menu)
-    opcion = input('Ingrese opcion: ')
-    limpiar_consola()
-
-    if int(opcion) == 1:
-        ruta = input(r"Ingrese ruta de la carpeta a listar: ")
-        reporte = input('¿Desea generar reporte? (y/n): ')
+    try:
         limpiar_consola()
-        listar_carpeta(ruta, reporte)
-
-    elif int(opcion) == 2: 
-        ruta = input(r"Ingrese ruta de las carpetas a listar: ")
-        reporte = input('¿Desea generar reporte? (y/n): ')
+        print(menu)
+        opcion = input('Ingrese opcion: ')
         limpiar_consola()
-        listar_carpetas(ruta, reporte)
-        
-    elif int(opcion) == 9:
-        exit() 
 
-    else: print('Opcion invalida')
+        if int(opcion) == 1:
+            ruta = input(r"Ingrese ruta de la carpeta a listar: ")
+            reporte = input('¿Desea generar reporte? (y/n): ')
+            limpiar_consola()
+            listar_carpeta(ruta, reporte)
 
-    input('\nPresiona enter para finalizar...\n')
-    limpiar_consola()
-    sleep(0.5)
+        elif int(opcion) == 2: 
+            ruta = input(r"Ingrese ruta de las carpetas a listar: ")
+            reporte = input('¿Desea generar reporte? (y/n): ')
+            limpiar_consola()
+            listar_carpetas(ruta, reporte)
+
+        elif int(opcion) == 9:
+            exit() 
+
+    except: print('Opcion invalida')
 
 if __name__ == "__main__":
     
