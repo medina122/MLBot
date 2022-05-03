@@ -37,5 +37,5 @@ while True:
     except:
         limpiar_consola()
         print('Opcion invalida')
-        time.sleep(0.35)
+        time.sleep(0.2)
         limpiar_consola()
