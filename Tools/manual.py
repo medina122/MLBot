@@ -28,9 +28,8 @@ def leer_txt(ruta, nombre):
     try: 
         archivo = os.path.join(ruta, nombre+'.txt')
         with open(archivo, mode='r', encoding='utf-8') as txt:
-            content = str(txt.read())
+            content = txt.read()
             print(content)
-            pyperclip.copy(content)
             return content
 
     except: print(f'Archivo invalido: {nombre}')
@@ -94,27 +93,27 @@ def copiar_producto():
 
                 if int(opcion) == 1:
                     print('\n - - - - - - CONTENIDO - - - - - -\n')
-                    leer_txt(ruta, 'titulo')
+                    pyperclip.copy(leer_txt(ruta, 'titulo'))
                     print('\n[+] Titulo copiado correctamente!')
 
                 elif int(opcion) == 2:
                     print('\n - - - - - - CONTENIDO - - - - - -\n')
-                    leer_txt(ruta, 'marca')
+                    pyperclip.copy(leer_txt(ruta, 'marca'))
                     print('\n[+] Marca copiado correctamente!')
                     
                 elif int(opcion) == 3:
                     print('\n - - - - - - CONTENIDO - - - - - -\n')
-                    leer_txt(ruta, 'modelo')
+                    pyperclip.copy(leer_txt(ruta, 'modelo'))
                     print('\n[+] Modelo copiado correctamente!')
 
                 elif int(opcion) == 4:
                     print('\n - - - - - - CONTENIDO - - - - - -\n')
-                    leer_txt(ruta, 'precio')
+                    pyperclip.copy(leer_txt(ruta, 'precio'))
                     print('\n[+] Precio copiado correctamente!')
                     
                 elif int(opcion) == 5:
                     print('\n - - - - - - CONTENIDO - - - - - -\n')
-                    leer_txt(ruta, 'descripcion')
+                    pyperclip.copy(leer_txt(ruta, 'descripcion'))
                     print('\n[+] Descripcion copiado correctamente!')
 
                 elif int(opcion) == 6:
