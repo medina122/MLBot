@@ -1,0 +1,6 @@
+Series	Apple MacBook Air
+Marca	Apple
+Usos específicos del producto	Multimedia
+Tamaño de pantalla	13.3 Pulgadas
+Sistema operativo	OS X 10.11 El Capitan
+Fabricante de CPU	Intel
