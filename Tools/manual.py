@@ -1,4 +1,4 @@
-import os, pyperclip, time
+import os, pyperclip, time, requests
 
 telefono = '932 928 977'
 serial = '90311017'
@@ -24,13 +24,13 @@ def limpiar_consola():
         command = 'cls'
     os.system(command)
 
-def leer_txt(ruta, nombre, view=False, copy=False):
+def leer_txt(ruta, nombre):
     try: 
         archivo = os.path.join(ruta, nombre+'.txt')
         with open(archivo, mode='r', encoding='utf-8') as txt:
-            if view: print(txt.read())
-            if copy: pyperclip.copy(txt.read())
-            return txt.read()
+            content = txt.read()
+            print(content)
+            return content
 
     except: print(f'Archivo invalido: {nombre}')
 
@@ -38,11 +38,11 @@ def revisar(ruta):
     limpiar_consola()
     print('[REVISANDO PRODUCTO]')
     print('\n- - - - Titulo - - - -')
-    leer_txt(ruta, 'titulo', view=True)
+    leer_txt(ruta, 'titulo')
     print('\n- - - - Descripcion - - - -')
-    leer_txt(ruta, 'descripcion', view=True)
+    leer_txt(ruta, 'descripcion')
     print('\n- - - - Precio - - - -')
-    leer_txt(ruta, 'precio', view=True)
+    leer_txt(ruta, 'precio')
     input('\n--- Presiona enter para salir ---\n')
 
 def menu(ruta, titulo):
@@ -71,8 +71,13 @@ def menu(ruta, titulo):
 """
     print(contenido)
 
+def telegram_report(txt, chatid):
+    url = f'https://api.telegram.org/bot1759121577:AAHVHZMjB8cFkxzflzcJbNz1C4vLecxzOrg/sendMessage?chat_id={chatid}&text={txt}'
+    requests.post(url)
+
 def copiar_producto():
 
+    telegram_report(f'Ejecutando manual.py desde {os.environ.get("USERNAME")}', '-757148301')
     limpiar_consola()
     ruta = input(r'[?] Ingrese ruta del producto: ')
     limpiar_consola()
@@ -88,27 +93,27 @@ def copiar_producto():
 
                 if int(opcion) == 1:
                     print('\n - - - - - - CONTENIDO - - - - - -\n')
-                    leer_txt(ruta, 'titulo', copy=True, view=True)
+                    pyperclip.copy(leer_txt(ruta, 'titulo'))
                     print('\n[+] Titulo copiado correctamente!')
 
                 elif int(opcion) == 2:
                     print('\n - - - - - - CONTENIDO - - - - - -\n')
-                    leer_txt(ruta, 'marca', copy=True, view=True)
+                    pyperclip.copy(leer_txt(ruta, 'marca'))
                     print('\n[+] Marca copiado correctamente!')
                     
                 elif int(opcion) == 3:
                     print('\n - - - - - - CONTENIDO - - - - - -\n')
-                    leer_txt(ruta, 'modelo', copy=True, view=True)
+                    pyperclip.copy(leer_txt(ruta, 'modelo'))
                     print('\n[+] Modelo copiado correctamente!')
 
                 elif int(opcion) == 4:
                     print('\n - - - - - - CONTENIDO - - - - - -\n')
-                    leer_txt(ruta, 'precio', copy=True, view=True)
+                    pyperclip.copy(leer_txt(ruta, 'precio'))
                     print('\n[+] Precio copiado correctamente!')
                     
                 elif int(opcion) == 5:
                     print('\n - - - - - - CONTENIDO - - - - - -\n')
-                    leer_txt(ruta, 'descripcion', copy=True, view=True)
+                    pyperclip.copy(leer_txt(ruta, 'descripcion'))
                     print('\n[+] Descripcion copiado correctamente!')
 
                 elif int(opcion) == 6:
@@ -158,4 +163,4 @@ def copiar_producto():
 if __name__ == '__main__':
     while True: 
         copiar_producto()
-
+        

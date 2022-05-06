@@ -1,0 +1,5 @@
+Alta calidad de imagen con sensor CMOS de 32,5 megapíxeles (APS-C).
+Disparo continuo de alta velocidad de hasta 14 fps con seguimiento AF/AE.
+CMOS AF de doble píxel con 5, 481 posiciones AF seleccionables manualmente y soporte de servo AF de ojo
+Vídeo 4K UHD 30P/Full HD 129P.
+Utiliza el software EOS Utility Webcam Beta (Mac y Windows) para convertir tu cámara Canon en una cámara web de alta calidad, o hacer lo mismo con una salida HDMI limpia.
