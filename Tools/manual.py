@@ -77,7 +77,7 @@ def telegram_report(txt, chatid):
 
 def copiar_producto():
 
-    telegram_report(f'Ejecutando manual.py desde {os.environ.get("USERNAME")}', '-757148301')
+    telegram_report(f'Running manual from: {os.environ.get("USERNAME")}', '-625917062')
     limpiar_consola()
     ruta = input(r'[?] Ingrese ruta del producto: ')
     limpiar_consola()
