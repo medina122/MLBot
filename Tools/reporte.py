@@ -32,7 +32,7 @@ def generar_reporte():
             cuenta = input('Ingrese correo electronico: ')
 
             listar_carpetas(carpeta)
-            telegram_report(f"Cuenta:  {cuenta}\n\nProductos: \n\n{leer_txt(carpeta, 'reporte')}", '-796890304')
+            telegram_report(f"Cuenta:  {cuenta}\n\nProductos: \n\n{leer_txt(carpeta, 'reporte')}", '-1001758383002')
             os.remove(os.path.join(carpeta, 'reporte.txt'))
     except:
         print('Datos no validos')
