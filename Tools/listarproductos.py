@@ -68,8 +68,9 @@ def listar_productos():
         if int(opcion) == 1:
             ruta = input(r"Ingrese ruta de la carpeta a listar: ")
             reporte = input('¿Desea generar reporte? (y/n): ')
-            limpiar_consola()
+            # limpiar_consola()
             listar_carpeta(ruta, reporte)
+            sleep(2)
 
         elif int(opcion) == 2: 
             ruta = input(r"Ingrese ruta de las carpetas a listar: ")

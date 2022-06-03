@@ -1,0 +1,9 @@
+La memoria DDR4 de alto rendimiento ilumina su sistema con una iluminación animada y viva de diez LED RGB ultrabrillantes direccionables individualmente por módulo.
+Toma el control con el software CORSAIR iCUE y sincroniza la iluminación en todos tus productos compatibles con CORSAIR iCUE, incluyendo memoria, ventiladores, refrigeradores, teclados y más.
+Personaliza los perfiles de iluminación con millones de patrones y colores diferentes, o crea los tuyos propios en el software CORSAIR iCUE.
+Compatible con placas base Intel y AMD DDR4.
+No requiere cables ni cables adicionales para una instalación limpia y sin problemas.
+PCB de rendimiento personalizado para la más alta calidad de señal y estabilidad de rendimiento.
+Circuitos integrados cuidadosamente seleccionados para un mayor potencial de overclocing.
+El difusor de calor de aluminio integrado proporciona una excelente refrigeración de memoria incluso cuando está overclockeado.
+Admite Intel XMP 2.0 para una instalación sencilla y un rendimiento óptimo.
