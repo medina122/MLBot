@@ -54,7 +54,7 @@ Opciones:
 
 1 - Listar carpeta
 2 - Listar grupo de carpetas
-9 - Salir
+
 --------------------------------------
 """
 
@@ -77,9 +77,6 @@ def listar_productos():
             reporte = input('¿Desea generar reporte? (y/n): ')
             limpiar_consola()
             listar_carpetas(ruta, reporte)
-
-        elif int(opcion) == 9:
-            exit() 
 
     except: print('Opcion invalida')
 

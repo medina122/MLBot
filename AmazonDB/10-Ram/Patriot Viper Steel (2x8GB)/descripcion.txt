@@ -1,4 +1,0 @@
-Capacidad: 16 GB (2 x 8 GB) DDR4
-Frecuencia base: PC4-17000 (2133 MHz); Hasta PC4-33000 (4133 MHz) con XMP 2.0 habilitado
-Horarios base: 15-15-15-36; Tiempo de overclocking con XMP 2.0 habilitado Tiempos probados: 19-21-21-41
-Diseño personalizado y serie: Todo el escudo térmico de aluminio con lados gris metalizado con logotipo de víbora con corte de diamante y parte superior negra.
