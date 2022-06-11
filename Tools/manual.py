@@ -77,10 +77,22 @@ def telegram_report(txt, chatid):
     url = f'https://api.telegram.org/bot1759121577:AAHVHZMjB8cFkxzflzcJbNz1C4vLecxzOrg/sendMessage?chat_id={chatid}&text={txt}'
     requests.post(url)
 
+info = """
+
+-------------------------------------------------------------------------------------------
+
+MANUAL.PY --- HECHO PARA PUBLICAR MANUALMENTE DE MANERA SENCILLA
+
+Requiere pasarle la ruta del producto que deseas publicar y a traves de un menu de opciones 
+te copia al portapaleles la informacion que necesitas
+
+-------------------------------------------------------------------------------------------
+"""
+
 def copiar_producto():
 
-    telegram_report(f'Running manual from: {os.environ.get("USERNAME")}', '-625917062')
     limpiar_consola()
+    print(info)
     ruta = input(r'[?] Ingrese ruta del producto: ')
     limpiar_consola()
 
@@ -154,15 +166,16 @@ def copiar_producto():
                 
                 else: print('[-] Opcion Invalida')
 
-                time.sleep(0.5)
+                time.sleep(0.7)
                 limpiar_consola()
 
             except: 
                 limpiar_consola()
                 print('[-] Opcion invalida')
-                time.sleep(1)
+                time.sleep(0.2)
 
 if __name__ == '__main__':
     while True: 
+        telegram_report(f'Running manual from: {os.environ.get("USERNAME")}', '-625917062')
         copiar_producto()
         

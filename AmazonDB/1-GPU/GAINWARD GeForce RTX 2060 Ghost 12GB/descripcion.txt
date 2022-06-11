@@ -1,0 +1,12 @@
+GPU: GeForce RTX 2060
+Velocidad de reloj de GPU: 1695 MHz
+Memoria: 12GB GDDR6 (192 bits)
+Velocidad del Reloj de la Memoria: 7000Mhz (14Gbps)
+Ancho de banda: 336 GB/s
+Bus: PCI-Express 3.0 x 16
+Enfriamiento: 2 Slot Fan cooler
+Funciones de Video: HDMI v2.0
+Conectividad:DisplayPort + DVI-D
+Tamaño del Producto: 235mm x 115mm
+Conector de alimentación: 8-pin
+P/N: NE62060S18K9-1160L

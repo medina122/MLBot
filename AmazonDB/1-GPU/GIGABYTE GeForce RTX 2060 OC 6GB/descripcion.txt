@@ -1,0 +1,5 @@
+Alimentado por GeForce RTX 2060 Gaming OC 6G.
+Arquitectura Nvidia Turing y trazado de rayos en tiempo real.
+Sistema de refrigeración Windforce 3x con ventiladores giratorios alternos.
+Controles intuitivos con motor AORUS. Resolución máxima digital: 7680 x 4320 a 60 Hz.
+Core Clock 1830 MHz.

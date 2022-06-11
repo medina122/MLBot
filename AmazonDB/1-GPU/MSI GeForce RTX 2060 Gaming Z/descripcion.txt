@@ -1,0 +1,5 @@
+PCI Express x16 3.0 Interface
+Memory: 6GB, GDDR6
+Ports: 1 x HDMI, 3 x DisplayPorts
+Chipset: NVIDIA
+GPU: GeForce RTX 2060
