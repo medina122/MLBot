@@ -1,7 +1,8 @@
 import os, pyperclip, time, requests
 
 # telefono = '932 928 977' - Antiguo
-telefono = '917203137'
+# telefono = '917203137'
+telefono = '**_:_917_203_137_:_**'
 serial = '90311017'
 plantilla = """
 ___//_//_//9__3__2___9__2__8___9__7__7///___//__//___
