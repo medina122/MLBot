@@ -38,6 +38,18 @@ def generar_reporte():
         print('Datos no validos')
         exit()
     
+info = """
+
+---------------------------------------------------------
+
+- - REPORTAR CUENTA PUBLICADA EN EL CANAL DE TELEGRAM - -
+
+Requiere del correo electronico donde los productos fueron
+publicados para posteriormente listarlos y subirlos a un
+canal de telegram para poder llevar mejor control de todo
+
+---------------------------------------------------------
+"""
 if __name__ == '__main__':
     while True:
         generar_reporte()

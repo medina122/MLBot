@@ -19,6 +19,15 @@ def documento(nombres, apellidos, documentos):
     print(f"Documento: {random.choice(documentos)}")
     print('########################################################')
 
+info = """
+
+------------------------------------------------
+
+- - - - - - GENERADOR DE IDENTIDADES - - - - - -
+
+------------------------------------------------
+"""
+
 def generar_identidad():
         limpiar_consola()
         documento(nombres, apellidos, documentos)

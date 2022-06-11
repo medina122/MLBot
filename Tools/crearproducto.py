@@ -33,7 +33,6 @@ def descargar_imagen(titulo, url):
     archivo.write(respuesta.content)
     archivo.close()
 
-# Parece que esta terminado 02/05/22 8:34PM
 def nuevo_producto():
     
     limpiar_consola()
