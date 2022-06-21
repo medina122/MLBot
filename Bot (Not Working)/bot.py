@@ -1,7 +1,7 @@
 import os
 from time import sleep
-from Bot.funciones import listar_productos, limpiar_consola, telegram_report
-from Bot.post import post, post_email
+from funciones import listar_productos, limpiar_consola, telegram_report
+from post import post, post_email
 from Tools.generarid import generar_identidad
 
 # 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
