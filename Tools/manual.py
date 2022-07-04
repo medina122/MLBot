@@ -1,11 +1,10 @@
 import os, pyperclip, time, requests
 
-# telefono = '932 928 977' - Antiguo
-# telefono = '917203137'
+# telefono = '917203137' # modo normal
 telefono = '**_:_917_203_137_:_**'
 serial = '90311017'
-plantilla = """
-___//_//_//9__3__2___9__2__8___9__7__7///___//__//___
+plantilla = """ 
+___//_//_//9__1__7___2__0__3___1__3__7///___//__//___
 
 >>>>LEER IMPORTANTE ---- TERMINOS Y CONDICIONES <<<<<
 
@@ -47,25 +46,24 @@ def revisar(ruta):
     leer_txt(ruta, 'precio')
     input('\n--- Presiona enter para salir ---\n')
 
-def menu(ruta, titulo):
+def menu(ruta):
 
     contenido = f"""
 - - - - - - - - - PRODUCTO - - - - - - - - - 
 
-[{leer_txt(ruta, titulo)}]
+Titulo: {leer_txt(ruta, 'titulo')}
+Marca: {leer_txt(ruta, 'marca')} - Modelo: {leer_txt(ruta, 'modelo')}
 
 - - - - - - - MENU DE OPCIONES - - - - - - -
 
 [1] Ver y Copiar Titulo 
-[2] Ver y Copiar Marca 
-[3] Ver y Copiar Modelo
-[4] Ver y Copiar Precio
-[5] Ver y Copiar Descripcion 
-[6] Ver y Copiar Plantilla
-[7] Ver y Copiar Serial
-[8] Ver y Copiar Telefono
-[9] Ver y Copiar Ruta /img
-[99] Revisar Producto
+[2] Ver y Copiar Precio
+[3] Ver y Copiar Telefono
+[4] Ver y Copiar Descripcion 
+[5] Ver y Copiar Plantilla
+[6] Ver y Copiar Serial
+[7] Ver y Copiar Ruta /img
+[9] Revisar Producto
 
 [0] Salir
 
@@ -101,7 +99,7 @@ def copiar_producto():
         while True: 
 
             try: 
-                menu(ruta, 'titulo')
+                menu(ruta)
                 opcion = input('[?] Ingrese opcion: ')
                 limpiar_consola()
 
@@ -112,50 +110,43 @@ def copiar_producto():
 
                 elif int(opcion) == 2:
                     print('\n - - - - - - CONTENIDO - - - - - -\n')
-                    pyperclip.copy(leer_txt(ruta, 'marca'))
-                    print('\n[+] Marca copiado correctamente!')
-                    
-                elif int(opcion) == 3:
-                    print('\n - - - - - - CONTENIDO - - - - - -\n')
-                    pyperclip.copy(leer_txt(ruta, 'modelo'))
-                    print('\n[+] Modelo copiado correctamente!')
-
-                elif int(opcion) == 4:
-                    print('\n - - - - - - CONTENIDO - - - - - -\n')
                     pyperclip.copy(leer_txt(ruta, 'precio'))
                     print('\n[+] Precio copiado correctamente!')
                     
-                elif int(opcion) == 5:
-                    print('\n - - - - - - CONTENIDO - - - - - -\n')
-                    pyperclip.copy(leer_txt(ruta, 'descripcion'))
-                    print('\n[+] Descripcion copiado correctamente!')
-
-                elif int(opcion) == 6:
-                    pyperclip.copy(plantilla)
-                    print('\n - - - - - - CONTENIDO - - - - - -\n')
-                    print(plantilla)
-                    print('\n[+] Plantilla copiado correctamente!')
-
-                elif int(opcion) == 7:
-                    print('\n - - - - - - CONTENIDO - - - - - -\n')
-                    print(serial)
-                    pyperclip.copy(serial)
-                    print('\n[+] Serial copiado correctamente!')
-
-                elif int(opcion) == 8:
+                elif int(opcion) == 3:
                     print('\n - - - - - - CONTENIDO - - - - - -\n')
                     print(telefono)
                     pyperclip.copy(telefono)
                     print('\n[+] Telefono copiado correctamente!')
 
-                elif int(opcion) == 9:
+                elif int(opcion) == 4:
+                    print('\n - - - - - - CONTENIDO - - - - - -\n')
+                    pyperclip.copy(leer_txt(ruta, 'descripcion'))
+                    print('\n[+] Descripcion copiado correctamente!')
+                    
+                elif int(opcion) == 5:
+                    pyperclip.copy(plantilla)
+                    print('\n - - - - - - CONTENIDO - - - - - -\n')
+                    print(plantilla)
+                    print('\n[+] Plantilla copiado correctamente!')
+
+                elif int(opcion) == 6:
+                    print('\n - - - - - - CONTENIDO - - - - - -\n')
+                    print(serial)
+                    pyperclip.copy(serial)
+                    print('\n[+] Serial copiado correctamente!')
+
+                elif int(opcion) == 7:
                     img = os.path.join(ruta, 'img')
                     print('\n - - - - - - CONTENIDO - - - - - -\n')
                     print(str(img))
                     pyperclip.copy(img)
                     print('\n[+] Ruta /img copiado correctamente!')
 
-                elif int(opcion) == 99:
+                elif int(opcion) == 8:
+                    pass
+
+                elif int(opcion) == 9:
                     revisar(ruta)
 
                 elif int(opcion) == 0: 
