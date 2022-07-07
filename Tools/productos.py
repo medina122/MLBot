@@ -122,9 +122,14 @@ def descargar_productos(carpeta, url):
     print(f"{Fore.GREEN}[+]{Fore.WHITE} Guardando Titulo...")
     time.sleep(0.1)
 
-    # Creamos el titulo del producto
+    # Guardamos el link del producto
     crear_txt(producto, 'url', url)
     print(f"{Fore.GREEN}[+]{Fore.WHITE} Guardando Url...")
+    time.sleep(0.1)
+
+    # Guardamos el precio del producto
+    crear_txt(producto, 'precio', precio)
+    print(f"{Fore.GREEN}[+]{Fore.WHITE} Guardando Precio...")
     time.sleep(0.1)
 
     caracteristicas = len(caracteristicas_titulo)
@@ -175,7 +180,7 @@ def descargar_productos(carpeta, url):
     print('\n---------------------------------------------\n')
     print(f'Titulo: {titulo}')
     print(f'Precio: S/ {precio}')
-    print('---------------------------------------------')
+    print('---------------------------------------------\n')
 
 if __name__ == '__main__':
 
@@ -200,5 +205,4 @@ if __name__ == '__main__':
             descargar_productos(carpeta, producto)
             contador += 1
             time.sleep(1)
-            print(f"{Fore.GREEN}[+]{Fore.WHITE}Descargas exitosas: {str(contador)}")
-            print('\n')
+            print(f"{Fore.GREEN}[+]{Fore.WHITE} Descargas exitosas: {str(contador)}")
