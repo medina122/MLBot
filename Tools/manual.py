@@ -30,7 +30,6 @@ def leer_txt(ruta, nombre):
         archivo = os.path.join(ruta, nombre+'.txt')
         with open(archivo, mode='r', encoding='utf-8') as txt:
             content = txt.read()
-            print(content)
             return content
 
     except: print(f'Archivo invalido: {nombre}')
@@ -39,11 +38,11 @@ def revisar(ruta):
     limpiar_consola()
     print('[REVISANDO PRODUCTO]')
     print('\n- - - - Titulo - - - -')
-    leer_txt(ruta, 'titulo')
+    print(leer_txt(ruta, 'titulo'))
     print('\n- - - - Descripcion - - - -')
-    leer_txt(ruta, 'descripcion')
+    print(leer_txt(ruta, 'descripcion'))
     print('\n- - - - Precio - - - -')
-    leer_txt(ruta, 'precio')
+    print(leer_txt(ruta, 'precio'))
     input('\n--- Presiona enter para salir ---\n')
 
 def menu(ruta):
